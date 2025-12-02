@@ -1,0 +1,56 @@
+[0.010s] Invoking command in '/home/basmala/ros2_ws/build/turtlesim_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/turtlesim_controller -- -j20 -l20
+[0.057s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.441s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.486s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.499s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.518s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.541s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.590s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.591s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.678s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.782s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.852s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.929s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.022s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.022s] -- Configured cppcheck include dirs: 
+[1.023s] -- Configured cppcheck exclude dirs and/or files: 
+[1.023s] -- Added test 'lint_cmake' to check CMake code style
+[1.024s] -- Added test 'uncrustify' to check C / C++ code style
+[1.024s] -- Configured uncrustify additional arguments: 
+[1.025s] -- Added test 'xmllint' to check XML markup files
+[1.026s] -- Configuring done (1.0s)
+[1.049s] -- Generating done (0.0s)
+[1.055s] -- Build files have been written to: /home/basmala/ros2_ws/build/turtlesim_controller
+[1.109s] [ 12%] [32mBuilding CXX object CMakeFiles/turtle_ex1.dir/src/turtle_ex1.cpp.o[0m
+[1.110s] [ 25%] [32mBuilding CXX object CMakeFiles/turtle_ex2.dir/src/turtle_ex2.cpp.o[0m
+[1.126s] [ 50%] Built target turtlesim_sub
+[1.130s] [ 75%] Built target turtlesim_pub
+[8.193s] [ 87%] [32m[1mLinking CXX executable turtle_ex2[0m
+[8.224s] [100%] [32m[1mLinking CXX executable turtle_ex1[0m
+[8.546s] [100%] Built target turtle_ex2
+[8.576s] [100%] Built target turtle_ex1
+[8.589s] Invoked command in '/home/basmala/ros2_ws/build/turtlesim_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/turtlesim_controller -- -j20 -l20
+[8.603s] Invoking command in '/home/basmala/ros2_ws/build/turtlesim_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/turtlesim_controller
+[8.615s] -- Install configuration: ""
+[8.616s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtlesim_sub
+[8.616s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtlesim_pub
+[8.616s] -- Installing: /home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtle_ex1
+[8.621s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtle_ex1" to ""
+[8.621s] -- Installing: /home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtle_ex2
+[8.627s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtle_ex2" to ""
+[8.627s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/ament_index/resource_index/package_run_dependencies/turtlesim_controller
+[8.627s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/ament_index/resource_index/parent_prefix_path/turtlesim_controller
+[8.627s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/environment/ament_prefix_path.sh
+[8.627s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/environment/ament_prefix_path.dsv
+[8.627s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/environment/path.sh
+[8.628s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/environment/path.dsv
+[8.628s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/local_setup.bash
+[8.628s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/local_setup.sh
+[8.628s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/local_setup.zsh
+[8.628s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/local_setup.dsv
+[8.628s] -- Installing: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/package.dsv
+[8.628s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/ament_index/resource_index/packages/turtlesim_controller
+[8.628s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/cmake/turtlesim_controllerConfig.cmake
+[8.628s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/cmake/turtlesim_controllerConfig-version.cmake
+[8.628s] -- Up-to-date: /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/package.xml
+[8.630s] Invoked command in '/home/basmala/ros2_ws/build/turtlesim_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/turtlesim_controller

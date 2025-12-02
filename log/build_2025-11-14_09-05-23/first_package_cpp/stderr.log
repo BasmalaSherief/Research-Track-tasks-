@@ -1,0 +1,16 @@
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub.cpp:23:47:[m[K [01;31m[Kerror: [m[Ktype ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >[m[K’ is not a base type for type ‘[01m[KMinimalPublisher[m[K’
+   23 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtrpublisher_[m[K;
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::[01;32m[KMinimalPublisher[m[K()[m[K’:
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub.cpp:11:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   11 |     [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub.cpp:20:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   20 |     [01;31m[Kpublisher_[m[K->publish(message);
+      |     [01;31m[K^~~~~~~~~~[m[K
+      |     [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/pub.dir/build.make:76: CMakeFiles/pub.dir/src/pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/pub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

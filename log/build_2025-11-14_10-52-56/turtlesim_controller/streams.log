@@ -1,0 +1,86 @@
+[0.013s] Invoking command in '/home/basmala/ros2_ws/build/turtlesim_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/turtlesim_controller -- -j20 -l20
+[0.052s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.343s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.364s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.371s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.381s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.392s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.455s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.542s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.637s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.688s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.787s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.787s] -- Configured cppcheck include dirs: 
+[0.787s] -- Configured cppcheck exclude dirs and/or files: 
+[0.787s] -- Added test 'lint_cmake' to check CMake code style
+[0.788s] -- Added test 'uncrustify' to check C / C++ code style
+[0.788s] -- Configured uncrustify additional arguments: 
+[0.788s] -- Added test 'xmllint' to check XML markup files
+[0.789s] -- Configuring done (0.7s)
+[0.798s] -- Generating done (0.0s)
+[0.801s] -- Build files have been written to: /home/basmala/ros2_ws/build/turtlesim_controller
+[0.849s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_controller.dir/src/turtlesim_controller.cpp.o[0m
+[2.615s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:15:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ does not name a type
+[2.615s]    15 |         void topic_callback(const [01;31m[Kturtlesim[m[K::msg::Pose::SharedPtr msg)
+[2.615s]       |                                   [01;31m[K^~~~~~~~~[m[K
+[2.615s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:15:49:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[2.615s]    15 |         void topic_callback(const turtlesim::msg[01;31m[K::[m[KPose::SharedPtr msg)
+[2.615s]       |                                                 [01;31m[K^~[m[K
+[2.615s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:15:49:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[2.615s]    15 |         void topic_callback[34m[K([m[Kconst turtlesim::msg[01;31m[K:[m[K[32m[K:[m[KPose::SharedPtr msg)
+[2.615s]       |                            [34m[K~[m[K                    [01;31m[K^[m[K[32m[K~[m[K
+[2.616s]       |                                                 [32m[K)[m[K
+[2.616s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:15:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.616s]    15 |         void topic_callback(const turtlesim::[01;31m[Kmsg[m[K::Pose::SharedPtr msg)
+[2.616s]       |                                              [01;31m[K^~~[m[K
+[2.616s]       |                                                 [32m[K;[m[K
+[2.617s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:15:51:[m[K [01;31m[Kerror: [m[K‘[01m[KPose[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type
+[2.618s]    15 |         void topic_callback(const turtlesim::msg::[01;31m[KPose[m[K::SharedPtr msg)
+[2.618s]       |                                                   [01;31m[K^~~~[m[K
+[2.629s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:20:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[2.629s]    20 |         rclcpp::Subscription<[01;31m[Kturtlesim[m[K::msg::Pose>::SharedPtr subscription_;
+[2.629s]       |                              [01;31m[K^~~~~~~~~[m[K
+[2.629s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:20:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.629s]    20 |         rclcpp::Subscription<turtlesim::msg::Pose[01;31m[K>[m[K::SharedPtr subscription_;
+[2.629s]       |                                                  [01;31m[K^[m[K
+[2.629s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:20:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[2.630s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:20:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[2.630s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:20:50:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[2.630s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:20:53:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.630s]    20 |         rclcpp::Subscription<turtlesim::msg::Pose>::[01;31m[KSharedPtr[m[K subscription_;
+[2.630s]       |                                                     [01;31m[K^~~~~~~~~[m[K
+[2.630s]       |                                                              [32m[K;[m[K
+[2.631s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:20:63:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[2.632s]    20 |         rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr [01;31m[Ksubscription_[m[K;
+[2.632s]       |                                                               [01;31m[K^~~~~~~~~~~~~[m[K
+[2.632s]       |                                                               [32m[Krmw_subscription_t[m[K
+[2.641s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:[m[K In constructor ‘[01m[KMinimalSubscriber::[01;32m[KMinimalSubscriber[m[K()[m[K’:
+[2.642s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+[2.642s]    12 |         [01;31m[Ksubscription_[m[K = this->create_subscription<turtlesim::msg::Pose>("turtle1/pose", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+[2.642s]       |         [01;31m[K^~~~~~~~~~~~~[m[K
+[2.642s]       |         [32m[Krmw_subscription_t[m[K
+[2.648s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:12:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kturtlesim[m[K’ was not declared in this scope
+[2.648s]    12 |         subscription_ = this->create_subscription<[01;31m[Kturtlesim[m[K::msg::Pose>("turtle1/pose", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+[2.649s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[2.649s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:12:31:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[2.649s]    12 |         subscription_ = this->[01;31m[Kcreate_subscription<turtlesim::msg::Pose>[m[K("turtle1/pose", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1));
+[2.649s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.652s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:12:72:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalSubscriber::create_subscription<<expression error> >(const char [13], int, std::_Bind_helper<false, void (MinimalSubscriber::*)(...), MinimalSubscriber*, const std::_Placeholder<1>&>::type)[m[K’
+[2.653s]    12 |         subscription_ = [01;31m[Kthis->create_subscription<turtlesim::msg::Pose>("turtle1/pose", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+[2.653s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.653s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.653s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.653s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[2.653s]                  from [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:1[m[K:
+[2.653s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::[01;32m[Kcreate_subscription[m[K(const std::string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[2.653s]   221 |   [01;36m[Kcreate_subscription[m[K(
+[2.653s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.654s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:221:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.654s] [01m[K/home/basmala/ros2_ws/turtlesim_controller/src/turtlesim_controller.cpp:12:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.654s]    12 |         subscription_ = [01;31m[Kthis->create_subscription<turtlesim::msg::Pose>("turtle1/pose", 10, std::bind(&MinimalSubscriber::topic_callback, this, _1))[m[K;
+[2.654s]       |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.175s] gmake[2]: *** [CMakeFiles/turtlesim_controller.dir/build.make:76: CMakeFiles/turtlesim_controller.dir/src/turtlesim_controller.cpp.o] Error 1
+[3.175s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_controller.dir/all] Error 2
+[3.175s] gmake: *** [Makefile:146: all] Error 2
+[3.178s] Invoked command in '/home/basmala/ros2_ws/build/turtlesim_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/turtlesim_controller -- -j20 -l20

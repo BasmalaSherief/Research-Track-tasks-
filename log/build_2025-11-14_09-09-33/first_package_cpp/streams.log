@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/basmala/ros2_ws/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20
+[0.111s] [ 50%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[3.942s] [100%] [32m[1mLinking CXX executable pub[0m
+[4.187s] [100%] Built target pub
+[4.203s] Invoked command in '/home/basmala/ros2_ws/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20
+[4.218s] Invoking command in '/home/basmala/ros2_ws/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/first_package_cpp
+[4.228s] -- Install configuration: ""
+[4.228s] -- Installing: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/pub
+[4.230s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/pub" to ""
+[4.231s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/package_run_dependencies/first_package_cpp
+[4.231s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/parent_prefix_path/first_package_cpp
+[4.231s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/ament_prefix_path.sh
+[4.232s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/ament_prefix_path.dsv
+[4.232s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/path.sh
+[4.232s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/path.dsv
+[4.232s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.bash
+[4.232s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.sh
+[4.232s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.zsh
+[4.232s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.dsv
+[4.233s] -- Installing: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/package.dsv
+[4.233s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/packages/first_package_cpp
+[4.233s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/first_package_cppConfig.cmake
+[4.233s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/first_package_cppConfig-version.cmake
+[4.233s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/package.xml
+[4.235s] Invoked command in '/home/basmala/ros2_ws/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/first_package_cpp

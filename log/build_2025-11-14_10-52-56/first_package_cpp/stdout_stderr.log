@@ -1,0 +1,4 @@
+[ 50%] Built target pub
+[ 75%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable sub[0m
+[100%] Built target sub
