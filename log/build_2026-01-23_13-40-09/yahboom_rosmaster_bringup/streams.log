@@ -1,0 +1,47 @@
+[0.074s] Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_bringup -- -j20 -l20
+[0.481s] Invoked command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_bringup -- -j20 -l20
+[0.496s] Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/yahboom_rosmaster_bringup
+[0.510s] -- Install configuration: ""
+[0.512s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/launch
+[0.516s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/launch/load_ros2_controllers.launch.py
+[0.517s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts
+[0.517s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/build
+[0.517s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/build/.built_by
+[0.517s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/build/COLCON_IGNORE
+[0.518s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install
+[0.519s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/local_setup.zsh
+[0.519s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/local_setup.sh
+[0.520s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/_local_setup_util_ps1.py
+[0.520s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/setup.bash
+[0.520s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/local_setup.ps1
+[0.520s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/_local_setup_util_sh.py
+[0.520s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/setup.sh
+[0.520s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/local_setup.bash
+[0.521s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/setup.ps1
+[0.522s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/COLCON_IGNORE
+[0.522s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/.colcon_install_layout
+[0.522s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/setup.zsh
+[0.522s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/rosmaster_x3_gazebo.sh
+[0.522s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log
+[0.522s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/latest_build
+[0.522s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/build_2026-01-23_13-35-40
+[0.522s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/build_2026-01-23_13-35-40/logger_all.log
+[0.523s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/build_2026-01-23_13-35-40/events.log
+[0.525s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/COLCON_IGNORE
+[0.525s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/latest
+[0.525s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_bringup
+[0.526s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_bringup
+[0.526s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/ament_prefix_path.sh
+[0.527s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/ament_prefix_path.dsv
+[0.527s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/path.sh
+[0.528s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/path.dsv
+[0.528s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.bash
+[0.528s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.sh
+[0.529s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.zsh
+[0.529s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.dsv
+[0.529s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/package.dsv
+[0.532s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/ament_index/resource_index/packages/yahboom_rosmaster_bringup
+[0.532s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/cmake/yahboom_rosmaster_bringupConfig.cmake
+[0.533s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/cmake/yahboom_rosmaster_bringupConfig-version.cmake
+[0.533s] -- Installing: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/package.xml
+[0.542s] Invoked command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/yahboom_rosmaster_bringup

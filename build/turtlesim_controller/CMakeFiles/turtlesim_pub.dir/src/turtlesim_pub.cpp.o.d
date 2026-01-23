@@ -693,4 +693,21 @@ CMakeFiles/turtlesim_pub.dir/src/turtlesim_pub.cpp.o: \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/vector3__traits.hpp \
  /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/detail/twist__type_support.hpp \
- /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/jazzy/include/geometry_msgs/geometry_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /home/basmala/ros2_ws/install/turtlesim_custom_msgs/include/turtlesim_custom_msgs/turtlesim_custom_msgs/msg/vel.hpp \
+ /home/basmala/ros2_ws/install/turtlesim_custom_msgs/include/turtlesim_custom_msgs/turtlesim_custom_msgs/msg/detail/vel__struct.hpp \
+ /home/basmala/ros2_ws/install/turtlesim_custom_msgs/include/turtlesim_custom_msgs/turtlesim_custom_msgs/msg/detail/vel__builder.hpp \
+ /home/basmala/ros2_ws/install/turtlesim_custom_msgs/include/turtlesim_custom_msgs/turtlesim_custom_msgs/msg/detail/vel__traits.hpp \
+ /home/basmala/ros2_ws/install/turtlesim_custom_msgs/include/turtlesim_custom_msgs/turtlesim_custom_msgs/msg/detail/vel__type_support.hpp \
+ /home/basmala/ros2_ws/install/turtlesim_custom_msgs/include/turtlesim_custom_msgs/turtlesim_custom_msgs/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/kill.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/kill__type_support.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/spawn.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp \
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp

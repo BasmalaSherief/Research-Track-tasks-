@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests/square_mecanum_controller" "TARGETS" "square_mecanum_controller" "DESTINATION" "lib/yahboom_rosmaster_system_tests")

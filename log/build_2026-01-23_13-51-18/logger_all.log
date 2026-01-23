@@ -1,0 +1,446 @@
+[0.186s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--allow-overriding', 'mecanum_drive_controller']
+[0.186s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=['mecanum_drive_controller'], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x77de5213e240>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77de522b4950>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77de522b4950>>)
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.222s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.222s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/basmala/ros2_ws'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.222s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extensions ['ignore', 'ignore_ament_install']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'ignore'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'ignore_ament_install'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extensions ['colcon_pkg']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'colcon_pkg'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extensions ['colcon_meta']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'colcon_meta'
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(assignment1_rt) by extension 'ros'
+[0.255s] DEBUG:colcon.colcon_core.package_identification:Package 'assignment1_rt' with type 'ros.ament_cmake' and name 'assignment1_rt'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_cpp) by extension 'ros'
+[0.256s] DEBUG:colcon.colcon_core.package_identification:Package 'first_package_cpp' with type 'ros.ament_cmake' and name 'first_package_cpp'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_python) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_python) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_python) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_python) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_python) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_python) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_python) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_python) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(first_package_python) by extension 'ros'
+[0.257s] DEBUG:colcon.colcon_core.package_identification:Package 'first_package_python' with type 'ros.ament_python' and name 'first_package_python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extensions ['ignore', 'ignore_ament_install']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extension 'ignore'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extension 'ignore_ament_install'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extensions ['colcon_pkg']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extension 'colcon_pkg'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extensions ['colcon_meta']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extension 'colcon_meta'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extensions ['ros']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extension 'ros'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extensions ['cmake', 'python']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extension 'cmake'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extension 'python'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extensions ['python_setup_py']
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(rosbag2_2025_12_02-13_02_19) by extension 'python_setup_py'
+[0.258s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/bme_gazebo_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/bme_gazebo_sensors) by extension 'ignore'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/bme_gazebo_sensors) by extension 'ignore_ament_install'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/bme_gazebo_sensors) by extensions ['colcon_pkg']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/bme_gazebo_sensors) by extension 'colcon_pkg'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/bme_gazebo_sensors) by extensions ['colcon_meta']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/bme_gazebo_sensors) by extension 'colcon_meta'
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/bme_gazebo_sensors) by extensions ['ros']
+[0.259s] Level 1:colcon.colcon_core.package_identification:_identify(src/bme_gazebo_sensors) by extension 'ros'
+[0.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bme_gazebo_sensors' with type 'ros.ament_cmake' and name 'bme_gazebo_sensors'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.260s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extension 'ros'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extensions ['cmake', 'python']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extension 'cmake'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extension 'python'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extensions ['python_setup_py']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster) by extension 'python_setup_py'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/mecanum_drive_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/mecanum_drive_controller) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/mecanum_drive_controller) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/mecanum_drive_controller) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/mecanum_drive_controller) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/mecanum_drive_controller) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/mecanum_drive_controller) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/mecanum_drive_controller) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/mecanum_drive_controller) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboom_rosmaster/mecanum_drive_controller' with type 'ros.ament_cmake' and name 'mecanum_drive_controller'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster) by extension 'ignore'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster) by extension 'ignore_ament_install'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster) by extension 'ros'
+[0.264s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboom_rosmaster/yahboom_rosmaster' with type 'ros.ament_cmake' and name 'yahboom_rosmaster'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_bringup) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_bringup) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_bringup) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_bringup) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_bringup) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_bringup) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_bringup) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_bringup) by extension 'ros'
+[0.265s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboom_rosmaster/yahboom_rosmaster_bringup' with type 'ros.ament_cmake' and name 'yahboom_rosmaster_bringup'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_description) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_description) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_description) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_description) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_description) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_description) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_description) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_description) by extensions ['ros']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_description) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboom_rosmaster/yahboom_rosmaster_description' with type 'ros.ament_cmake' and name 'yahboom_rosmaster_description'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_gazebo) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_gazebo) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_gazebo) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_gazebo) by extension 'colcon_pkg'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_gazebo) by extensions ['colcon_meta']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_gazebo) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_gazebo) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_gazebo) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboom_rosmaster/yahboom_rosmaster_gazebo' with type 'ros.ament_cmake' and name 'yahboom_rosmaster_gazebo'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_system_tests) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_system_tests) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_system_tests) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_system_tests) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_system_tests) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_system_tests) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_system_tests) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_system_tests) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_rosmaster/yahboom_rosmaster_system_tests) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboom_rosmaster/yahboom_rosmaster_system_tests' with type 'ros.ament_cmake' and name 'yahboom_rosmaster_system_tests'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_controller) by extension 'ignore'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_controller) by extension 'ignore_ament_install'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_controller) by extensions ['colcon_pkg']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_controller) by extension 'colcon_pkg'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_controller) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_controller) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_controller) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_controller) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlesim_controller' with type 'ros.ament_cmake' and name 'turtlesim_controller'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_custom_msgs) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_custom_msgs) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_custom_msgs) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_custom_msgs) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_custom_msgs) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_custom_msgs) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_custom_msgs) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(turtlesim_custom_msgs) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'turtlesim_custom_msgs' with type 'ros.ament_cmake' and name 'turtlesim_custom_msgs'
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.287s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.288s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/basmala/ros2_ws/install/yahboom_rosmaster_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.288s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/basmala/ros2_ws/install/yahboom_rosmaster_description' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 11 installed packages in /home/basmala/ros2_ws/install
+[0.289s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/basmala/ros2_ws/src/install
+[0.291s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/jazzy
+[0.292s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'assignment1_rt' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'assignment1_rt' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/assignment1_rt', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/assignment1_rt', 'merge_install': False, 'path': '/home/basmala/ros2_ws/assignment1_rt', 'symlink_install': True, 'test_result_base': None}
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_target' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.336s] Level 5:colcon.colcon_core.verb:set package 'bme_gazebo_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.336s] DEBUG:colcon.colcon_core.verb:Building package 'bme_gazebo_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/bme_gazebo_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/bme_gazebo_sensors', 'merge_install': False, 'path': '/home/basmala/ros2_ws/src/bme_gazebo_sensors', 'symlink_install': True, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_cpp' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'first_package_cpp' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/first_package_cpp', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/first_package_cpp', 'merge_install': False, 'path': '/home/basmala/ros2_ws/first_package_cpp', 'symlink_install': True, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_python' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_python' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_python' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_python' build argument 'cmake_clean_cache' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_python' build argument 'cmake_clean_first' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_python' build argument 'cmake_force_configure' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_python' build argument 'ament_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_python' build argument 'catkin_cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'first_package_python' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.337s] DEBUG:colcon.colcon_core.verb:Building package 'first_package_python' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/first_package_python', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/first_package_python', 'merge_install': False, 'path': '/home/basmala/ros2_ws/first_package_python', 'symlink_install': True, 'test_result_base': None}
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_args' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_target' from command line to 'None'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.337s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'mecanum_drive_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'mecanum_drive_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/mecanum_drive_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/mecanum_drive_controller', 'merge_install': False, 'path': '/home/basmala/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller', 'symlink_install': True, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_custom_msgs' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_custom_msgs' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_custom_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_custom_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_custom_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_custom_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_custom_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_custom_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_custom_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_custom_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/turtlesim_custom_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/turtlesim_custom_msgs', 'merge_install': False, 'path': '/home/basmala/ros2_ws/turtlesim_custom_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_bringup' build argument 'cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_bringup' build argument 'cmake_target' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.338s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.338s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_rosmaster_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/yahboom_rosmaster_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/yahboom_rosmaster_bringup', 'merge_install': False, 'path': '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_description' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_description' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_rosmaster_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/yahboom_rosmaster_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/yahboom_rosmaster_description', 'merge_install': False, 'path': '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_description', 'symlink_install': True, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_rosmaster_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/yahboom_rosmaster_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/yahboom_rosmaster_gazebo', 'merge_install': False, 'path': '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_system_tests' build argument 'cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_system_tests' build argument 'cmake_target' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_system_tests' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_system_tests' build argument 'cmake_clean_cache' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_system_tests' build argument 'cmake_clean_first' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_system_tests' build argument 'cmake_force_configure' from command line to 'False'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_system_tests' build argument 'ament_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_system_tests' build argument 'catkin_cmake_args' from command line to 'None'
+[0.339s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster_system_tests' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.339s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_rosmaster_system_tests' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/yahboom_rosmaster_system_tests', 'merge_install': False, 'path': '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests', 'symlink_install': True, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'turtlesim_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'turtlesim_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/turtlesim_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/turtlesim_controller', 'merge_install': False, 'path': '/home/basmala/ros2_ws/turtlesim_controller', 'symlink_install': True, 'test_result_base': None}
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster' build argument 'cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster' build argument 'cmake_target' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.340s] Level 5:colcon.colcon_core.verb:set package 'yahboom_rosmaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.340s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_rosmaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/basmala/ros2_ws/build/yahboom_rosmaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/basmala/ros2_ws/install/yahboom_rosmaster', 'merge_install': False, 'path': '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster', 'symlink_install': True, 'test_result_base': None}
+[0.340s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.341s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.342s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/basmala/ros2_ws/turtlesim_custom_msgs' with build type 'ament_cmake'
+[0.342s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/basmala/ros2_ws/turtlesim_custom_msgs'
+[0.344s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.344s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.344s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.348s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_bringup' with build type 'ament_cmake'
+[0.348s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_bringup'
+[0.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.353s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_description' with build type 'ament_cmake'
+[0.353s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_description'
+[0.353s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.354s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.358s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_gazebo' with build type 'ament_cmake'
+[0.358s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_gazebo'
+[0.358s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.358s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.365s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests' with build type 'ament_cmake'
+[0.366s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests'
+[0.366s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.366s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.372s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/basmala/ros2_ws/assignment1_rt' with build type 'ament_cmake'
+[0.372s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/basmala/ros2_ws/assignment1_rt'
+[0.372s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.372s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/basmala/ros2_ws/src/bme_gazebo_sensors' with build type 'ament_cmake'
+[0.379s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/basmala/ros2_ws/src/bme_gazebo_sensors'
+[0.379s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.379s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.389s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/basmala/ros2_ws/first_package_cpp' with build type 'ament_cmake'
+[0.389s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/basmala/ros2_ws/first_package_cpp'
+[0.389s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.389s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.395s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/basmala/ros2_ws/first_package_python' with build type 'ament_python'
+[0.395s] Level 1:colcon.colcon_core.shell:create_environment_hook('first_package_python', 'ament_prefix_path')
+[0.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/basmala/ros2_ws/install/first_package_python/share/first_package_python/hook/ament_prefix_path.ps1'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/basmala/ros2_ws/install/first_package_python/share/first_package_python/hook/ament_prefix_path.dsv'
+[0.396s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/basmala/ros2_ws/install/first_package_python/share/first_package_python/hook/ament_prefix_path.sh'
+[0.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.403s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller' with build type 'ament_cmake'
+[0.403s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/basmala/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller'
+[0.403s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.403s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/turtlesim_custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/turtlesim_custom_msgs -- -j20 -l20
+[0.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_bringup -- -j20 -l20
+[0.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/yahboom_rosmaster_description
+[0.421s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_gazebo -- -j20 -l20
+[0.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests -- -j20 -l20
+[0.429s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment1_rt -- -j20 -l20
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/bme_gazebo_sensors -- -j20 -l20
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20
+[0.875s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/basmala/ros2_ws/first_package_python'
+[0.876s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.876s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.906s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/basmala/ros2_ws/build/turtlesim_custom_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/turtlesim_custom_msgs -- -j20 -l20
+[0.907s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlesim_custom_msgs)
+[0.912s] Level 1:colcon.colcon_core.environment:checking '/home/basmala/ros2_ws/install/turtlesim_custom_msgs' for CMake module files
+[0.913s] Level 1:colcon.colcon_core.environment:checking '/home/basmala/ros2_ws/install/turtlesim_custom_msgs' for CMake config files
+[0.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_custom_msgs', 'cmake_prefix_path')
+[0.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/hook/cmake_prefix_path.ps1'
+[0.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/hook/cmake_prefix_path.dsv'
+[0.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/hook/cmake_prefix_path.sh'
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib'
+[0.919s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_custom_msgs', 'ld_library_path_lib')
+[0.919s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/hook/ld_library_path_lib.ps1'
+[0.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/hook/ld_library_path_lib.dsv'
+[0.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/hook/ld_library_path_lib.sh'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/bin'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib/pkgconfig/turtlesim_custom_msgs.pc'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib/python3.12/site-packages'
+[0.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlesim_custom_msgs', 'pythonpath')
+[0.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/hook/pythonpath.ps1'
+[0.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/hook/pythonpath.dsv'
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/hook/pythonpath.sh'
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/bin'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/package.ps1'
+[0.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/package.dsv'
+[0.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/package.sh'
+[0.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/package.bash'
+[0.932s] INFO:colcon.colcon_core.shell:Creating package script '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/turtlesim_custom_msgs/package.zsh'
+[0.933s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/basmala/ros2_ws/install/turtlesim_custom_msgs/share/colcon-core/packages/turtlesim_custom_msgs)
+[0.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_bringup -- -j20 -l20
+[0.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/yahboom_rosmaster_bringup
+[0.955s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_gazebo -- -j20 -l20
+[0.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/yahboom_rosmaster_gazebo
+[0.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests -- -j20 -l20
+[0.959s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/basmala/ros2_ws/build/bme_gazebo_sensors' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/bme_gazebo_sensors -- -j20 -l20
+[0.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/basmala/ros2_ws/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/bme_gazebo_sensors
+[1.691s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.691s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.691s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.691s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.703s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.703s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.719s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.719s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/basmala/ros2_ws/install/local_setup.ps1'
+[1.721s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/basmala/ros2_ws/install/_local_setup_util_ps1.py'
+[1.722s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/basmala/ros2_ws/install/setup.ps1'
+[1.724s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/basmala/ros2_ws/install/local_setup.sh'
+[1.725s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/basmala/ros2_ws/install/_local_setup_util_sh.py'
+[1.725s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/basmala/ros2_ws/install/setup.sh'
+[1.727s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/basmala/ros2_ws/install/local_setup.bash'
+[1.728s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/basmala/ros2_ws/install/setup.bash'
+[1.729s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/basmala/ros2_ws/install/local_setup.zsh'
+[1.730s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/basmala/ros2_ws/install/setup.zsh'

@@ -2,6 +2,9 @@
 /home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtlesim_pub
 /home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtle_ex1
 /home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtle_ex2
+/home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtlesim_service
+/home/basmala/ros2_ws/install/turtlesim_controller/lib/turtlesim_controller/turtlesim_controller3
+/home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/launch/turtlesim_controller.launch.xml
 /home/basmala/ros2_ws/install/turtlesim_controller/share/ament_index/resource_index/package_run_dependencies/turtlesim_controller
 /home/basmala/ros2_ws/install/turtlesim_controller/share/ament_index/resource_index/parent_prefix_path/turtlesim_controller
 /home/basmala/ros2_ws/install/turtlesim_controller/share/turtlesim_controller/environment/ament_prefix_path.sh

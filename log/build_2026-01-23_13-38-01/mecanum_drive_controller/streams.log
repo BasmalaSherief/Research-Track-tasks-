@@ -1,0 +1,35 @@
+[0.637s] Invoking command in '/home/basmala/ros2_ws/build/mecanum_drive_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/src/yahboom_rosmaster/mecanum_drive_controller -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/mecanum_drive_controller
+[0.741s] -- The CXX compiler identification is GNU 13.3.0
+[0.786s] -- Detecting CXX compiler ABI info
+[1.010s] -- Detecting CXX compiler ABI info - done
+[1.039s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.040s] -- Detecting CXX compile features
+[1.041s] -- Detecting CXX compile features - done
+[1.051s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.418s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.653s] -- Found controller_interface: 4.39.2 (/opt/ros/jazzy/share/controller_interface/cmake)
+[1.745s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.782s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.815s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.854s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.186s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.249s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.254s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[2.291s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.379s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[2.384s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.418s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[2.424s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.440s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.464s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.881s] -- Found generate_parameter_library: 0.5.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[2.884s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[2.906s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.935s] -- Found tf2: 0.36.16 (/opt/ros/jazzy/share/tf2/cmake)
+[2.941s] -- Found tf2_msgs: 0.36.16 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[2.981s] -- Found ament_cmake_gmock: 2.5.4 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[2.984s] -- Found controller_manager: 4.39.2 (/opt/ros/jazzy/share/controller_manager/cmake)
+[3.077s] -- Found ros2_control_test_assets: 4.39.2 (/opt/ros/jazzy/share/ros2_control_test_assets/cmake)
+[3.241s] -- Configuring done (2.6s)
+[3.281s] -- Generating done (0.0s)
+[3.287s] -- Build files have been written to: /home/basmala/ros2_ws/build/mecanum_drive_controller

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/basmala/ros2_ws/build/turtlesim_custom_msgs/rosidl_generator_py/turtlesim_custom_msgs/turtlesim_custom_msgs_s__rosidl_typesupport_c.so" "TARGETS" "turtlesim_custom_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/turtlesim_custom_msgs")

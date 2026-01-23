@@ -1,0 +1,6 @@
+[  2%] Built target turtlesim_custom_msgs__rosidl_generator_type_description
+failed to create symbolic link '/home/basmala/ros2_ws/build/turtlesim_custom_msgs/ament_cmake_python/turtlesim_custom_msgs/turtlesim_custom_msgs' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_turtlesim_custom_msgs.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_turtlesim_custom_msgs] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:452: CMakeFiles/ament_cmake_python_symlink_turtlesim_custom_msgs.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

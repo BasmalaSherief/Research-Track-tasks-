@@ -1,0 +1,40 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/launch/load_ros2_controllers.launch.py
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/build/.built_by
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/build/COLCON_IGNORE
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/.colcon_install_layout
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/COLCON_IGNORE
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/_local_setup_util_ps1.py
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/_local_setup_util_sh.py
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/local_setup.bash
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/local_setup.ps1
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/local_setup.sh
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/local_setup.zsh
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/setup.bash
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/setup.ps1
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/setup.sh
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/install/setup.zsh
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/COLCON_IGNORE
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/build_2026-01-23_13-35-40/events.log
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/build_2026-01-23_13-35-40/logger_all.log
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/latest/events.log
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/latest/logger_all.log
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/latest_build/events.log
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/log/latest_build/logger_all.log
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/scripts/rosmaster_x3_gazebo.sh
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_bringup
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_bringup
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/path.sh
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/environment/path.dsv
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.bash
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.sh
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.zsh
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/local_setup.dsv
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/package.dsv
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/ament_index/resource_index/packages/yahboom_rosmaster_bringup
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/cmake/yahboom_rosmaster_bringupConfig.cmake
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/cmake/yahboom_rosmaster_bringupConfig-version.cmake
+-- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_bringup/share/yahboom_rosmaster_bringup/package.xml

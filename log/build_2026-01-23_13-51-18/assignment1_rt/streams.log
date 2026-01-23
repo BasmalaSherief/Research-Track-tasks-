@@ -1,0 +1,5 @@
+[0.056s] Invoking command in '/home/basmala/ros2_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment1_rt -- -j20 -l20
+[0.531s] [ 25%] [32m[1mLinking CXX executable UI[0m
+[0.532s] [ 50%] [32m[1mLinking CXX executable DistanceControl[0m
+[0.532s] [ 75%] Built target UI
+[0.729s] [100%] Built target DistanceControl

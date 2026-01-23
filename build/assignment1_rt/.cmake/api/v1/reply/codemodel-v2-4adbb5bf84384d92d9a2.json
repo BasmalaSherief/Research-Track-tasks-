@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e18cd2f7a8cbd6b87e9e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "assignment1_rt",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "DistanceControl::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-DistanceControl-d8236c96b1590618d2eb.json",
+					"name" : "DistanceControl",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "UI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-UI-11cea69e153e5fe65427.json",
+					"name" : "UI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "assignment1_rt_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-assignment1_rt_uninstall-1b68d3583c2c86a8d474.json",
+					"name" : "assignment1_rt_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b90dccc1a7a90c8165f3.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/basmala/ros2_ws/build/assignment1_rt",
+		"source" : "/home/basmala/ros2_ws/assignment1_rt"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

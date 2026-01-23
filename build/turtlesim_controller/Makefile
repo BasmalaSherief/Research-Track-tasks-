@@ -249,6 +249,32 @@ turtle_ex2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_ex2.dir/build.make CMakeFiles/turtle_ex2.dir/build
 .PHONY : turtle_ex2/fast
 
+#=============================================================================
+# Target rules for targets named turtlesim_service
+
+# Build rule for target.
+turtlesim_service: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtlesim_service
+.PHONY : turtlesim_service
+
+# fast build rule for target.
+turtlesim_service/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service.dir/build.make CMakeFiles/turtlesim_service.dir/build
+.PHONY : turtlesim_service/fast
+
+#=============================================================================
+# Target rules for targets named turtlesim_controller3
+
+# Build rule for target.
+turtlesim_controller3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 turtlesim_controller3
+.PHONY : turtlesim_controller3
+
+# fast build rule for target.
+turtlesim_controller3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_controller3.dir/build.make CMakeFiles/turtlesim_controller3.dir/build
+.PHONY : turtlesim_controller3/fast
+
 src/turtle_ex1.o: src/turtle_ex1.cpp.o
 .PHONY : src/turtle_ex1.o
 
@@ -297,6 +323,30 @@ src/turtle_ex2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtle_ex2.dir/build.make CMakeFiles/turtle_ex2.dir/src/turtle_ex2.cpp.s
 .PHONY : src/turtle_ex2.cpp.s
 
+src/turtlesim_controller3.o: src/turtlesim_controller3.cpp.o
+.PHONY : src/turtlesim_controller3.o
+
+# target to build an object file
+src/turtlesim_controller3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_controller3.dir/build.make CMakeFiles/turtlesim_controller3.dir/src/turtlesim_controller3.cpp.o
+.PHONY : src/turtlesim_controller3.cpp.o
+
+src/turtlesim_controller3.i: src/turtlesim_controller3.cpp.i
+.PHONY : src/turtlesim_controller3.i
+
+# target to preprocess a source file
+src/turtlesim_controller3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_controller3.dir/build.make CMakeFiles/turtlesim_controller3.dir/src/turtlesim_controller3.cpp.i
+.PHONY : src/turtlesim_controller3.cpp.i
+
+src/turtlesim_controller3.s: src/turtlesim_controller3.cpp.s
+.PHONY : src/turtlesim_controller3.s
+
+# target to generate assembly for a file
+src/turtlesim_controller3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_controller3.dir/build.make CMakeFiles/turtlesim_controller3.dir/src/turtlesim_controller3.cpp.s
+.PHONY : src/turtlesim_controller3.cpp.s
+
 src/turtlesim_pub.o: src/turtlesim_pub.cpp.o
 .PHONY : src/turtlesim_pub.o
 
@@ -320,6 +370,30 @@ src/turtlesim_pub.s: src/turtlesim_pub.cpp.s
 src/turtlesim_pub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_pub.dir/build.make CMakeFiles/turtlesim_pub.dir/src/turtlesim_pub.cpp.s
 .PHONY : src/turtlesim_pub.cpp.s
+
+src/turtlesim_service.o: src/turtlesim_service.cpp.o
+.PHONY : src/turtlesim_service.o
+
+# target to build an object file
+src/turtlesim_service.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service.dir/build.make CMakeFiles/turtlesim_service.dir/src/turtlesim_service.cpp.o
+.PHONY : src/turtlesim_service.cpp.o
+
+src/turtlesim_service.i: src/turtlesim_service.cpp.i
+.PHONY : src/turtlesim_service.i
+
+# target to preprocess a source file
+src/turtlesim_service.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service.dir/build.make CMakeFiles/turtlesim_service.dir/src/turtlesim_service.cpp.i
+.PHONY : src/turtlesim_service.cpp.i
+
+src/turtlesim_service.s: src/turtlesim_service.cpp.s
+.PHONY : src/turtlesim_service.s
+
+# target to generate assembly for a file
+src/turtlesim_service.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/turtlesim_service.dir/build.make CMakeFiles/turtlesim_service.dir/src/turtlesim_service.cpp.s
+.PHONY : src/turtlesim_service.cpp.s
 
 src/turtlesim_sub.o: src/turtlesim_sub.cpp.o
 .PHONY : src/turtlesim_sub.o
@@ -362,7 +436,9 @@ help:
 	@echo "... uninstall"
 	@echo "... turtle_ex1"
 	@echo "... turtle_ex2"
+	@echo "... turtlesim_controller3"
 	@echo "... turtlesim_pub"
+	@echo "... turtlesim_service"
 	@echo "... turtlesim_sub"
 	@echo "... src/turtle_ex1.o"
 	@echo "... src/turtle_ex1.i"
@@ -370,9 +446,15 @@ help:
 	@echo "... src/turtle_ex2.o"
 	@echo "... src/turtle_ex2.i"
 	@echo "... src/turtle_ex2.s"
+	@echo "... src/turtlesim_controller3.o"
+	@echo "... src/turtlesim_controller3.i"
+	@echo "... src/turtlesim_controller3.s"
 	@echo "... src/turtlesim_pub.o"
 	@echo "... src/turtlesim_pub.i"
 	@echo "... src/turtlesim_pub.s"
+	@echo "... src/turtlesim_service.o"
+	@echo "... src/turtlesim_service.i"
+	@echo "... src/turtlesim_service.s"
 	@echo "... src/turtlesim_sub.o"
 	@echo "... src/turtlesim_sub.i"
 	@echo "... src/turtlesim_sub.s"

@@ -1,0 +1,43 @@
+[0.029s] Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_description -- -j20 -l20
+[0.116s] Invoked command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/yahboom_rosmaster_description -- -j20 -l20
+[0.118s] Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/yahboom_rosmaster_description
+[0.131s] -- Install configuration: ""
+[0.132s] -- Execute custom install script
+[0.133s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/config/rosmaster_x3/ros2_controllers.yaml
+[0.150s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/config/rosmaster_x3/ros2_controllers_template.yaml
+[0.165s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/launch/robot_state_publisher.launch.py
+[0.185s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/intel_realsense/visual/d435.stl
+[0.207s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/back_left_wheel_X3.STL
+[0.227s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/back_right_wheel_X3.STL
+[0.244s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/base_link_X3.STL
+[0.259s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/camera_link.STL
+[0.275s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/front_left_wheel_X3.STL
+[0.290s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/front_right_wheel_X3.STL
+[0.308s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rosmaster_x3/visual/laser_link.STL
+[0.323s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/meshes/rplidar/rplidar_s2.stl
+[0.340s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/control/gazebo_sim_ros2_control.urdf.xacro
+[0.356s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/control/rosmaster_x3_ros2_control.urdf.xacro
+[0.373s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/control/velocity_control_plugin.urdf.xacro
+[0.389s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/mech/mecanum_wheel.urdf.xacro
+[0.407s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/mech/rosmaster_x3_base.urdf.xacro
+[0.426s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/robots/rosmaster_x3.urdf.xacro
+[0.444s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/sensors/imu.urdf.xacro
+[0.465s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/sensors/lidar.urdf.xacro
+[0.478s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/urdf/sensors/rgbd_camera.urdf.xacro
+[0.491s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/rviz/yahboom_rosmaster_description.rviz
+[0.509s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/ament_index/resource_index/package_run_dependencies/yahboom_rosmaster_description
+[0.530s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/ament_index/resource_index/parent_prefix_path/yahboom_rosmaster_description
+[0.546s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/ament_prefix_path.sh
+[0.563s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/ament_prefix_path.dsv
+[0.579s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/path.sh
+[0.598s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/environment/path.dsv
+[0.621s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.bash
+[0.642s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.sh
+[0.659s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.zsh
+[0.677s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/local_setup.dsv
+[0.693s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/package.dsv
+[0.713s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/ament_index/resource_index/packages/yahboom_rosmaster_description
+[0.729s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/cmake/yahboom_rosmaster_descriptionConfig.cmake
+[0.748s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/cmake/yahboom_rosmaster_descriptionConfig-version.cmake
+[0.764s] -- Symlinking: /home/basmala/ros2_ws/install/yahboom_rosmaster_description/share/yahboom_rosmaster_description/package.xml
+[0.784s] Invoked command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/yahboom_rosmaster_description

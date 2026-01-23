@@ -10,6 +10,7 @@ find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(turtlesim REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(turtlesim_custom_msgs REQUIRED)
 
 # uncomment the following section in order to fill in
 # further dependencies manually.
@@ -20,18 +21,29 @@ add_executable(turtlesim_sub src/turtlesim_sub.cpp)
 add_executable(turtlesim_pub src/turtlesim_pub.cpp)
 add_executable(turtle_ex1 src/turtle_ex1.cpp)
 add_executable(turtle_ex2 src/turtle_ex2.cpp)
+add_executable(turtlesim_service src/turtlesim_service.cpp)
+add_executable(turtlesim_controller3 src/turtlesim_controller3.cpp)
+
 install(TARGETS 
   turtlesim_sub
   turtlesim_pub
   turtle_ex1
   turtle_ex2
+  turtlesim_service
+  turtlesim_controller3
   DESTINATION lib/${PROJECT_NAME}
 )
+
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME}
+)
 # Link the node with its dependencies
-ament_target_dependencies(turtlesim_sub rclcpp turtlesim)
-ament_target_dependencies(turtlesim_pub rclcpp turtlesim geometry_msgs)
+ament_target_dependencies(turtlesim_sub rclcpp turtlesim turtlesim_custom_msgs)
+ament_target_dependencies(turtlesim_pub rclcpp turtlesim geometry_msgs turtlesim_custom_msgs)
 ament_target_dependencies(turtle_ex1 rclcpp geometry_msgs turtlesim)
 ament_target_dependencies(turtle_ex2 rclcpp geometry_msgs turtlesim)
+ament_target_dependencies(turtlesim_service rclcpp turtlesim turtlesim_custom_msgs)
+ament_target_dependencies(turtlesim_controller3 rclcpp turtlesim geometry_msgs turtlesim_custom_msgs)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -44,5 +56,6 @@ if(BUILD_TESTING)
   set(ament_cmake_cpplint_FOUND TRUE)
   ament_lint_auto_find_test_dependencies()
 endif()
+
 
 ament_package()

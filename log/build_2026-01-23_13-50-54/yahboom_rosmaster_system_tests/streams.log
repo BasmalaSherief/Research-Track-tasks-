@@ -1,0 +1,9 @@
+[0.097s] Invoking command in '/home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_system_tests -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/yahboom_rosmaster_system_tests
+[0.532s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.563s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.584s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.757s] -- Added test 'lint_cmake' to check CMake code style
+[0.759s] -- Added test 'xmllint' to check XML markup files
+[0.762s] -- Configuring done (0.7s)
+[0.769s] -- Generating done (0.0s)
+[0.771s] -- Build files have been written to: /home/basmala/ros2_ws/build/yahboom_rosmaster_system_tests

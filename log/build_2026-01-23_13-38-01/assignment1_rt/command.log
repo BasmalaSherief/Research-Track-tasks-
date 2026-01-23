@@ -1,0 +1,1 @@
+Invoking command in '/home/basmala/ros2_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/assignment1_rt -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/assignment1_rt

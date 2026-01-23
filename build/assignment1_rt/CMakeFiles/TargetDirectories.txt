@@ -1,0 +1,11 @@
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/uninstall.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/assignment1_rt_uninstall.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/UI.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/DistanceControl.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/test.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/edit_cache.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/rebuild_cache.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/list_install_components.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/install.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/install/local.dir
+/home/basmala/ros2_ws/build/assignment1_rt/CMakeFiles/install/strip.dir
