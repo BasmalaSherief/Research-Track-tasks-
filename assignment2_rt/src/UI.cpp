@@ -47,10 +47,12 @@ public:
             {
             case 'w':
                 current_lin += 0.5;
+                current_ang = 0.0;
                 publish_vel = true;
                 break;
             case 's':
                 current_lin -= 0.5;
+                current_ang = 0.0;
                 publish_vel = true;
                 break;
             case 'a':
