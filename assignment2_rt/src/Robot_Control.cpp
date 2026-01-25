@@ -21,24 +21,24 @@ class RobotControlNode : public rclcpp::Node
 public:
     RobotControlNode() : Node("robot_control_node")
     {
-        // 1. Publisher for velocity commands
+        // Publisher for velocity commands
         cmd_vel_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
 
-        // 2. Publisher for custom obstacle message
+        // Publisher for custom obstacle message
         obstacle_publisher_ = this->create_publisher<assignment2_custom_msgs_srvs::msg::Obstacle>(
             "custom_obstacle_topic", 10);
 
-        // 3. User input subscriber (desired velocity)
+        // User input subscriber (desired velocity)
         des_vel_subscriber_ = this->create_subscription<geometry_msgs::msg::Twist>(
             "des_vel", 10,
             std::bind(&RobotControlNode::desVelCallback, this, std::placeholders::_1));
 
-        // 4. Laser scanner subscriber (mapped to /scan)
+        // Laser scanner subscriber (mapped to /scan)
         laser_scan_subscriber_ = this->create_subscription<sensor_msgs::msg::LaserScan>(
             "scan", 10,
             std::bind(&RobotControlNode::laserScanCallback, this, std::placeholders::_1));
 
-        // 5. Odometry subscriber (mapped to /odom)
+        // Odometry subscriber (mapped to /odom)
         odom_subscriber_ = this->create_subscription<nav_msgs::msg::Odometry>(
             "odom", 10,
             std::bind(&RobotControlNode::odomCallback, this, std::placeholders::_1));
