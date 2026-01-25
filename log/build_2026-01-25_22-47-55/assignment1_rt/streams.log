@@ -1,0 +1,35 @@
+[0.009s] Invoking command in '/home/basmala/ros2_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment1_rt -- -j20 -l20
+[0.101s] [ 25%] [32mBuilding CXX object CMakeFiles/UI.dir/src/UI.cpp.o[0m
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/DistanceControl.dir/src/DistanceControl.cpp.o[0m
+[2.164s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:[m[K In constructor ‘[01m[KDistanceMonitor::[01;32m[KDistanceMonitor[m[K()[m[K’:
+[2.164s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_distance12_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_distance_[m[K’?
+[2.164s]    16 |         [01;31m[Kpub_distance12_[m[K = this->create_publisher<std_msgs::msg::Float32>("turtle12_distance", 10);
+[2.164s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.164s]       |         [32m[Kpub_distance_[m[K
+[2.164s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/UI.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[2.164s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/UI.cpp:95:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Turtle_Controller::[01;32m[Kspawn_turtle3[m[K()[m[K’ is private within this context
+[2.164s]    95 |         [01;31m[Knode->spawn_turtle3()[m[K;
+[2.164s]       |         [01;31m[K~~~~~~~~~~~~~~~~~~~^~[m[K
+[2.164s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/UI.cpp:58:10:[m[K [01;36m[Knote: [m[Kdeclared private here
+[2.164s]    58 |     void [01;36m[Kspawn_turtle3[m[K()
+[2.165s]       |          [01;36m[K^~~~~~~~~~~~~[m[K
+[2.174s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_distance13_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_distance_[m[K’?
+[2.174s]    17 |         [01;31m[Kpub_distance13_[m[K = this->create_publisher<std_msgs::msg::Float32>("turtle13_distance", 10);
+[2.174s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.174s]       |         [32m[Kpub_distance_[m[K
+[2.194s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:[m[K In member function ‘[01m[Kvoid DistanceMonitor::[01;32m[Kcheck_metrics[m[K()[m[K’:
+[2.194s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:89:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_distance12_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_distance_[m[K’?
+[2.194s]    89 |         [01;31m[Kpub_distance12_[m[K->publish(dist_msg);
+[2.194s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.194s]       |         [32m[Kpub_distance_[m[K
+[2.202s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_distance13_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_distance_[m[K’?
+[2.202s]    96 |         [01;31m[Kpub_distance13_[m[K->publish(dist_msg);
+[2.202s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.202s]       |         [32m[Kpub_distance_[m[K
+[3.287s] gmake[2]: *** [CMakeFiles/UI.dir/build.make:76: CMakeFiles/UI.dir/src/UI.cpp.o] Error 1
+[3.287s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/UI.dir/all] Error 2
+[3.287s] gmake[1]: *** Waiting for unfinished jobs....
+[4.612s] gmake[2]: *** [CMakeFiles/DistanceControl.dir/build.make:76: CMakeFiles/DistanceControl.dir/src/DistanceControl.cpp.o] Error 1
+[4.612s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/DistanceControl.dir/all] Error 2
+[4.612s] gmake: *** [Makefile:146: all] Error 2
+[4.616s] Invoked command in '/home/basmala/ros2_ws/build/assignment1_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment1_rt -- -j20 -l20

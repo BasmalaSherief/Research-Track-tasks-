@@ -403,6 +403,12 @@ CMakeFiles/UI.dir/src/UI.cpp.o
  /opt/ros/jazzy/include/tracetools/tracetools/tracetools.h
  /opt/ros/jazzy/include/tracetools/tracetools/utils.hpp
  /opt/ros/jazzy/include/tracetools/tracetools/visibility_control.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/msg/rosidl_generator_cpp__visibility_control.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/detail/spawn__type_support.hpp
+ /opt/ros/jazzy/include/turtlesim/turtlesim/srv/spawn.hpp
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field__struct.h
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/field_type__struct.h
  /opt/ros/jazzy/include/type_description_interfaces/type_description_interfaces/msg/detail/individual_type_description__struct.h

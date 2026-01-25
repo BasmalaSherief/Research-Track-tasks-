@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
+#include "turtlesim/srv/spawn.hpp"
 #include <memory>
 #include <thread>
 #include <iostream>
@@ -13,8 +14,8 @@ class Turtle_Controller : public rclcpp :: Node
         {
             pub_turtle1_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
             pub_turtle2_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle2/cmd_vel", 10);
-            pub_turtle3_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle3/cmd_vel", 10);
 
+            spawn_client_ = this->create_client<turtlesim::srv::Spawn>("/spawn");
             RCLCPP_INFO(this -> get_logger(), "UI Node Started. Ready for input.");         
         }
         void move_turtle(int turtle_id, double linear_x, double angular_z)
@@ -33,11 +34,6 @@ class Turtle_Controller : public rclcpp :: Node
                 pub_turtle2_ -> publish(msg);
                 RCLCPP_INFO(this -> get_logger(), "Turtle 2 -> Lin: %.2f, Ang: %.2f", linear_x, angular_z);
             }
-            else if (turtle_id == 3) 
-            {
-                pub_turtle3_ -> publish(msg);
-                RCLCPP_INFO(this -> get_logger(), "Turtle 3 -> Lin: %.2f, Ang: %.2f", linear_x, angular_z);
-            }
             else 
             {
                 cout << "Invalid Turtle ID!" << endl;
@@ -49,15 +45,35 @@ class Turtle_Controller : public rclcpp :: Node
             msg.angular.z = 0.0;
             if (turtle_id == 1) pub_turtle1_->publish(msg);
             else if (turtle_id == 2) pub_turtle2_->publish(msg);
-            else if (turtle_id == 3) pub_turtle3_->publish(msg);
 
             RCLCPP_INFO(this->get_logger(), "Stopped.");
         }  
+        void spawn_turtle3()
+            {
+                auto request = std::make_shared<turtlesim::srv::Spawn::Request>();
+                request->x = 10;
+                request->y = 10;
+                request->theta = 0.0;
+                request->name = "turtle3";
+
+                // Wait for service to be available
+                while (!spawn_client_->wait_for_service(std::chrono::seconds(1))) {
+                    if (!rclcpp::ok()) 
+                    {
+                        RCLCPP_ERROR(this->get_logger(), "Interrupted while waiting for service.");
+                        return;
+                    }
+                    RCLCPP_INFO(this->get_logger(), "Waiting for /spawn service...");
+                }
+
+                auto result = spawn_client_->async_send_request(request);
+            }
         
     private:
         rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_turtle1_;
         rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_turtle2_;
-        rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_turtle3_;
+
+        rclcpp::Client<turtlesim::srv::Spawn>::SharedPtr spawn_client_;
 
 };
 
@@ -72,9 +88,13 @@ int main(int argc, char* argv[])
 
     while(rclcpp::ok())
     {
-        cout << "Choose which turtle you want to Control (1 or 2?)" << endl;
+        cout << "Menu:\n 1. Control Turtle 1\n 2. Control Turtle 2\n 3. Spawn Turtle 3\n Selection: " << endl;
         cin >> input_turtle;
-
+        if (input_turtle == 3) 
+        {
+        node->spawn_turtle3();
+        continue;
+       }
         if (cin.fail()) 
         {
             cin.clear(); 

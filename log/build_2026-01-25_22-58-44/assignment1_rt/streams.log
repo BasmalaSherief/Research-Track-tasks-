@@ -1,0 +1,28 @@
+[0.016s] Invoking command in '/home/basmala/ros2_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment1_rt -- -j20 -l20
+[0.119s] [ 25%] [32mBuilding CXX object CMakeFiles/UI.dir/src/UI.cpp.o[0m
+[0.120s] [ 50%] [32mBuilding CXX object CMakeFiles/DistanceControl.dir/src/DistanceControl.cpp.o[0m
+[2.125s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:[m[K In constructor ‘[01m[KDistanceMonitor::[01;32m[KDistanceMonitor[m[K()[m[K’:
+[2.125s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_distance12_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_distance_[m[K’?
+[2.125s]    16 |         [01;31m[Kpub_distance12_[m[K = this->create_publisher<std_msgs::msg::Float32>("turtle12_distance", 10);
+[2.126s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.126s]       |         [32m[Kpub_distance_[m[K
+[2.134s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:17:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_distance13_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_distance_[m[K’?
+[2.134s]    17 |         [01;31m[Kpub_distance13_[m[K = this->create_publisher<std_msgs::msg::Float32>("turtle13_distance", 10);
+[2.134s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.134s]       |         [32m[Kpub_distance_[m[K
+[2.148s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:[m[K In member function ‘[01m[Kvoid DistanceMonitor::[01;32m[Kcheck_metrics[m[K()[m[K’:
+[2.149s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:89:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_distance12_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_distance_[m[K’?
+[2.149s]    89 |         [01;31m[Kpub_distance12_[m[K->publish(dist_msg);
+[2.149s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.149s]       |         [32m[Kpub_distance_[m[K
+[2.154s] [01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_distance13_[m[K’ was not declared in this scope; did you mean ‘[01m[Kpub_distance_[m[K’?
+[2.154s]    96 |         [01;31m[Kpub_distance13_[m[K->publish(dist_msg);
+[2.154s]       |         [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.154s]       |         [32m[Kpub_distance_[m[K
+[4.115s] gmake[2]: *** [CMakeFiles/DistanceControl.dir/build.make:76: CMakeFiles/DistanceControl.dir/src/DistanceControl.cpp.o] Error 1
+[4.115s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/DistanceControl.dir/all] Error 2
+[4.115s] gmake[1]: *** Waiting for unfinished jobs....
+[4.479s] [ 75%] [32m[1mLinking CXX executable UI[0m
+[4.679s] [ 75%] Built target UI
+[4.680s] gmake: *** [Makefile:146: all] Error 2
+[4.682s] Invoked command in '/home/basmala/ros2_ws/build/assignment1_rt' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment1_rt -- -j20 -l20

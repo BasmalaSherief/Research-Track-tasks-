@@ -13,10 +13,10 @@ class DistanceMonitor : public rclcpp::Node
 public:
     DistanceMonitor() : Node("distance_monitor_node")
     {
-        pub_distance_ = this->create_publisher<std_msgs::msg::Float32>("turtle_distance", 10);
+        pub_distance12_ = this->create_publisher<std_msgs::msg::Float32>("turtle12_distance", 10);
+        pub_distance13_ = this->create_publisher<std_msgs::msg::Float32>("turtle13_distance", 10);
         pub_cmd_turtle1_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
         pub_cmd_turtle2_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle2/cmd_vel", 10);
-        pub_cmd_turtle3_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle3/cmd_vel", 10);
 
         sub_pose_t1_ = this->create_subscription<turtlesim::msg::Pose>(
             "/turtle1/pose", 10, std::bind(&DistanceMonitor::callback_turtle1, this, _1));
@@ -26,6 +26,7 @@ public:
 
         sub_pose_t3_ = this->create_subscription<turtlesim::msg::Pose>(
             "/turtle3/pose", 10, std::bind(&DistanceMonitor::callback_turtle3, this, _1));
+
 
         pose1_received_ = false;
         pose2_received_ = false;
@@ -48,10 +49,10 @@ private:
     float prev_distance_;
     float prev_x1_, prev_y1_;
 
-    rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr pub_distance_;
+    rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr pub_distance12_;
+    rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr pub_distance13_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd_turtle1_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd_turtle2_;
-    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd_turtle3_;
     
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t1_;
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t2_;
@@ -78,21 +79,30 @@ private:
     }
     void check_metrics()
     {
-        if (!pose1_received_ || !pose2_received_) return;
-
-        float current_distance = std::sqrt(std::pow(pose1_.x - pose2_.x, 2) + 
+        if (!pose1_received_ || !pose2_received_ || !pose3_received_) return;
+        // Calculate distances
+        // Distance between Turtle 1 and Turtle 2
+        float current_distance12 = std::sqrt(std::pow(pose1_.x - pose2_.x, 2) + 
                                    std::pow(pose1_.y - pose2_.y, 2));
 
-        auto dist_msg = std_msgs::msg::Float32();
-        dist_msg.data = current_distance;
-        pub_distance_->publish(dist_msg);
+        auto dist_msg1 = std_msgs::msg::Float32();
+        dist_msg1.data = current_distance12;
+        pub_distance12_->publish(dist_msg1);
 
-        if (current_distance < THRESHOLD && current_distance < prev_distance_) 
+
+        // Distance between Turtle 1 and Turtle 3
+        float current_distance13 = std::sqrt(std::pow(pose1_.x - pose3_.x, 2) + 
+                                   std::pow(pose1_.y - pose3_.y, 2));
+        auto dist_msg2 = std_msgs::msg::Float32();
+        dist_msg2.data = current_distance13;
+        pub_distance13_->publish(dist_msg2);
+
+        if (current_distance12 < THRESHOLD && current_distance12 < prev_distance_) 
         {
-            RCLCPP_WARN(this->get_logger(), "Too Close! (Dist: %.2f) Stopping...", current_distance);
+            RCLCPP_WARN(this->get_logger(), "Too Close! (Dist: %.2f) Stopping...", current_distance12);
             stop_turtles();
         }
-        prev_distance_ = current_distance;
+        prev_distance_ = current_distance12;
 
         if (pose1_.x > 10.0 && pose1_.x > prev_x1_) 
         { 
@@ -122,7 +132,6 @@ private:
         stop_msg.angular.z = 0.0;
         pub_cmd_turtle1_->publish(stop_msg);
         pub_cmd_turtle2_->publish(stop_msg);
-        pub_cmd_turtle3_->publish(stop_msg);
     }
 };
 
