@@ -17,6 +17,7 @@ graph TD
         Control -->|/custom_obstacle_topic| Viz[Visualization/Monitor]
         
         Sim -->|/scan| Control
+        Sim -->|/odom| Control
     end
     
     subgraph "Simulation"
