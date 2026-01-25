@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.c.o.d"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c.o"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c.o.d"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c.o"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c.o.d"
   "libassignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.pdb"
   "libassignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.so"
   "rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h"
@@ -13,6 +15,8 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.c"
   "rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c"
+  "rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "assignment2_custom_msgs_srvs/srv/detail/average_velocities__struct.h"
-#include "assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "assignment2_custom_msgs_srvs/srv/detail/average_velocities__functions.h"
+#include "assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.h"
+#include "assignment2_custom_msgs_srvs/srv/detail/average_velocities__struct.h"
 
 #ifdef __cplusplus
 extern "C"

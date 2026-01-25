@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "rosidl_generator_type_description/assignment2_custom_msgs_srvs/msg/Obstacle.json"
   "rosidl_generator_type_description/assignment2_custom_msgs_srvs/srv/AverageVelocities.json"
   "rosidl_generator_type_description/assignment2_custom_msgs_srvs/srv/ChangeThreshold.json"
+  "rosidl_generator_type_description/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.json"
 )
 
 # Per-language clean rules from dependency scanning.

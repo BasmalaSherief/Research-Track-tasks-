@@ -14,6 +14,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
 set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_type_description/assignment2_custom_msgs_srvs/srv/AverageVelocities.json" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_type_description/assignment2_custom_msgs_srvs/msg/Obstacle.json"
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_type_description/assignment2_custom_msgs_srvs/srv/ChangeThreshold.json" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_type_description/assignment2_custom_msgs_srvs/msg/Obstacle.json"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_type_description/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.json" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_type_description/assignment2_custom_msgs_srvs/msg/Obstacle.json"
   )
 
 

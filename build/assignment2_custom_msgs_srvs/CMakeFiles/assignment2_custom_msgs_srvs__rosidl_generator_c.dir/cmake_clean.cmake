@@ -17,6 +17,12 @@ file(REMOVE_RECURSE
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__functions.c.o.d"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c.o"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c.o.d"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__description.c.o"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__description.c.o.d"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__functions.c.o"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__functions.c.o.d"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c.o"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c.o.d"
   "libassignment2_custom_msgs_srvs__rosidl_generator_c.pdb"
   "libassignment2_custom_msgs_srvs__rosidl_generator_c.so"
   "rosidl_generator_c/assignment2_custom_msgs_srvs/msg/detail/obstacle__description.c"
@@ -40,6 +46,13 @@ file(REMOVE_RECURSE
   "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__struct.h"
   "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c"
   "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.h"
+  "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__description.c"
+  "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__functions.c"
+  "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__functions.h"
+  "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__struct.h"
+  "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c"
+  "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.h"
+  "rosidl_generator_c/assignment2_custom_msgs_srvs/srv/modify_fixed_point.h"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,0 +1,331 @@
+[0.014s] Invoking command in '/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs -- -j20 -l20
+[0.062s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.105s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.233s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.238s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.268s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.289s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.739s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[0.862s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.050s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.052s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[1.377s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.393s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.407s] -- Added test 'lint_cmake' to check CMake code style
+[1.408s] -- Added test 'xmllint' to check XML markup files
+[1.411s] -- Configuring done (1.4s)
+[1.465s] -- Generating done (0.0s)
+[1.476s] -- Build files have been written to: /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs
+[1.532s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[1.550s] [  1%] Built target ament_cmake_python_copy_assignment2_custom_msgs_srvs
+[1.767s] running egg_info
+[1.781s] [  1%] Built target assignment2_custom_msgs_srvs__rosidl_generator_type_description
+[1.782s] writing assignment2_custom_msgs_srvs.egg-info/PKG-INFO
+[1.782s] writing dependency_links to assignment2_custom_msgs_srvs.egg-info/dependency_links.txt
+[1.782s] writing top-level names to assignment2_custom_msgs_srvs.egg-info/top_level.txt
+[1.796s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.807s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.835s] reading manifest file 'assignment2_custom_msgs_srvs.egg-info/SOURCES.txt'
+[1.836s] writing manifest file 'assignment2_custom_msgs_srvs.egg-info/SOURCES.txt'
+[1.869s] [  4%] Built target ament_cmake_python_build_assignment2_custom_msgs_srvs_egg
+[2.214s] [  4%] Built target assignment2_custom_msgs_srvs__cpp
+[2.301s] [  6%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/msg/detail/obstacle__description.c.o[0m
+[2.302s] [  7%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support.c.o[0m
+[2.302s] [ 10%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__functions.c.o[0m
+[2.303s] [ 10%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/msg/detail/obstacle__functions.c.o[0m
+[2.303s] [ 12%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__description.c.o[0m
+[2.304s] [ 14%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/average_velocities__description.c.o[0m
+[2.305s] [ 15%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__functions.c.o[0m
+[2.306s] [ 17%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c.o[0m
+[2.306s] [ 18%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/average_velocities__functions.c.o[0m
+[2.307s] [ 20%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.c.o[0m
+[2.308s] [ 23%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c.o[0m
+[2.308s] [ 23%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_c.dir/rosidl_generator_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__description.c.o[0m
+[2.442s] [ 25%] [32m[1mLinking C shared library libassignment2_custom_msgs_srvs__rosidl_generator_c.so[0m
+[2.508s] [ 25%] Built target assignment2_custom_msgs_srvs__rosidl_generator_c
+[2.529s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.529s] [ 29%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.530s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.530s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.532s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.533s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.943s] [ 39%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o[0m
+[2.943s] [ 39%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp.o[0m
+[2.943s] [ 39%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp.o[0m
+[2.945s] [ 40%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/average_velocities__type_support.cpp.o[0m
+[2.962s] [ 42%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o[0m
+[2.965s] [ 43%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp.o[0m
+[2.965s] [ 46%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp.o[0m
+[2.965s] [ 46%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/average_velocities__type_support.cpp.o[0m
+[3.042s] [ 48%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support.cpp.o[0m
+[3.043s] [ 50%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.cpp.o[0m
+[3.043s] [ 51%] [32m[1mLinking CXX shared library libassignment2_custom_msgs_srvs__rosidl_typesupport_c.so[0m
+[3.049s] [ 54%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.cpp.o[0m
+[3.049s] [ 54%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.cpp.o[0m
+[3.107s] [ 56%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.c.o[0m
+[3.108s] [ 59%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support.c.o[0m
+[3.108s] [ 59%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c.o[0m
+[3.109s] [ 60%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c.o[0m
+[3.117s] [ 60%] Built target assignment2_custom_msgs_srvs__rosidl_typesupport_c
+[3.195s] [ 62%] [32m[1mLinking C shared library libassignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.so[0m
+[3.253s] [ 62%] Built target assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c
+[3.300s] [ 64%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/average_velocities__type_support.cpp.o[0m
+[3.301s] [ 65%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/msg/detail/dds_fastrtps/obstacle__type_support.cpp.o[0m
+[3.301s] [ 67%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/change_threshold__type_support.cpp.o[0m
+[3.305s] [ 68%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/modify_fixed_point__type_support.cpp.o[0m
+[3.320s] [ 70%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support_c.cpp.o[0m
+[3.325s] [ 71%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support_c.cpp.o[0m
+[3.326s] [ 73%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support_c.cpp.o[0m
+[3.327s] [ 75%] [32mBuilding CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support_c.cpp.o[0m
+[3.959s] [ 76%] [32m[1mLinking CXX shared library libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so[0m
+[4.021s] [ 78%] [32m[1mLinking CXX shared library libassignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cpp.so[0m
+[4.119s] [ 78%] Built target assignment2_custom_msgs_srvs__rosidl_typesupport_cpp
+[4.183s] [ 78%] Built target assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cpp
+[4.351s] [ 81%] [32m[1mLinking CXX shared library libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.so[0m
+[4.351s] [ 81%] [32m[1mLinking CXX shared library libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.444s] [ 81%] Built target assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c
+[4.454s] [ 81%] Built target assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp
+[4.491s] [ 81%] Built target assignment2_custom_msgs_srvs
+[4.522s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.048s] [ 82%] Built target assignment2_custom_msgs_srvs__py
+[5.090s] [ 84%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_average_velocities_s.c.o[0m
+[5.090s] [ 85%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/msg/_obstacle_s.c.o[0m
+[5.094s] [ 87%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c.o[0m
+[5.094s] [ 89%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o[0m
+[5.296s] [ 90%] [32m[1mLinking C shared library libassignment2_custom_msgs_srvs__rosidl_generator_py.so[0m
+[5.367s] [ 90%] Built target assignment2_custom_msgs_srvs__rosidl_generator_py
+[5.414s] [ 92%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.415s] [ 95%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs_s__rosidl_typesupport_c.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_c.c.o[0m
+[5.415s] [ 95%] [32mBuilding C object CMakeFiles/assignment2_custom_msgs_srvs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.578s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_c.so[0m
+[5.579s] [100%] [32m[1mLinking C shared module rosidl_generator_py/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.so[0m
+[5.579s] [100%] [32m[1mLinking C shared module rosidl_generator_py/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_introspection_c.so[0m
+[5.620s] [100%] Built target assignment2_custom_msgs_srvs_s__rosidl_typesupport_c
+[5.620s] [100%] Built target assignment2_custom_msgs_srvs_s__rosidl_typesupport_introspection_c
+[5.621s] [100%] Built target assignment2_custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c
+[5.642s] Invoked command in '/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs -- -j20 -l20
+[5.654s] Invoking command in '/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs
+[5.663s] -- Install configuration: ""
+[5.664s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/ament_index/resource_index/rosidl_interfaces/assignment2_custom_msgs_srvs
+[5.664s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/msg/Obstacle.json
+[5.664s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/srv/AverageVelocities.json
+[5.665s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/srv/ChangeThreshold.json
+[5.665s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.json
+[5.665s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs
+[5.665s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv
+[5.665s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail
+[5.665s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__struct.h
+[5.666s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.h
+[5.666s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.h
+[5.666s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__functions.h
+[5.666s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.h
+[5.666s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__functions.c
+[5.666s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__functions.h
+[5.667s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__functions.c
+[5.667s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__struct.h
+[5.667s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__description.c
+[5.667s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c
+[5.667s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__functions.h
+[5.667s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__description.c
+[5.667s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__struct.h
+[5.667s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c
+[5.667s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__description.c
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__functions.c
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.c
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/modify_fixed_point.h
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/average_velocities.h
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/change_threshold.h
+[5.668s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg
+[5.668s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support.h
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support.c
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__functions.h
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__description.c
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__struct.h
+[5.668s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__functions.c
+[5.669s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/rosidl_generator_c__visibility_control.h
+[5.669s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/obstacle.h
+[5.669s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/environment/library_path.sh
+[5.669s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/environment/library_path.dsv
+[5.669s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_generator_c.so
+[5.669s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_generator_c.so" to ""
+[5.669s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs
+[5.669s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv
+[5.669s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail
+[5.669s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__rosidl_typesupport_fastrtps_c.h
+[5.669s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__rosidl_typesupport_fastrtps_c.h
+[5.669s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__rosidl_typesupport_fastrtps_c.h
+[5.669s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg
+[5.669s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail
+[5.670s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h
+[5.670s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[5.670s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.so
+[5.670s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.so" to ""
+[5.670s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs
+[5.670s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv
+[5.670s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail
+[5.670s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__rosidl_typesupport_introspection_c.h
+[5.670s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__rosidl_typesupport_introspection_c.h
+[5.670s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.c
+[5.670s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__rosidl_typesupport_introspection_c.h
+[5.670s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.c
+[5.670s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.c
+[5.670s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg
+[5.671s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail
+[5.671s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__rosidl_typesupport_introspection_c.h
+[5.671s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support.c
+[5.671s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[5.671s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.so
+[5.671s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_introspection_c.so" to ""
+[5.671s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_c.so
+[5.671s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_c.so" to ""
+[5.672s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs
+[5.672s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv
+[5.672s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/change_threshold.hpp
+[5.672s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail
+[5.672s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__builder.hpp
+[5.672s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__builder.hpp
+[5.672s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__struct.hpp
+[5.672s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__traits.hpp
+[5.672s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__traits.hpp
+[5.672s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__struct.hpp
+[5.672s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__traits.hpp
+[5.673s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__struct.hpp
+[5.673s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.hpp
+[5.673s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__builder.hpp
+[5.673s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.hpp
+[5.673s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.hpp
+[5.673s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/modify_fixed_point.hpp
+[5.673s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/average_velocities.hpp
+[5.673s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg
+[5.673s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail
+[5.673s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__traits.hpp
+[5.673s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__builder.hpp
+[5.674s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__struct.hpp
+[5.674s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support.hpp
+[5.674s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[5.674s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/obstacle.hpp
+[5.674s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs
+[5.674s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv
+[5.674s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail
+[5.674s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__rosidl_typesupport_fastrtps_cpp.hpp
+[5.674s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps
+[5.674s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__rosidl_typesupport_fastrtps_cpp.hpp
+[5.674s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__rosidl_typesupport_fastrtps_cpp.hpp
+[5.674s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg
+[5.674s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail
+[5.674s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/dds_fastrtps
+[5.675s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__rosidl_typesupport_fastrtps_cpp.hpp
+[5.675s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.675s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so
+[5.675s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[5.675s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs
+[5.676s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv
+[5.676s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail
+[5.676s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__rosidl_typesupport_introspection_cpp.hpp
+[5.676s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.cpp
+[5.676s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/change_threshold__rosidl_typesupport_introspection_cpp.hpp
+[5.676s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support.cpp
+[5.676s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__rosidl_typesupport_introspection_cpp.hpp
+[5.676s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.cpp
+[5.676s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg
+[5.676s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail
+[5.676s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__rosidl_typesupport_introspection_cpp.hpp
+[5.677s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support.cpp
+[5.677s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cpp.so
+[5.677s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cpp.so" to ""
+[5.678s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so
+[5.678s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so" to ""
+[5.679s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/environment/pythonpath.sh
+[5.679s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/environment/pythonpath.dsv
+[5.679s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs-0.0.0-py3.12.egg-info
+[5.679s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs-0.0.0-py3.12.egg-info/dependency_links.txt
+[5.679s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs-0.0.0-py3.12.egg-info/SOURCES.txt
+[5.679s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs-0.0.0-py3.12.egg-info/PKG-INFO
+[5.679s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs-0.0.0-py3.12.egg-info/top_level.txt
+[5.679s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs
+[5.679s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.679s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_c.so
+[5.679s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.so
+[5.679s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/_average_velocities.py
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/_average_velocities_s.c
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/_change_threshold.py
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/__init__.py
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/_modify_fixed_point.py
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_c.c
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_introspection_c.so
+[5.680s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/__init__.py
+[5.681s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/msg
+[5.681s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/msg/_obstacle.py
+[5.681s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/msg/_obstacle_s.c
+[5.681s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/msg/__init__.py
+[5.681s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[5.734s] Listing '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs'...
+[5.735s] Compiling '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/__init__.py'...
+[5.735s] Listing '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/msg'...
+[5.735s] Compiling '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/msg/__init__.py'...
+[5.735s] Compiling '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/msg/_obstacle.py'...
+[5.735s] Listing '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv'...
+[5.735s] Compiling '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/__init__.py'...
+[5.736s] Compiling '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/_average_velocities.py'...
+[5.736s] Compiling '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/_change_threshold.py'...
+[5.736s] Compiling '/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/srv/_modify_fixed_point.py'...
+[5.743s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.so
+[5.743s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[5.743s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_introspection_c.so
+[5.744s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_introspection_c.so" to ""
+[5.744s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_c.so
+[5.744s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs_s__rosidl_typesupport_c.so" to ""
+[5.744s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_generator_py.so
+[5.745s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/libassignment2_custom_msgs_srvs__rosidl_generator_py.so" to ""
+[5.745s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/msg/Obstacle.idl
+[5.745s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/srv/AverageVelocities.idl
+[5.746s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/srv/ChangeThreshold.idl
+[5.746s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.idl
+[5.747s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/msg/Obstacle.msg
+[5.747s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/srv/AverageVelocities.srv
+[5.747s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/srv/ChangeThreshold.srv
+[5.747s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.srv
+[5.747s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/ament_index/resource_index/package_run_dependencies/assignment2_custom_msgs_srvs
+[5.748s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/ament_index/resource_index/parent_prefix_path/assignment2_custom_msgs_srvs
+[5.748s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/environment/ament_prefix_path.sh
+[5.748s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/environment/ament_prefix_path.dsv
+[5.748s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/environment/path.sh
+[5.748s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/environment/path.dsv
+[5.748s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/local_setup.bash
+[5.749s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/local_setup.sh
+[5.749s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/local_setup.zsh
+[5.749s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/local_setup.dsv
+[5.749s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/package.dsv
+[5.749s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/ament_index/resource_index/packages/assignment2_custom_msgs_srvs
+[5.749s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/export_assignment2_custom_msgs_srvs__rosidl_generator_cExport.cmake
+[5.750s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/export_assignment2_custom_msgs_srvs__rosidl_generator_cExport-noconfig.cmake
+[5.750s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/export_assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.750s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/export_assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.750s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cExport.cmake
+[5.751s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.751s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvs__rosidl_typesupport_cExport.cmake
+[5.751s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[5.751s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/export_assignment2_custom_msgs_srvs__rosidl_generator_cppExport.cmake
+[5.751s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/export_assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.751s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/export_assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.752s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[5.752s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.752s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvs__rosidl_typesupport_cppExport.cmake
+[5.752s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.752s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/export_assignment2_custom_msgs_srvs__rosidl_generator_pyExport.cmake
+[5.752s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/export_assignment2_custom_msgs_srvs__rosidl_generator_pyExport-noconfig.cmake
+[5.753s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/rosidl_cmake-extras.cmake
+[5.753s] -- Installing: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.753s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.753s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.753s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[5.753s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.754s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.754s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvsConfig.cmake
+[5.754s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake/assignment2_custom_msgs_srvsConfig-version.cmake
+[5.754s] -- Up-to-date: /home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/package.xml
+[5.756s] Invoked command in '/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs

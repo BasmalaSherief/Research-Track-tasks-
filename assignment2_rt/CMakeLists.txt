@@ -9,6 +9,7 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(std_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(nav_msgs REQUIRED)
 find_package(assignment2_custom_msgs_srvs REQUIRED)
@@ -26,7 +27,7 @@ install(DIRECTORY launch
   DESTINATION share/${PROJECT_NAME}
 )
 
-ament_target_dependencies(Robot_Control rclcpp geometry_msgs sensor_msgs nav_msgs assignment2_custom_msgs_srvs)
+ament_target_dependencies(Robot_Control rclcpp std_msgs geometry_msgs sensor_msgs nav_msgs assignment2_custom_msgs_srvs)
 ament_target_dependencies(UI rclcpp geometry_msgs sensor_msgs assignment2_custom_msgs_srvs)
 
 if(BUILD_TESTING)

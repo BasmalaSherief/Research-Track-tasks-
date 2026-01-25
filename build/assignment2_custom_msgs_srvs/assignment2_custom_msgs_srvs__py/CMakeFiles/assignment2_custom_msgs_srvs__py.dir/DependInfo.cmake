@@ -22,6 +22,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_average_velocities_s.c" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold.py" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point.py" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/_assignment2_custom_msgs_srvs_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

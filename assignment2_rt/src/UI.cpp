@@ -5,6 +5,7 @@
 #include "geometry_msgs/msg/twist.hpp"
 #include "assignment2_custom_msgs_srvs/srv/change_threshold.hpp"
 #include "assignment2_custom_msgs_srvs/srv/average_velocities.hpp"
+#include "assignment2_custom_msgs_srvs/srv/modify_fixed_point.hpp"
 
 // UI Node for user interaction
 class UINode : public rclcpp::Node
@@ -18,6 +19,7 @@ public:
         // Service Clients
         change_threshold_client_ = this->create_client<assignment2_custom_msgs_srvs::srv::ChangeThreshold>("change_threshold");
         average_velocities_client_ = this->create_client<assignment2_custom_msgs_srvs::srv::AverageVelocities>("average_velocities");
+        modify_fixed_point_client_ = this->create_client<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint>("modify_fixed_point");
     }
 
     void main_loop()
@@ -32,7 +34,7 @@ public:
             // Print Menu
             std::cout << "\n--- Simple Robot UI ---\n";
             std::cout << "Controls: [w]Forward, [s]Backward, [a]Left, [d]Right, [x/Space]Stop\n";
-            std::cout << "Services: [t]Change Threshold, [v]Get Average Velocity\n";
+            std::cout << "Services: [t]Change Threshold, [v]Get Average Velocity, [f]Modify Fixed Point\n";
             std::cout << "Quit:     [q]\n";
             std::cout << "Current Velocity -> Lin: " << current_lin << ", Ang: " << current_ang << "\n";
             std::cout << "Enter command: ";
@@ -75,6 +77,9 @@ public:
             case 'v':
                 call_average_velocities();
                 break;
+            case 'f':
+                call_modify_fixed_point();
+                break;
             case 'q':
                 running = false;
                 break;
@@ -101,6 +106,7 @@ private:
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr des_vel_pub_;
     rclcpp::Client<assignment2_custom_msgs_srvs::srv::ChangeThreshold>::SharedPtr change_threshold_client_;
     rclcpp::Client<assignment2_custom_msgs_srvs::srv::AverageVelocities>::SharedPtr average_velocities_client_;
+    rclcpp::Client<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint>::SharedPtr modify_fixed_point_client_;
 
     void call_change_threshold()
     {
@@ -149,6 +155,38 @@ private:
         {
             auto result = result_future.get();
             std::cout << "Received Average -> Linear: " << result->avg_lin_vel << ", Angular: " << result->avg_ang_vel << "\n";
+        } 
+        else 
+        {
+            std::cout << "Failed to call service.\n";
+        }
+    }
+    void call_modify_fixed_point()
+    {
+        float new_x, new_y;
+        std::cout << "Enter new fixed point X: ";
+        std::cin >> new_x;
+        std::cout << "Enter new fixed point Y: ";
+        std::cin >> new_y;
+
+        auto request = std::make_shared<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint::Request>();
+        request->new_x = new_x;
+        request->new_y = new_y;
+
+        if (!modify_fixed_point_client_->wait_for_service(std::chrono::seconds(1))) 
+        {
+            RCLCPP_WARN(this->get_logger(), "Service 'modify_fixed_point' not available.");
+            return;
+        }
+
+        // Send request
+        auto result_future = modify_fixed_point_client_->async_send_request(request);
+        
+        // Wait for result
+        if (rclcpp::spin_until_future_complete(this->get_node_base_interface(), result_future) == 
+            rclcpp::FutureReturnCode::SUCCESS)
+        {
+            std::cout << "Fixed point updated successfully.\n";
         } 
         else 
         {

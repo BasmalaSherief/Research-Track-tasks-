@@ -6,3 +6,7 @@ from assignment2_custom_msgs_srvs.srv._change_threshold import ChangeThreshold  
 from assignment2_custom_msgs_srvs.srv._change_threshold import ChangeThreshold_Event  # noqa: F401
 from assignment2_custom_msgs_srvs.srv._change_threshold import ChangeThreshold_Request  # noqa: F401
 from assignment2_custom_msgs_srvs.srv._change_threshold import ChangeThreshold_Response  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._modify_fixed_point import ModifyFixedPoint  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._modify_fixed_point import ModifyFixedPoint_Event  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._modify_fixed_point import ModifyFixedPoint_Request  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._modify_fixed_point import ModifyFixedPoint_Response  # noqa: F401

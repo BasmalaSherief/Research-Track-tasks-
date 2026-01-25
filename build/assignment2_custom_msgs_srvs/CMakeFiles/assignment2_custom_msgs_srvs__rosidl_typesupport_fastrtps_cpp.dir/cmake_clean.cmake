@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/average_velocities__type_support.cpp.o.d"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/change_threshold__type_support.cpp.o"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/change_threshold__type_support.cpp.o.d"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/modify_fixed_point__type_support.cpp.o"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/modify_fixed_point__type_support.cpp.o.d"
   "libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.pdb"
   "libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_cpp.so"
   "rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/msg/detail/dds_fastrtps/obstacle__type_support.cpp"
@@ -13,6 +15,8 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/change_threshold__rosidl_typesupport_fastrtps_cpp.hpp"
   "rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/average_velocities__type_support.cpp"
   "rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/change_threshold__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/dds_fastrtps/modify_fixed_point__type_support.cpp"
+  "rosidl_typesupport_fastrtps_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__rosidl_typesupport_fastrtps_cpp.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

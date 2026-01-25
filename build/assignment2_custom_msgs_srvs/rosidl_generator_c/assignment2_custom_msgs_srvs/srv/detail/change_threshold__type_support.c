@@ -5,9 +5,9 @@
 #include <string.h>
 
 #include "assignment2_custom_msgs_srvs/srv/detail/change_threshold__functions.h"
-#include "assignment2_custom_msgs_srvs/srv/detail/change_threshold__struct.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "assignment2_custom_msgs_srvs/srv/detail/change_threshold__struct.h"
 
 #ifdef __cplusplus
 extern "C"

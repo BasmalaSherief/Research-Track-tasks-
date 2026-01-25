@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support_c.cpp.o.d"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support_c.cpp.o"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support_c.cpp.o.d"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support_c.cpp.o"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support_c.cpp.o.d"
   "libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.pdb"
   "libassignment2_custom_msgs_srvs__rosidl_typesupport_fastrtps_c.so"
   "rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/msg/detail/obstacle__rosidl_typesupport_fastrtps_c.h"
@@ -13,6 +15,8 @@ file(REMOVE_RECURSE
   "rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/average_velocities__type_support_c.cpp"
   "rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__rosidl_typesupport_fastrtps_c.h"
   "rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support_c.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

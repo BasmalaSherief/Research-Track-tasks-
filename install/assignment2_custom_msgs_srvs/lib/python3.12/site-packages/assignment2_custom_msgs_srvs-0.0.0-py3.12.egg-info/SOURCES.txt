@@ -9,3 +9,4 @@ assignment2_custom_msgs_srvs/msg/_obstacle.py
 assignment2_custom_msgs_srvs/srv/__init__.py
 assignment2_custom_msgs_srvs/srv/_average_velocities.py
 assignment2_custom_msgs_srvs/srv/_change_threshold.py
+assignment2_custom_msgs_srvs/srv/_modify_fixed_point.py

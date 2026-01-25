@@ -59,6 +59,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msgs_srvs/srv" TYPE FILE FILES "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_type_description/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/assignment2_custom_msgs_srvs/assignment2_custom_msgs_srvs" TYPE DIRECTORY FILES "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_c/assignment2_custom_msgs_srvs/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -383,6 +387,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msgs_srvs/srv" TYPE FILE FILES "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msgs_srvs/msg" TYPE FILE FILES "/home/basmala/ros2_ws/assignment2_custom_msgs_srvs/msg/Obstacle.msg")
 endif()
 
@@ -392,6 +400,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msgs_srvs/srv" TYPE FILE FILES "/home/basmala/ros2_ws/assignment2_custom_msgs_srvs/srv/ChangeThreshold.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/assignment2_custom_msgs_srvs/srv" TYPE FILE FILES "/home/basmala/ros2_ws/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.srv")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

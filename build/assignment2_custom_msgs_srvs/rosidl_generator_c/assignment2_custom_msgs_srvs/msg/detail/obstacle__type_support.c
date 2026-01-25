@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "assignment2_custom_msgs_srvs/msg/detail/obstacle__functions.h"
-#include "rosidl_typesupport_interface/macros.h"
 #include "assignment2_custom_msgs_srvs/msg/detail/obstacle__struct.h"
 #include "assignment2_custom_msgs_srvs/msg/detail/obstacle__type_support.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "assignment2_custom_msgs_srvs/msg/detail/obstacle__functions.h"
 
 #ifdef __cplusplus
 extern "C"

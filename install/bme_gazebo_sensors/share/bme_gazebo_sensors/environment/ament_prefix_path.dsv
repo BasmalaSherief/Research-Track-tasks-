@@ -1,1 +1,1 @@
-prepend-non-duplicate;AMENT_PREFIX_PATH;
+/home/basmala/ros2_ws/build/bme_gazebo_sensors/ament_cmake_environment_hooks/ament_prefix_path.dsv

@@ -5,7 +5,8 @@
   "idl_tuples": [
     "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs:msg/Obstacle.idl",
     "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs:srv/AverageVelocities.idl",
-    "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs:srv/ChangeThreshold.idl"
+    "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs:srv/ChangeThreshold.idl",
+    "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs:srv/ModifyFixedPoint.idl"
   ],
   "ros_interface_dependencies": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
@@ -24,6 +25,7 @@
     "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs/msg/Obstacle.idl",
     "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs/srv/AverageVelocities.idl",
     "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs/srv/ChangeThreshold.idl",
+    "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.idl",
     "/opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl",
     "/opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl"

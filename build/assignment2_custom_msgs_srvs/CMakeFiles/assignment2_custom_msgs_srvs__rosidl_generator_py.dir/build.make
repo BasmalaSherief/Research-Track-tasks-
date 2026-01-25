@@ -111,11 +111,26 @@ CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generato
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c -o CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c.s
 
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/flags.make
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o: rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o -MF CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o.d -o CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o -c /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c
+
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c > CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.i
+
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c -o CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.s
+
 # Object files for target assignment2_custom_msgs_srvs__rosidl_generator_py
 assignment2_custom_msgs_srvs__rosidl_generator_py_OBJECTS = \
 "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/msg/_obstacle_s.c.o" \
 "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_average_velocities_s.c.o" \
-"CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c.o"
+"CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c.o" \
+"CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o"
 
 # External object files for target assignment2_custom_msgs_srvs__rosidl_generator_py
 assignment2_custom_msgs_srvs__rosidl_generator_py_EXTERNAL_OBJECTS =
@@ -123,6 +138,7 @@ assignment2_custom_msgs_srvs__rosidl_generator_py_EXTERNAL_OBJECTS =
 libassignment2_custom_msgs_srvs__rosidl_generator_py.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/msg/_obstacle_s.c.o
 libassignment2_custom_msgs_srvs__rosidl_generator_py.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_average_velocities_s.c.o
 libassignment2_custom_msgs_srvs__rosidl_generator_py.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c.o
+libassignment2_custom_msgs_srvs__rosidl_generator_py.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c.o
 libassignment2_custom_msgs_srvs__rosidl_generator_py.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/build.make
 libassignment2_custom_msgs_srvs__rosidl_generator_py.so: libassignment2_custom_msgs_srvs__rosidl_typesupport_c.so
 libassignment2_custom_msgs_srvs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_fastrtps_c.so
@@ -153,7 +169,7 @@ libassignment2_custom_msgs_srvs__rosidl_generator_py.so: /opt/ros/jazzy/lib/libb
 libassignment2_custom_msgs_srvs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libassignment2_custom_msgs_srvs__rosidl_generator_py.so: /opt/ros/jazzy/lib/librcutils.so
 libassignment2_custom_msgs_srvs__rosidl_generator_py.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libassignment2_custom_msgs_srvs__rosidl_generator_py.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking C shared library libassignment2_custom_msgs_srvs__rosidl_generator_py.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment2_custom_msgs_srvs__rosidl_generator_py.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

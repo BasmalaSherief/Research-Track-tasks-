@@ -6,6 +6,7 @@
 #include <numeric>
 #include <cmath>
 #include "rclcpp/rclcpp.hpp"
+#include "std_msgs/msg/float32.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "geometry_msgs/msg/pose.hpp"
 #include "sensor_msgs/msg/laser_scan.hpp"
@@ -13,6 +14,7 @@
 #include "assignment2_custom_msgs_srvs/msg/obstacle.hpp"
 #include "assignment2_custom_msgs_srvs/srv/change_threshold.hpp"
 #include "assignment2_custom_msgs_srvs/srv/average_velocities.hpp"
+#include "assignment2_custom_msgs_srvs/srv/modify_fixed_point.hpp"
 
 using namespace std::chrono_literals;
 
@@ -27,6 +29,10 @@ public:
         // Publisher for custom obstacle message
         obstacle_publisher_ = this->create_publisher<assignment2_custom_msgs_srvs::msg::Obstacle>(
             "custom_obstacle_topic", 10);
+
+        // a publisher of the robot's distance to a fixed point in the environment
+        fixed_point_distance_publisher_ = this->create_publisher<std_msgs::msg::Float32>(
+            "fixed_point_distance", 10);
 
         // User input subscriber (desired velocity)
         des_vel_subscriber_ = this->create_subscription<geometry_msgs::msg::Twist>(
@@ -53,6 +59,11 @@ public:
             "average_velocities",
             std::bind(&RobotControlNode::averageVelocitiesCallback, this, std::placeholders::_1, std::placeholders::_2));
 
+        // Service: Modify Fixed Point 
+        modify_fixed_point_service_ = this->create_service<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint>(
+            "modify_fixed_point",
+            std::bind(&RobotControlNode::modifyFixedPointCallback, this, std::placeholders::_1, std::placeholders::_2));
+
         // Timer for control loop
         timer_ = this->create_wall_timer(
             100ms, std::bind(&RobotControlNode::timerCallback, this));
@@ -61,6 +72,12 @@ public:
     }
 
 private:
+    struct FixedPoint
+    {
+        double x;
+        double y;
+    } fixed_point_{10.0, 10.0};
+
     // Parameters
     double threshold_distance_ = 0.5;
     
@@ -79,11 +96,13 @@ private:
     // Interfaces
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_publisher_;
     rclcpp::Publisher<assignment2_custom_msgs_srvs::msg::Obstacle>::SharedPtr obstacle_publisher_;
+    rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr fixed_point_distance_publisher_;
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr des_vel_subscriber_;
     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr laser_scan_subscriber_;
     rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscriber_;
     rclcpp::Service<assignment2_custom_msgs_srvs::srv::ChangeThreshold>::SharedPtr change_threshold_service_;
     rclcpp::Service<assignment2_custom_msgs_srvs::srv::AverageVelocities>::SharedPtr average_velocities_service_;
+    rclcpp::Service<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint>::SharedPtr modify_fixed_point_service_;
     rclcpp::TimerBase::SharedPtr timer_;
 
     // --- Callbacks ---
@@ -185,6 +204,29 @@ private:
         response->avg_lin_vel = sum_lin / velocity_history_.size();
         response->avg_ang_vel = sum_ang / velocity_history_.size();
     }
+    void modifyFixedPointCallback(
+        const std::shared_ptr<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint::Request> request,
+        std::shared_ptr<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint::Response> response)
+    {
+        fixed_point_.x = request->new_x;
+        fixed_point_.y = request->new_y;
+        RCLCPP_INFO(this->get_logger(), "Service called: Fixed point updated to (%.2f, %.2f)", fixed_point_.x, fixed_point_.y);
+        response->changed = true;
+    }
+
+    void checkFixedPointDistance()
+    {
+        if (!pose_received_) return;
+
+        double dx = current_pose_.position.x - fixed_point_.x;
+        double dy = current_pose_.position.y - fixed_point_.y;
+        double distance = std::sqrt(dx * dx + dy * dy);
+
+        auto distance_msg = std_msgs::msg::Float32();
+        distance_msg.data = static_cast<float>(distance);
+        fixed_point_distance_publisher_->publish(distance_msg);
+        RCLCPP_INFO(this->get_logger(), "Distance to fixed point: %.2f", distance);
+    }
 
     void timerCallback()
     {
@@ -211,6 +253,7 @@ private:
         }
 
         cmd_vel_publisher_->publish(cmd);
+        checkFixedPointDistance();
     }
 };
 

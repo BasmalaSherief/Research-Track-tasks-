@@ -27,6 +27,11 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/change_threshold__struct.hpp" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/msg/obstacle.hpp"
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/change_threshold__traits.hpp" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/msg/obstacle.hpp"
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.hpp" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/msg/obstacle.hpp"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__builder.hpp" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/msg/obstacle.hpp"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__struct.hpp" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/msg/obstacle.hpp"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__traits.hpp" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/msg/obstacle.hpp"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.hpp" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/msg/obstacle.hpp"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point.hpp" "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_cpp/assignment2_custom_msgs_srvs/msg/obstacle.hpp"
   )
 
 

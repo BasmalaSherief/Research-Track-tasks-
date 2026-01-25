@@ -69,6 +69,7 @@ include CMakeFiles/assignment2_custom_msgs_srvs.dir/progress.make
 CMakeFiles/assignment2_custom_msgs_srvs: /home/basmala/ros2_ws/assignment2_custom_msgs_srvs/msg/Obstacle.msg
 CMakeFiles/assignment2_custom_msgs_srvs: /home/basmala/ros2_ws/assignment2_custom_msgs_srvs/srv/AverageVelocities.srv
 CMakeFiles/assignment2_custom_msgs_srvs: /home/basmala/ros2_ws/assignment2_custom_msgs_srvs/srv/ChangeThreshold.srv
+CMakeFiles/assignment2_custom_msgs_srvs: /home/basmala/ros2_ws/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.srv
 CMakeFiles/assignment2_custom_msgs_srvs: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 
 assignment2_custom_msgs_srvs: CMakeFiles/assignment2_custom_msgs_srvs

@@ -4,3 +4,5 @@ srv/AverageVelocities.idl
 srv/AverageVelocities.srv
 srv/ChangeThreshold.idl
 srv/ChangeThreshold.srv
+srv/ModifyFixedPoint.idl
+srv/ModifyFixedPoint.srv

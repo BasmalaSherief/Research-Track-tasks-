@@ -1,0 +1,69 @@
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/UI.cpp:[m[K In member function ‘[01m[Kvoid UINode::[01;32m[Kcall_modify_fixed_point[m[K()[m[K’:
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/UI.cpp:170:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knew_x[m[K’
+  170 |         request->[01;31m[Knew_x[m[K = new_x;
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/UI.cpp:171:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knew_y[m[K’
+  171 |         request->[01;31m[Knew_y[m[K = new_y;
+      |                  [01;31m[K^~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:99:38:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   99 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KFloat32[m[K>::SharedPtr fixed_point_distance_publisher_;
+      |                                      [01;31m[K^~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:99:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   99 |     rclcpp::Publisher<std_msgs::msg::Float32[01;31m[K>[m[K::SharedPtr fixed_point_distance_publisher_;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:99:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   99 |     rclcpp::Publisher<std_msgs::msg::Float32>::[01;31m[KSharedPtr[m[K fixed_point_distance_publisher_;
+      |                                                [01;31m[K^~~~~~~~~[m[K
+      |                                                         [32m[K;[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:99:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_point_distance_publisher_[m[K’ does not name a type
+   99 |     rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr [01;31m[Kfixed_point_distance_publisher_[m[K;
+      |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:[m[K In constructor ‘[01m[KRobotControlNode::[01;32m[KRobotControlNode[m[K()[m[K’:
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_point_distance_publisher_[m[K’ was not declared in this scope
+   34 |         [01;31m[Kfixed_point_distance_publisher_[m[K = this->create_publisher<std_msgs::msg::Float32>(
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:34:81:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   34 |         fixed_point_distance_publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KFloat32[m[K>(
+      |                                                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:34:89:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotControlNode::create_publisher<<expression error> >(const char [21], int)[m[K’
+   34 |         fixed_point_distance_publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>([m[K
+      |                                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   35 | [01;31m[K            "fixed_point_distance", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                  
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:8[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:34:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   34 |         fixed_point_distance_publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>([m[K
+      |                                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   35 | [01;31m[K            "fixed_point_distance", 10)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                  
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:[m[K In member function ‘[01m[Kvoid RobotControlNode::[01;32m[KmodifyFixedPointCallback[m[K(std::shared_ptr<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> > >, std::shared_ptr<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:211:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knew_x[m[K’
+  211 |         fixed_point_.x = request->[01;31m[Knew_x[m[K;
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:212:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knew_y[m[K’
+  212 |         fixed_point_.y = request->[01;31m[Knew_y[m[K;
+      |                                   [01;31m[K^~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:214:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+  214 |         response->[01;31m[Ksuccess[m[K = true;
+      |                   [01;31m[K^~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:[m[K In member function ‘[01m[Kvoid RobotControlNode::[01;32m[KcheckFixedPointDistance[m[K()[m[K’:
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:225:44:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  225 |         auto distance_msg = std_msgs::msg::[01;31m[KFloat32[m[K();
+      |                                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:227:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_point_distance_publisher_[m[K’ was not declared in this scope
+  227 |         [01;31m[Kfixed_point_distance_publisher_[m[K->publish(distance_msg);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/UI.dir/build.make:76: CMakeFiles/UI.dir/src/UI.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/UI.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/Robot_Control.dir/build.make:76: CMakeFiles/Robot_Control.dir/src/Robot_Control.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/Robot_Control.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

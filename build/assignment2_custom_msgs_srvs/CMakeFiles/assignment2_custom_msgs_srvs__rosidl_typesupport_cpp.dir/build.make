@@ -78,6 +78,7 @@ rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.c
 rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp: rosidl_adapter/assignment2_custom_msgs_srvs/msg/Obstacle.idl
 rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp: rosidl_adapter/assignment2_custom_msgs_srvs/srv/AverageVelocities.idl
 rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp: rosidl_adapter/assignment2_custom_msgs_srvs/srv/ChangeThreshold.idl
+rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp: rosidl_adapter/assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.idl
 rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp: /opt/ros/jazzy/share/service_msgs/msg/ServiceEventInfo.idl
 rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Duration.idl
 rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp: /opt/ros/jazzy/share/builtin_interfaces/msg/Time.idl
@@ -89,6 +90,9 @@ rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/average_velocities__type
 
 rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp: rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp
+
+rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp: rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp
 
 CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp.o: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/flags.make
 CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp.o: rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp
@@ -132,11 +136,26 @@ CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_types
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp -o CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp.s
 
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/flags.make
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o: rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o -MF CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o.d -o CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o -c /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp
+
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp > CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.i
+
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp -o CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.s
+
 # Object files for target assignment2_custom_msgs_srvs__rosidl_typesupport_cpp
 assignment2_custom_msgs_srvs__rosidl_typesupport_cpp_OBJECTS = \
 "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp.o" \
 "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/average_velocities__type_support.cpp.o" \
-"CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp.o"
+"CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp.o" \
+"CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o"
 
 # External object files for target assignment2_custom_msgs_srvs__rosidl_typesupport_cpp
 assignment2_custom_msgs_srvs__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
@@ -144,6 +163,7 @@ assignment2_custom_msgs_srvs__rosidl_typesupport_cpp_EXTERNAL_OBJECTS =
 libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp.o
 libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/average_velocities__type_support.cpp.o
 libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp.o
+libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o
 libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/build.make
 libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: libassignment2_custom_msgs_srvs__rosidl_generator_c.so
 libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/libservice_msgs__rosidl_typesupport_cpp.so
@@ -155,7 +175,7 @@ libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/l
 libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librosidl_runtime_c.so
 libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: /opt/ros/jazzy/lib/librcutils.so
 libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so: CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX shared library libassignment2_custom_msgs_srvs__rosidl_typesupport_cpp.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -169,6 +189,7 @@ CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/clean:
 CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp
 CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/average_velocities__type_support.cpp
 CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp
+CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp
 	cd /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/basmala/ros2_ws/assignment2_custom_msgs_srvs /home/basmala/ros2_ws/assignment2_custom_msgs_srvs /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs /home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_cpp.dir/depend
 

@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0184dd3aad862191dcbe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "turtlesim_custom_msgs__py",
+					"jsonFile" : "directory-turtlesim_custom_msgs__py-111ba03b75cbe9f2ebce.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/basmala/ros2_ws/build/turtlesim_custom_msgs/turtlesim_custom_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "turtlesim_custom_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_turtlesim_custom_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_turtlesim_custom_msgs_egg-bae8a15d6cddf6ec5a1d.json",
+					"name" : "ament_cmake_python_build_turtlesim_custom_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_turtlesim_custom_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_turtlesim_custom_msgs-5dd277a92fe449d47d05.json",
+					"name" : "ament_cmake_python_copy_turtlesim_custom_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs-c99d38285ad5db3514d7.json",
+					"name" : "turtlesim_custom_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__cpp-4ed5d0320d80bcfcd5bd.json",
+					"name" : "turtlesim_custom_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "turtlesim_custom_msgs__py::@1f1264418a26abeece80",
+					"jsonFile" : "target-turtlesim_custom_msgs__py-3444a888aef8772a8ea7.json",
+					"name" : "turtlesim_custom_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__rosidl_generator_c-c26f60a570ff9d0771ea.json",
+					"name" : "turtlesim_custom_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__rosidl_generator_py-3d54f0f51ebcf40179bd.json",
+					"name" : "turtlesim_custom_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__rosidl_generator_type_description-b4c9514807d5787c7193.json",
+					"name" : "turtlesim_custom_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__rosidl_typesupport_c-28c8fbc5a2326aa82623.json",
+					"name" : "turtlesim_custom_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__rosidl_typesupport_cpp-3475bae15886f019edc0.json",
+					"name" : "turtlesim_custom_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__rosidl_typesupport_fastrtps_c-fc3e05bdc6cdeafdf6b3.json",
+					"name" : "turtlesim_custom_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__rosidl_typesupport_fastrtps_cpp-6a23c80ed0051d902127.json",
+					"name" : "turtlesim_custom_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__rosidl_typesupport_introspection_c-20e5d506afeb63a3c4dd.json",
+					"name" : "turtlesim_custom_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs__rosidl_typesupport_introspection_cpp-a63dc9f1dc390e628bf2.json",
+					"name" : "turtlesim_custom_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs_s__rosidl_typesupport_c-9fcbb81c18ffe9b3cb8e.json",
+					"name" : "turtlesim_custom_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs_s__rosidl_typesupport_fastrtps_c-58e9e9fd4f30c14b116c.json",
+					"name" : "turtlesim_custom_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs_s__rosidl_typesupport_introspection_c-abe18a481670a22ff3af.json",
+					"name" : "turtlesim_custom_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "turtlesim_custom_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-turtlesim_custom_msgs_uninstall-0574abffa89182a2a1a4.json",
+					"name" : "turtlesim_custom_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a036984a964a95647cb2.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/basmala/ros2_ws/build/turtlesim_custom_msgs",
+		"source" : "/home/basmala/ros2_ws/turtlesim_custom_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

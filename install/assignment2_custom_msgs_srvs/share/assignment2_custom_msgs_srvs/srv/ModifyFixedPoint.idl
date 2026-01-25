@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from assignment2_custom_msgs_srvs/srv/ModifyFixedPoint.srv
+// generated code does not contain a copyright notice
+
+
+module assignment2_custom_msgs_srvs {
+  module srv {
+    struct ModifyFixedPoint_Request {
+      float new_x;
+
+      float new_y;
+    };
+    struct ModifyFixedPoint_Response {
+      boolean changed;
+    };
+  };
+};

@@ -5,11 +5,14 @@ file(REMOVE_RECURSE
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/average_velocities__type_support.cpp.o.d"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp.o"
   "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp.o.d"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o"
+  "CMakeFiles/assignment2_custom_msgs_srvs__rosidl_typesupport_c.dir/rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp.o.d"
   "libassignment2_custom_msgs_srvs__rosidl_typesupport_c.pdb"
   "libassignment2_custom_msgs_srvs__rosidl_typesupport_c.so"
   "rosidl_typesupport_c/assignment2_custom_msgs_srvs/msg/obstacle__type_support.cpp"
   "rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/average_velocities__type_support.cpp"
   "rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/change_threshold__type_support.cpp"
+  "rosidl_typesupport_c/assignment2_custom_msgs_srvs/srv/modify_fixed_point__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -16,6 +16,11 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/change_threshold__struct.hpp"
   "rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/change_threshold__traits.hpp"
   "rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/change_threshold__type_support.hpp"
+  "rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__builder.hpp"
+  "rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__struct.hpp"
+  "rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__traits.hpp"
+  "rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/detail/modify_fixed_point__type_support.hpp"
+  "rosidl_generator_cpp/assignment2_custom_msgs_srvs/srv/modify_fixed_point.hpp"
 )
 
 # Per-language clean rules from dependency scanning.

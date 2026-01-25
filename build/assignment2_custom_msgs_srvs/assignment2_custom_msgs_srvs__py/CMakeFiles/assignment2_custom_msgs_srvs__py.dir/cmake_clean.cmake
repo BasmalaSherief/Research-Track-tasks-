@@ -10,6 +10,8 @@ file(REMOVE_RECURSE
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_average_velocities_s.c"
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold.py"
   "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_change_threshold_s.c"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point.py"
+  "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_py/assignment2_custom_msgs_srvs/srv/_modify_fixed_point_s.c"
   "CMakeFiles/assignment2_custom_msgs_srvs__py"
 )
 

@@ -1,0 +1,100 @@
+[0.016s] Invoking command in '/home/basmala/ros2_ws/build/assignment2_rt': CMAKE_PREFIX_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:/home/basmala/ros2_ws/install/yahboom_rosmaster:/home/basmala/ros2_ws/install/yahboom_rosmaster_system_tests:/home/basmala/ros2_ws/install/yahboom_rosmaster_gazebo:/home/basmala/ros2_ws/install/yahboom_rosmaster_description:/home/basmala/ros2_ws/install/yahboom_rosmaster_bringup:/home/basmala/ros2_ws/install/turtlesim_controller:/home/basmala/ros2_ws/install/turtlesim_custom_msgs:/home/basmala/ros2_ws/install/mecanum_drive_controller:/home/basmala/ros2_ws/install/first_package_cpp:/home/basmala/ros2_ws/install/bme_gazebo_sensors:/home/basmala/ros2_ws/install/assignment2_rt:/home/basmala/ros2_ws/install/assignment1_rt:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib:/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib:/home/basmala/ros2_ws/install/mecanum_drive_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/first_package_python/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment2_rt -- -j20 -l20
+[0.056s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.331s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.363s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.370s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.385s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.404s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.480s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.482s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.636s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.671s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.693s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.717s] -- Found assignment2_custom_msgs_srvs: 0.0.0 (/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake)
+[0.739s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.860s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.861s] -- Configured cppcheck include dirs: 
+[0.861s] -- Configured cppcheck exclude dirs and/or files: 
+[0.861s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.861s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.861s] -- Added test 'lint_cmake' to check CMake code style
+[0.862s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.862s] -- Added test 'uncrustify' to check C / C++ code style
+[0.862s] -- Configured uncrustify additional arguments: 
+[0.863s] -- Added test 'xmllint' to check XML markup files
+[0.864s] -- Configuring done (0.8s)
+[0.880s] -- Generating done (0.0s)
+[0.885s] -- Build files have been written to: /home/basmala/ros2_ws/build/assignment2_rt
+[0.957s] [ 25%] [32mBuilding CXX object CMakeFiles/Robot_Control.dir/src/Robot_Control.cpp.o[0m
+[0.960s] [ 50%] [32mBuilding CXX object CMakeFiles/UI.dir/src/UI.cpp.o[0m
+[2.935s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/UI.cpp:[m[K In member function ‘[01m[Kvoid UINode::[01;32m[Kcall_modify_fixed_point[m[K()[m[K’:
+[2.935s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/UI.cpp:170:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knew_x[m[K’
+[2.935s]   170 |         request->[01;31m[Knew_x[m[K = new_x;
+[2.935s]       |                  [01;31m[K^~~~~[m[K
+[2.936s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/UI.cpp:171:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knew_y[m[K’
+[2.936s]   171 |         request->[01;31m[Knew_y[m[K = new_y;
+[2.936s]       |                  [01;31m[K^~~~~[m[K
+[2.997s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:99:38:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[2.997s]    99 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KFloat32[m[K>::SharedPtr fixed_point_distance_publisher_;
+[2.997s]       |                                      [01;31m[K^~~~~~~[m[K
+[2.997s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:99:45:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.998s]    99 |     rclcpp::Publisher<std_msgs::msg::Float32[01;31m[K>[m[K::SharedPtr fixed_point_distance_publisher_;
+[2.998s]       |                                             [01;31m[K^[m[K
+[2.998s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:99:48:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[2.999s]    99 |     rclcpp::Publisher<std_msgs::msg::Float32>::[01;31m[KSharedPtr[m[K fixed_point_distance_publisher_;
+[2.999s]       |                                                [01;31m[K^~~~~~~~~[m[K
+[2.999s]       |                                                         [32m[K;[m[K
+[3.005s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:99:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_point_distance_publisher_[m[K’ does not name a type
+[3.005s]    99 |     rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr [01;31m[Kfixed_point_distance_publisher_[m[K;
+[3.006s]       |                                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.099s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:[m[K In constructor ‘[01m[KRobotControlNode::[01;32m[KRobotControlNode[m[K()[m[K’:
+[3.099s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:34:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_point_distance_publisher_[m[K’ was not declared in this scope
+[3.099s]    34 |         [01;31m[Kfixed_point_distance_publisher_[m[K = this->create_publisher<std_msgs::msg::Float32>(
+[3.100s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.100s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:34:81:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[3.100s]    34 |         fixed_point_distance_publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KFloat32[m[K>(
+[3.100s]       |                                                                                 [01;31m[K^~~~~~~[m[K
+[3.100s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:34:89:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotControlNode::create_publisher<<expression error> >(const char [21], int)[m[K’
+[3.100s]    34 |         fixed_point_distance_publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>([m[K
+[3.100s]       |                                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.101s]    35 | [01;31m[K            "fixed_point_distance", 10)[m[K;
+[3.101s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                  
+[3.101s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K,
+[3.101s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.101s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[3.101s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[3.101s]                  from [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:8[m[K:
+[3.101s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::[01;32m[Kcreate_publisher[m[K(const std::string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[3.101s]    73 | [01;36m[KNode[m[K::create_publisher(
+[3.101s]       | [01;36m[K^~~~[m[K
+[3.101s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.101s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:34:89:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.101s]    34 |         fixed_point_distance_publisher_ = [01;31m[Kthis->create_publisher<std_msgs::msg::Float32>([m[K
+[3.101s]       |                                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.101s]    35 | [01;31m[K            "fixed_point_distance", 10)[m[K;
+[3.102s]       |             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                  
+[3.133s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:[m[K In member function ‘[01m[Kvoid RobotControlNode::[01;32m[KmodifyFixedPointCallback[m[K(std::shared_ptr<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> > >, std::shared_ptr<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Response_<std::allocator<void> > >)[m[K’:
+[3.133s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:211:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knew_x[m[K’
+[3.134s]   211 |         fixed_point_.x = request->[01;31m[Knew_x[m[K;
+[3.134s]       |                                   [01;31m[K^~~~~[m[K
+[3.134s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:212:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Request_<std::allocator<void> >[m[K’} has no member named ‘[01m[Knew_y[m[K’
+[3.134s]   212 |         fixed_point_.y = request->[01;31m[Knew_y[m[K;
+[3.134s]       |                                   [01;31m[K^~~~~[m[K
+[3.134s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:214:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Response_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::element_type = struct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct assignment2_custom_msgs_srvs::srv::ModifyFixedPoint_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ksuccess[m[K’
+[3.134s]   214 |         response->[01;31m[Ksuccess[m[K = true;
+[3.134s]       |                   [01;31m[K^~~~~~~[m[K
+[3.135s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:[m[K In member function ‘[01m[Kvoid RobotControlNode::[01;32m[KcheckFixedPointDistance[m[K()[m[K’:
+[3.135s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:225:44:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[3.135s]   225 |         auto distance_msg = std_msgs::msg::[01;31m[KFloat32[m[K();
+[3.135s]       |                                            [01;31m[K^~~~~~~[m[K
+[3.151s] [01m[K/home/basmala/ros2_ws/assignment2_rt/src/Robot_Control.cpp:227:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kfixed_point_distance_publisher_[m[K’ was not declared in this scope
+[3.152s]   227 |         [01;31m[Kfixed_point_distance_publisher_[m[K->publish(distance_msg);
+[3.152s]       |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.407s] gmake[2]: *** [CMakeFiles/UI.dir/build.make:76: CMakeFiles/UI.dir/src/UI.cpp.o] Error 1
+[4.407s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/UI.dir/all] Error 2
+[4.407s] gmake[1]: *** Waiting for unfinished jobs....
+[6.177s] gmake[2]: *** [CMakeFiles/Robot_Control.dir/build.make:76: CMakeFiles/Robot_Control.dir/src/Robot_Control.cpp.o] Error 1
+[6.177s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/Robot_Control.dir/all] Error 2
+[6.177s] gmake: *** [Makefile:146: all] Error 2
+[6.180s] Invoked command in '/home/basmala/ros2_ws/build/assignment2_rt' returned '2': CMAKE_PREFIX_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:/home/basmala/ros2_ws/install/yahboom_rosmaster:/home/basmala/ros2_ws/install/yahboom_rosmaster_system_tests:/home/basmala/ros2_ws/install/yahboom_rosmaster_gazebo:/home/basmala/ros2_ws/install/yahboom_rosmaster_description:/home/basmala/ros2_ws/install/yahboom_rosmaster_bringup:/home/basmala/ros2_ws/install/turtlesim_controller:/home/basmala/ros2_ws/install/turtlesim_custom_msgs:/home/basmala/ros2_ws/install/mecanum_drive_controller:/home/basmala/ros2_ws/install/first_package_cpp:/home/basmala/ros2_ws/install/bme_gazebo_sensors:/home/basmala/ros2_ws/install/assignment2_rt:/home/basmala/ros2_ws/install/assignment1_rt:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib:/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib:/home/basmala/ros2_ws/install/mecanum_drive_controller/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/first_package_python/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment2_rt -- -j20 -l20
