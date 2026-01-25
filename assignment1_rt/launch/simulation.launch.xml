@@ -4,12 +4,16 @@
 
     <!-- 2. Spawn Second Turtle -->
     <!-- Launching the Python script that spawns the second turtle -->
-    <node pkg="assignment1_rt" exec="turtle_spawn.py" name="turtle_spawner" output="screen" />
+    <node pkg="assignment1_rt" exec="turtle_spawn.py" name="turtle2_spawner" output="screen" />
 
-    <!-- 3. Run Distance Monitor -->
+    <!-- 3. Spawn Third Turtle -->
+    <!-- Launching the Python script that spawns the third turtle -->
+    <node pkg="assignment1_rt" exec="turtle_spawn.py" name="turtle3_spawner" output="screen" />
+
+    <!-- 4. Run Distance Monitor -->
     <node pkg="assignment1_rt" exec="DistanceControl" name="distance_monitor" output="screen" />
 
-    <!-- 4. Run UI Controller -->
+    <!-- 5. Run UI Controller -->
     <!-- Using launch-prefix to open in a new terminal because it requires user input -->
     <node pkg="assignment1_rt" exec="UI" name="ui_controller" output="screen" launch-prefix="x-terminal-emulator -e" />
 </launch>

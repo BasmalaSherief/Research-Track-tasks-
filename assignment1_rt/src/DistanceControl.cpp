@@ -16,6 +16,7 @@ public:
         pub_distance_ = this->create_publisher<std_msgs::msg::Float32>("turtle_distance", 10);
         pub_cmd_turtle1_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
         pub_cmd_turtle2_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle2/cmd_vel", 10);
+        pub_cmd_turtle3_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle3/cmd_vel", 10);
 
         sub_pose_t1_ = this->create_subscription<turtlesim::msg::Pose>(
             "/turtle1/pose", 10, std::bind(&DistanceMonitor::callback_turtle1, this, _1));
@@ -23,8 +24,13 @@ public:
         sub_pose_t2_ = this->create_subscription<turtlesim::msg::Pose>(
             "/turtle2/pose", 10, std::bind(&DistanceMonitor::callback_turtle2, this, _1));
 
+        sub_pose_t3_ = this->create_subscription<turtlesim::msg::Pose>(
+            "/turtle3/pose", 10, std::bind(&DistanceMonitor::callback_turtle3, this, _1));
+
         pose1_received_ = false;
         pose2_received_ = false;
+        pose3_received_ = false;
+
         // Initialize previous values to track movement direction
         prev_distance_ = 0.0;
         prev_x1_ = 5.5; 
@@ -35,17 +41,21 @@ public:
 private:
     turtlesim::msg::Pose pose1_;
     turtlesim::msg::Pose pose2_;
+    turtlesim::msg::Pose pose3_;
     bool pose1_received_;
     bool pose2_received_;
+    bool pose3_received_;
     float prev_distance_;
     float prev_x1_, prev_y1_;
 
     rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr pub_distance_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd_turtle1_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd_turtle2_;
+    rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd_turtle3_;
     
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t1_;
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t2_;
+    rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t3_;
 
     void callback_turtle1(const turtlesim::msg::Pose::SharedPtr msg)
     {
@@ -60,6 +70,11 @@ private:
         pose2_ = *msg;
         pose2_received_ = true;
         check_metrics();
+    }
+    void callback_turtle3(const turtlesim::msg::Pose::SharedPtr msg)
+    {
+        pose3_ = *msg;
+        pose3_received_ = true;
     }
     void check_metrics()
     {
@@ -107,6 +122,7 @@ private:
         stop_msg.angular.z = 0.0;
         pub_cmd_turtle1_->publish(stop_msg);
         pub_cmd_turtle2_->publish(stop_msg);
+        pub_cmd_turtle3_->publish(stop_msg);
     }
 };
 

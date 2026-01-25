@@ -13,6 +13,7 @@ class Turtle_Controller : public rclcpp :: Node
         {
             pub_turtle1_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
             pub_turtle2_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle2/cmd_vel", 10);
+            pub_turtle3_ = this->create_publisher<geometry_msgs::msg::Twist>("turtle3/cmd_vel", 10);
 
             RCLCPP_INFO(this -> get_logger(), "UI Node Started. Ready for input.");         
         }
@@ -32,6 +33,11 @@ class Turtle_Controller : public rclcpp :: Node
                 pub_turtle2_ -> publish(msg);
                 RCLCPP_INFO(this -> get_logger(), "Turtle 2 -> Lin: %.2f, Ang: %.2f", linear_x, angular_z);
             }
+            else if (turtle_id == 3) 
+            {
+                pub_turtle3_ -> publish(msg);
+                RCLCPP_INFO(this -> get_logger(), "Turtle 3 -> Lin: %.2f, Ang: %.2f", linear_x, angular_z);
+            }
             else 
             {
                 cout << "Invalid Turtle ID!" << endl;
@@ -43,6 +49,7 @@ class Turtle_Controller : public rclcpp :: Node
             msg.angular.z = 0.0;
             if (turtle_id == 1) pub_turtle1_->publish(msg);
             else if (turtle_id == 2) pub_turtle2_->publish(msg);
+            else if (turtle_id == 3) pub_turtle3_->publish(msg);
 
             RCLCPP_INFO(this->get_logger(), "Stopped.");
         }  
@@ -50,6 +57,7 @@ class Turtle_Controller : public rclcpp :: Node
     private:
         rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_turtle1_;
         rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_turtle2_;
+        rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_turtle3_;
 
 };
 
