@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "assignment2_custom_msgs_srvs/srv/ChangeThreshold_Request",
+      "fields": [
+        {
+          "name": "new_threshold",
+          "type": {
+            "type_id": 10,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "assignment2_custom_msgs_srvs/srv/ChangeThreshold_Request",
+      "hash_string": "RIHS01_f328a900ce70b6f7717fb839dff0309ba5e7f5a95229ef23f4690be0e69f0856"
+    }
+  ]
+}

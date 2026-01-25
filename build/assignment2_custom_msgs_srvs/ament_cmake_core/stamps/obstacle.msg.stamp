@@ -1,0 +1,3 @@
+float32 obstacle_distance
+string obstacle_direction
+float32 threshold

@@ -1,0 +1,24 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/UI.dir/src/UI.cpp.o[0m
+[ 75%] Built target Robot_Control
+[100%] [32m[1mLinking CXX executable UI[0m
+[100%] Built target UI
+-- Install configuration: ""
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/lib/assignment2_rt/Robot_Control
+-- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_rt/lib/assignment2_rt/Robot_Control" to ""
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/lib/assignment2_rt/UI
+-- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/assignment2_rt/lib/assignment2_rt/UI" to ""
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/ament_index/resource_index/package_run_dependencies/assignment2_rt
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/ament_index/resource_index/parent_prefix_path/assignment2_rt
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/environment/ament_prefix_path.sh
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/environment/ament_prefix_path.dsv
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/environment/path.sh
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/environment/path.dsv
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/local_setup.bash
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/local_setup.sh
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/local_setup.zsh
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/local_setup.dsv
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/package.dsv
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/ament_index/resource_index/packages/assignment2_rt
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/cmake/assignment2_rtConfig.cmake
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/cmake/assignment2_rtConfig-version.cmake
+-- Installing: /home/basmala/ros2_ws/install/assignment2_rt/share/assignment2_rt/package.xml

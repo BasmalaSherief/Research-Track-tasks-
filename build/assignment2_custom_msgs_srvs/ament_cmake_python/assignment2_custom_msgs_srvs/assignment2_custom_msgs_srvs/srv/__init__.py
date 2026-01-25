@@ -1,0 +1,8 @@
+from assignment2_custom_msgs_srvs.srv._average_velocities import AverageVelocities  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._average_velocities import AverageVelocities_Event  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._average_velocities import AverageVelocities_Request  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._average_velocities import AverageVelocities_Response  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._change_threshold import ChangeThreshold  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._change_threshold import ChangeThreshold_Event  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._change_threshold import ChangeThreshold_Request  # noqa: F401
+from assignment2_custom_msgs_srvs.srv._change_threshold import ChangeThreshold_Response  # noqa: F401

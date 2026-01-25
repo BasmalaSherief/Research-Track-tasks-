@@ -1,0 +1,13 @@
+{
+  "package_name": "assignment2_custom_msgs_srvs",
+  "output_dir": "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_generator_type_description/assignment2_custom_msgs_srvs",
+  "idl_tuples": [
+    "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs:msg/Obstacle.idl",
+    "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs:srv/AverageVelocities.idl",
+    "/home/basmala/ros2_ws/build/assignment2_custom_msgs_srvs/rosidl_adapter/assignment2_custom_msgs_srvs:srv/ChangeThreshold.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

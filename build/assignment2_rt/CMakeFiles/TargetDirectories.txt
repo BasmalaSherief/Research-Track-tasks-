@@ -1,0 +1,11 @@
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/uninstall.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/assignment2_rt_uninstall.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/Robot_Control.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/UI.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/test.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/edit_cache.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/rebuild_cache.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/list_install_components.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/install.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/install/local.dir
+/home/basmala/ros2_ws/build/assignment2_rt/CMakeFiles/install/strip.dir

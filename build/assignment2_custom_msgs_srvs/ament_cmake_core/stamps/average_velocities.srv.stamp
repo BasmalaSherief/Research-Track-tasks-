@@ -1,0 +1,5 @@
+float32 lin_vel_request[]
+float32 ang_vel_request[]
+---
+float32 avg_lin_vel
+float32 avg_ang_vel

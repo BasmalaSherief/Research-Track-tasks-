@@ -1,0 +1,59 @@
+[0.020s] Invoking command in '/home/basmala/ros2_ws/build/assignment2_rt': AMENT_PREFIX_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/basmala/ros2_ws/assignment2_rt -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/assignment2_rt
+[0.105s] -- The C compiler identification is GNU 13.3.0
+[0.201s] -- The CXX compiler identification is GNU 13.3.0
+[0.230s] -- Detecting C compiler ABI info
+[0.418s] -- Detecting C compiler ABI info - done
+[0.440s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.440s] -- Detecting C compile features
+[0.441s] -- Detecting C compile features - done
+[0.460s] -- Detecting CXX compiler ABI info
+[0.599s] -- Detecting CXX compiler ABI info - done
+[0.615s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.615s] -- Detecting CXX compile features
+[0.616s] -- Detecting CXX compile features - done
+[0.622s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.827s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.965s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.008s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.028s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.047s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.071s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.190s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.196s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.337s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.397s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.440s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.559s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.674s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.742s] -- Found assignment2_custom_msgs_srvs: 0.0.0 (/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/share/assignment2_custom_msgs_srvs/cmake)
+[1.779s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.870s] Error parsing '/home/basmala/ros2_ws/assignment2_rt/package.xml':
+[5.423s] Traceback (most recent call last):
+[5.423s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[5.423s]     main()
+[5.423s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[5.424s]     raise e
+[5.424s]   File "/opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[5.424s]     package = parse_package_string(
+[5.424s]               ^^^^^^^^^^^^^^^^^^^^^
+[5.424s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[5.424s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[5.424s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/basmala/ros2_ws/assignment2_rt/package.xml':
+[5.424s] Error(s):
+[5.425s] - The generic dependency on 'rclcpp' is redundant with: exec_depend
+[5.425s] - The generic dependency on 'geometry_msgs' is redundant with: exec_depend
+[5.425s] - The generic dependency on 'sensor_msgs' is redundant with: exec_depend
+[5.491s] [31mCMake Error at /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[5.491s]   execute_process(/usr/bin/python3
+[5.491s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[5.491s]   /home/basmala/ros2_ws/assignment2_rt/package.xml
+[5.491s]   /home/basmala/ros2_ws/build/assignment2_rt/ament_cmake_core/package.cmake)
+[5.492s]   returned error code 1
+[5.492s] Call Stack (most recent call first):
+[5.492s]   /opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[5.492s]   /opt/ros/jazzy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[5.492s]   CMakeLists.txt:36 (ament_lint_auto_find_test_dependencies)
+[5.492s] 
+[5.492s] [0m
+[5.492s] -- Configuring incomplete, errors occurred!
+[5.508s] Invoked command in '/home/basmala/ros2_ws/build/assignment2_rt' returned '1': AMENT_PREFIX_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/basmala/ros2_ws/assignment2_rt -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/assignment2_rt
