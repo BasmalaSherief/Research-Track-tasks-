@@ -36,14 +36,8 @@ public:
     {
         auto kill_request = std::make_shared<turtlesim::srv::Kill::Request>();
         kill_request->name = "turtle1";
-        const std::string service_name = kill_client_->get_service_name();
-        RCLCPP_INFO(this->get_logger(), "Attempting to connect to service: %s", service_name.c_str());
         while (!kill_client_->wait_for_service(std::chrono::seconds(1))) {
-            if (!rclcpp::ok()) {
-                RCLCPP_ERROR(this->get_logger(), "Interrupted while waiting for the service. Exiting.");
-                return;
-            }
-            RCLCPP_INFO(this->get_logger(), "Waiting for service: %s", service_name.c_str());
+            RCLCPP_INFO(this->get_logger(), "Waiting for kill service...");
         }
         kill_client_->async_send_request(kill_request);
 

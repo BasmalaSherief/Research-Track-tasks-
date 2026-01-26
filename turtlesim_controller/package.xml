@@ -4,23 +4,22 @@
   <name>turtlesim_controller</name>
   <version>0.0.0</version>
   <description>TODO: Package description</description>
-  <maintainer email="basmalasherief17@gmail.com">basmala</maintainer>
+  <maintainer email="root@todo.todo">root</maintainer>
   <license>TODO: License declaration</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
   <build_depend>rclcpp</build_depend>
   <build_depend>turtlesim</build_depend>
   <build_depend>geometry_msgs</build_depend>
-  <depend>turtlesim_custom_msgs</depend>
-  
-  <test_depend>ament_lint_auto</test_depend>
-  <test_depend>ament_lint_common</test_depend>
-
-  <!-- Run-time dependencies -->
+  <build_depend>turtlesim_custom_msgs</build_depend>
   <exec_depend>rclcpp</exec_depend>
   <exec_depend>turtlesim</exec_depend>
   <exec_depend>geometry_msgs</exec_depend>
-  
+  <exec_depend>assignment2_custom_msgs_srvs</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
   <export>
     <build_type>ament_cmake</build_type>
   </export>

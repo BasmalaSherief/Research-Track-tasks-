@@ -13,8 +13,10 @@ class VelocityServiceNode : public rclcpp::Node
 public:
     VelocityServiceNode() : Node("velocity_service_node")
     {
-        service_ = this->create_service<Velocity>("generate_velocity",
-            std::bind(&VelocityServiceNode::handle_service, this, std::placeholders::_1, std::placeholders::_2));
+        service_ = this->create_service<Velocity>(
+            "generate_velocity",
+            std::bind(&VelocityServiceNode::handle_service, this, std::placeholders::_1, std::placeholders::_2)
+        );
 
         rng_.seed(std::random_device()());
         RCLCPP_INFO(this->get_logger(), "Velocity service ready.");
