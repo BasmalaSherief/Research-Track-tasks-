@@ -2,6 +2,7 @@
 #include "turtlesim/msg/pose.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "std_msgs/msg/float32.hpp"
+#include "ass1_custom_msgs/msg/vel.hpp"
 #include <cmath>
 
 #define THRESHOLD 1.5
@@ -17,6 +18,9 @@ public:
         pub_cmd_turtle1_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle1/cmd_vel", 10);
         pub_cmd_turtle2_ = this->create_publisher<geometry_msgs::msg::Twist>("/turtle2/cmd_vel", 10);
 
+        pub_vel_turtle1_ = this->create_publisher<ass2_custom_msgs::msg::Vel>("turtle1_velocity", 10);
+        pub_vel_turtle2_ = this->create_publisher<ass2_custom_msgs::msg::Vel>("turtle2_velocity", 10);
+
         sub_pose_t1_ = this->create_subscription<turtlesim::msg::Pose>(
             "/turtle1/pose", 10, std::bind(&DistanceMonitor::callback_turtle1, this, _1));
             
@@ -29,7 +33,8 @@ public:
         prev_distance_ = 0.0;
         prev_x1_ = 5.5; 
         prev_y1_ = 5.5;
-
+        timer_ = this->create_wall_timer(
+            100ms, std::bind(&DistanceMonitor::timer_callback, this));
         RCLCPP_INFO(this->get_logger(), "Distance Monitor Node Started.");
     }
 private:
@@ -44,9 +49,12 @@ private:
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd_turtle1_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd_turtle2_;
     
+    rclcpp::Publisher<ass2_custom_msgs::msg::Vel>::SharedPtr pub_vel_turtle1_;
+    rclcpp::Publisher<ass2_custom_msgs::msg::Vel>::SharedPtr pub_vel_turtle2_;
+
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t1_;
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t2_;
-
+    rclcpp::TimerBase::SharedPtr timer_;
     void callback_turtle1(const turtlesim::msg::Pose::SharedPtr msg)
     {
         pose1_ = *msg;
@@ -107,6 +115,21 @@ private:
         stop_msg.angular.z = 0.0;
         pub_cmd_turtle1_->publish(stop_msg);
         pub_cmd_turtle2_->publish(stop_msg);
+    }
+    void timer_callback()
+    {
+        if (!pose1_received_ || !pose2_received_) return;
+        auto vel_msg_t1 = ass2_custom_msgs::msg::Vel();
+        vel_msg_t1.linear_velocity = static_cast<float>(pose1_.linear_velocity);
+        vel_msg_t1.angular_velocity = static_cast<float>(pose1_.angular_velocity);
+        pub_vel_turtle1_->publish(vel_msg_t1);  
+        auto vel_msg_t2 = ass2_custom_msgs::msg::Vel();
+        vel_msg_t2.linear_velocity = static_cast<float>(pose2_.linear_velocity);
+        vel_msg_t2.angular_velocity = static_cast<float>(pose2_.angular_velocity);
+        pub_vel_turtle2_->publish(vel_msg_t2);  
+        RCLCPP_INFO(this->get_logger(), "Published Velocities - Turtle1: Lin %.2f, Ang %.2f | Turtle2: Lin %.2f, Ang %.2f",
+                    vel_msg_t1.linear_velocity, vel_msg_t1.angular_velocity,
+                    vel_msg_t2.linear_velocity, vel_msg_t2.angular_velocity);
     }
 };
 

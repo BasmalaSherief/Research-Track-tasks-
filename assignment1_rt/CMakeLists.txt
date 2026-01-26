@@ -11,6 +11,7 @@ find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(turtlesim REQUIRED)
+find_package(ass1_custom_msgs REQUIRED)
 
 add_executable(UI src/UI.cpp)
 add_executable(DistanceControl src/DistanceControl.cpp)
@@ -32,7 +33,7 @@ install(DIRECTORY launch
 
 # Link the node with its dependencies
 ament_target_dependencies(UI rclcpp turtlesim geometry_msgs)
-ament_target_dependencies(DistanceControl rclcpp turtlesim geometry_msgs std_msgs)
+ament_target_dependencies(DistanceControl rclcpp turtlesim geometry_msgs std_msgs ass1_custom_msgs)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

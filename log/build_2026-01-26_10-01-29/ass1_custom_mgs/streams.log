@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/basmala/ros2_ws/build/ass1_custom_mgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/ass1_custom_mgs -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/ass1_custom_mgs
+[0.192s] -- The C compiler identification is GNU 13.3.0
+[0.381s] -- The CXX compiler identification is GNU 13.3.0
+[0.413s] -- Detecting C compiler ABI info
+[0.592s] -- Detecting C compiler ABI info - done
+[0.609s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.611s] -- Detecting C compile features
+[0.612s] -- Detecting C compile features - done
+[0.632s] -- Detecting CXX compiler ABI info
+[0.809s] -- Detecting CXX compiler ABI info - done
+[0.827s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.827s] -- Detecting CXX compile features
+[0.828s] -- Detecting CXX compile features - done
+[0.844s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.180s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.419s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.444s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.577s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.683s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.688s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[1.688s]   rosidl_generate_interfaces() the passed file 'msg/Vel.msg' doesn't exist
+[1.688s]   relative to the CMAKE_CURRENT_SOURCE_DIR
+[1.689s]   '/home/basmala/ros2_ws/ass1_custom_mgs'
+[1.689s] Call Stack (most recent call first):
+[1.689s]   CMakeLists.txt:15 (rosidl_generate_interfaces)
+[1.689s] 
+[1.689s] [0m
+[1.689s] -- Configuring incomplete, errors occurred!
+[1.698s] Invoked command in '/home/basmala/ros2_ws/build/ass1_custom_mgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/ass1_custom_mgs -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/ass1_custom_mgs

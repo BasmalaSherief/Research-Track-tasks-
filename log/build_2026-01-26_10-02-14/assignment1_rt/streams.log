@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/basmala/ros2_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/assignment1_rt -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/assignment1_rt
+[0.039s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.447s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.458s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.485s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.492s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.499s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.509s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.563s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.564s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.646s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.744s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.792s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[0.886s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.886s]   By not providing "Findass1_custom_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.886s]   project has asked CMake to find a package configuration file provided by
+[0.887s]   "ass1_custom_msgs", but CMake did not find one.
+[0.887s] 
+[0.887s]   Could not find a package configuration file provided by "ass1_custom_msgs"
+[0.887s]   with any of the following names:
+[0.887s] 
+[0.887s]     ass1_custom_msgsConfig.cmake
+[0.887s]     ass1_custom_msgs-config.cmake
+[0.887s] 
+[0.887s]   Add the installation prefix of "ass1_custom_msgs" to CMAKE_PREFIX_PATH or
+[0.887s]   set "ass1_custom_msgs_DIR" to a directory containing one of the above
+[0.887s]   files.  If "ass1_custom_msgs" provides a separate development package or
+[0.887s]   SDK, be sure it has been installed.
+[0.887s] 
+[0.887s] [0m
+[0.887s] -- Configuring incomplete, errors occurred!
+[0.895s] Invoked command in '/home/basmala/ros2_ws/build/assignment1_rt' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/assignment1_rt -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/assignment1_rt
