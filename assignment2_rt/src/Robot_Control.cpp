@@ -8,11 +8,13 @@
 #include "rclcpp/rclcpp.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "geometry_msgs/msg/pose.hpp"
+#include "geometry_msgs/msg/vector3.hpp"
 #include "sensor_msgs/msg/laser_scan.hpp"
 #include "nav_msgs/msg/odometry.hpp"
 #include "assignment2_custom_msgs_srvs/msg/obstacle.hpp"
 #include "assignment2_custom_msgs_srvs/srv/change_threshold.hpp"
 #include "assignment2_custom_msgs_srvs/srv/average_velocities.hpp"
+#include "assignment2_custom_msgs_srvs/srv/get_goal_stats.hpp"
 
 using namespace std::chrono_literals;
 
@@ -23,6 +25,9 @@ public:
     {
         // Publisher for velocity commands
         cmd_vel_publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+
+        // Publisher for Robot actual velocity in km/h
+        vel_kmh_publisher_ = this->create_publisher<geometry_msgs::msg::Vector3>("velocity_kmh", 10);
 
         // Publisher for custom obstacle message
         obstacle_publisher_ = this->create_publisher<assignment2_custom_msgs_srvs::msg::Obstacle>(
@@ -53,6 +58,11 @@ public:
             "average_velocities",
             std::bind(&RobotControlNode::averageVelocitiesCallback, this, std::placeholders::_1, std::placeholders::_2));
 
+        // Service: Get Goal Statistics
+        goal_stats_service_ = this->create_service<assignment2_custom_msgs_srvs::srv::GetGoalStats>(
+            "get_goal_stats",
+            std::bind(&RobotControlNode::getGoalStatsCallback, this, std::placeholders::_1, std::placeholders::_2));
+
         // Timer for control loop
         timer_ = this->create_wall_timer(
             100ms, std::bind(&RobotControlNode::timerCallback, this));
@@ -63,7 +73,10 @@ public:
 private:
     // Parameters
     double threshold_distance_ = 0.5;
-    
+
+    int goals_reached_ = 0;
+    int goals_cancelled_ = 0;
+
     // State
     geometry_msgs::msg::Twist current_des_vel_;
     geometry_msgs::msg::Pose current_pose_;
@@ -79,11 +92,13 @@ private:
     // Interfaces
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr cmd_vel_publisher_;
     rclcpp::Publisher<assignment2_custom_msgs_srvs::msg::Obstacle>::SharedPtr obstacle_publisher_;
+    rclcpp::Publisher<geometry_msgs::msg::Vector3>::SharedPtr vel_kmh_publisher_;
     rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr des_vel_subscriber_;
     rclcpp::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr laser_scan_subscriber_;
     rclcpp::Subscription<nav_msgs::msg::Odometry>::SharedPtr odom_subscriber_;
     rclcpp::Service<assignment2_custom_msgs_srvs::srv::ChangeThreshold>::SharedPtr change_threshold_service_;
     rclcpp::Service<assignment2_custom_msgs_srvs::srv::AverageVelocities>::SharedPtr average_velocities_service_;
+    rclcpp::Service<assignment2_custom_msgs_srvs::srv::GetGoalStats>::SharedPtr goal_stats_service_; 
     rclcpp::TimerBase::SharedPtr timer_;
 
     // --- Callbacks ---
@@ -109,6 +124,20 @@ private:
         {
             last_safe_pose_ = current_pose_;
         }
+
+        double vx_ms = msg->twist.twist.linear.x;
+        double vy_ms = msg->twist.twist.linear.y;
+
+        // Convert to km/h (1 m/s = 3.6 km/h)
+        double vx_kmh = vx_ms * 3.6;
+        double vy_kmh = vy_ms * 3.6;
+
+        // Publish
+        geometry_msgs::msg::Vector3 kmh_msg;
+        kmh_msg.x = vx_kmh;
+        kmh_msg.y = vy_kmh;
+        kmh_msg.z = 0.0;
+        vel_kmh_publisher_->publish(kmh_msg);
     }
 
     void laserScanCallback(const sensor_msgs::msg::LaserScan::SharedPtr msg)
@@ -184,6 +213,17 @@ private:
         
         response->avg_lin_vel = sum_lin / velocity_history_.size();
         response->avg_ang_vel = sum_ang / velocity_history_.size();
+    }
+
+    void getGoalStatsCallback(
+        const std::shared_ptr<assignment2_custom_msgs_srvs::srv::GetGoalStats::Request> /*request*/,
+        std::shared_ptr<assignment2_custom_msgs_srvs::srv::GetGoalStats::Response> response)
+    {
+        response->goals_reached = goals_reached_;
+        response->goals_cancelled = goals_cancelled_;
+        
+        RCLCPP_INFO(this->get_logger(), "Goal Stats Requested: %d Reached, %d Cancelled", 
+            goals_reached_, goals_cancelled_);
     }
 
     void timerCallback()

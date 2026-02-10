@@ -1,0 +1,4 @@
+
+---
+int32 goals_reached
+int32 goals_cancelled

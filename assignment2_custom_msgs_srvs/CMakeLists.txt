@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 "msg/Obstacle.msg"
 "srv/AverageVelocities.srv"
 "srv/ChangeThreshold.srv"
+"srv/GetGoalStats.srv"
 )
 
 if(BUILD_TESTING)
