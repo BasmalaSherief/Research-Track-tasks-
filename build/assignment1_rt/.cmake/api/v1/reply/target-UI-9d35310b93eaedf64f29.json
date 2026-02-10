@@ -1363,6 +1363,11 @@
 				"role" : "libraries"
 			},
 			{
+				"backtrace" : 102,
+				"fragment" : "-latomic",
+				"role" : "libraries"
+			},
+			{
 				"fragment" : "-Wl,-rpath-link,/opt/ros/jazzy/lib",
 				"role" : "libraries"
 			}

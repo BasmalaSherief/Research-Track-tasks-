@@ -1,0 +1,7 @@
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:[m[K In member function ‘[01m[Kvoid DistanceMonitor::[01;32m[Kcheck_metrics[m[K()[m[K’:
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kelse[m[K’ without a previous ‘[01m[Kif[m[K’
+   81 |         [01;31m[Kelse[m[K if ((pose1_.x > 10.0 && pose1_.x > prev_x1_) ||
+      |         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/DistanceControl.dir/build.make:76: CMakeFiles/DistanceControl.dir/src/DistanceControl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/DistanceControl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

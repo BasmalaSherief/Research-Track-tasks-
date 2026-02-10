@@ -1,0 +1,29 @@
+[0.019s] Invoking command in '/home/basmala/ros2_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment1_rt -- -j20 -l20
+[0.135s] [ 25%] [32mBuilding CXX object CMakeFiles/DistanceControl.dir/src/DistanceControl.cpp.o[0m
+[0.136s] [ 75%] Built target UI
+[6.987s] [100%] [32m[1mLinking CXX executable DistanceControl[0m
+[7.272s] [100%] Built target DistanceControl
+[7.285s] Invoked command in '/home/basmala/ros2_ws/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/assignment1_rt -- -j20 -l20
+[7.297s] Invoking command in '/home/basmala/ros2_ws/build/assignment1_rt': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/assignment1_rt
+[7.309s] -- Install configuration: ""
+[7.310s] -- Execute custom install script
+[7.310s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/lib/assignment1_rt/turtle_spawn.py
+[7.326s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/lib/assignment1_rt/UI
+[7.338s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/lib/assignment1_rt/DistanceControl
+[7.354s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/launch/simulation.launch.xml
+[7.371s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt
+[7.384s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt
+[7.397s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh
+[7.408s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv
+[7.420s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/environment/path.sh
+[7.434s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/environment/path.dsv
+[7.448s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/local_setup.bash
+[7.463s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/local_setup.sh
+[7.476s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/local_setup.zsh
+[7.488s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/local_setup.dsv
+[7.500s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/package.dsv
+[7.514s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt
+[7.529s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake
+[7.543s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake
+[7.558s] -- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/package.xml
+[7.574s] Invoked command in '/home/basmala/ros2_ws/build/assignment1_rt' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/assignment1_rt

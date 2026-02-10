@@ -1,5 +1,6 @@
 #include "rclcpp/rclcpp.hpp"
 #include "turtlesim/msg/pose.hpp"
+#include "turtlesim/srv/teleport_absolute.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "std_msgs/msg/float32.hpp"
 #include <cmath>
@@ -22,6 +23,9 @@ public:
             
         sub_pose_t2_ = this->create_subscription<turtlesim::msg::Pose>(
             "/turtle2/pose", 10, std::bind(&DistanceMonitor::callback_turtle2, this, _1));
+
+        // Service Client for Teleportation
+        client_teleport_ = this->create_client<turtlesim::srv::TeleportAbsolute>("/turtle1/teleport_absolute");
 
         pose1_received_ = false;
         pose2_received_ = false;
@@ -46,6 +50,8 @@ private:
     
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t1_;
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t2_;
+
+    rclcpp::Client<turtlesim::srv::TeleportAbsolute>::SharedPtr client_teleport_;
 
     void callback_turtle1(const turtlesim::msg::Pose::SharedPtr msg)
     {
@@ -74,31 +80,18 @@ private:
 
         if (current_distance < THRESHOLD && current_distance < prev_distance_) 
         {
-            RCLCPP_WARN(this->get_logger(), "Too Close! (Dist: %.2f) Stopping...", current_distance);
-            stop_turtles();
+            RCLCPP_WARN(this->get_logger(), "Collision Imminent! Teleporting...");
+            teleport_turtle_safe();
+        }
+        else if ((pose1_.x > 10.0 && pose1_.x > prev_x1_) ||
+                 (pose1_.x < 1.0 && pose1_.x < prev_x1_) ||
+                 (pose1_.y > 10.0 && pose1_.y > prev_y1_) ||
+                 (pose1_.y < 1.0 && pose1_.y < prev_y1_))
+        { 
+            RCLCPP_WARN(this->get_logger(), "Wall Collision Imminent! Teleporting...");
+            teleport_turtle_safe();
         }
         prev_distance_ = current_distance;
-
-        if (pose1_.x > 10.0 && pose1_.x > prev_x1_) 
-        { 
-            stop_turtles(); 
-            RCLCPP_WARN(this->get_logger(), "Hit Right Wall");
-        }
-        else if (pose1_.x < 1.0 && pose1_.x < prev_x1_) 
-        { 
-            stop_turtles(); 
-            RCLCPP_WARN(this->get_logger(), "Hit Left Wall");
-        }
-        else if (pose1_.y > 10.0 && pose1_.y > prev_y1_) 
-        { 
-            stop_turtles(); 
-            RCLCPP_WARN(this->get_logger(), "Hit Top Wall");
-        }
-        else if (pose1_.y < 1.0 && pose1_.y < prev_y1_) 
-        { 
-            stop_turtles(); 
-            RCLCPP_WARN(this->get_logger(), "Hit Bottom Wall");
-        }
     }
     void stop_turtles()
     {
@@ -107,6 +100,39 @@ private:
         stop_msg.angular.z = 0.0;
         pub_cmd_turtle1_->publish(stop_msg);
         pub_cmd_turtle2_->publish(stop_msg);
+    }
+    void teleport_turtle_safe()
+    {
+        if (!client_teleport_->service_is_ready()) 
+        {
+            RCLCPP_ERROR(this->get_logger(), "Teleport service not available.");
+            return;
+        }
+
+        float new_x, new_y;
+        bool valid_position = false;
+
+        while (!valid_position) 
+        {
+            new_x = 2.0 + static_cast<float>(rand()) / (static_cast<float>(RAND_MAX / (9.0 - 2.0)));
+            new_y = 2.0 + static_cast<float>(rand()) / (static_cast<float>(RAND_MAX / (9.0 - 2.0)));
+
+            float dist_to_t2 = std::sqrt(std::pow(new_x - pose2_.x, 2) + 
+                                         std::pow(new_y - pose2_.y, 2));
+
+            if (dist_to_t2 > 2.0) 
+            {
+                valid_position = true;
+            }
+        }
+
+        auto request = std::make_shared<turtlesim::srv::TeleportAbsolute::Request>();
+        request->x = new_x;
+        request->y = new_y;
+        request->theta = 0.0; 
+        
+        auto result_future = client_teleport_->async_send_request(request);
+        RCLCPP_INFO(this->get_logger(), "Teleported to safe spot: (%.2f, %.2f)", new_x, new_y);
     }
 };
 
