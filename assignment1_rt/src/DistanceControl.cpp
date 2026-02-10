@@ -2,9 +2,11 @@
 #include "turtlesim/msg/pose.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "std_msgs/msg/float32.hpp"
+#include "std_msgs/msg/float64_multi_array.hpp"
 #include <cmath>
 
 #define THRESHOLD 1.5
+#define OBSTACLE_SAFETY_DIST 1.0
 
 using namespace std::placeholders;
 
@@ -22,6 +24,9 @@ public:
             
         sub_pose_t2_ = this->create_subscription<turtlesim::msg::Pose>(
             "/turtle2/pose", 10, std::bind(&DistanceMonitor::callback_turtle2, this, _1));
+
+        sub_obstacles_ = this->create_subscription<std_msgs::msg::Float64MultiArray>(
+            "/obstacles", 10, std::bind(&DistanceMonitor::obstacle_callback, this, _1));
 
         pose1_received_ = false;
         pose2_received_ = false;
@@ -46,6 +51,7 @@ private:
     
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t1_;
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t2_;
+    rclcpp::Subscription<std_msgs::msg::Float64MultiArray>::SharedPtr sub_obstacles_;
 
     void callback_turtle1(const turtlesim::msg::Pose::SharedPtr msg)
     {
@@ -60,6 +66,25 @@ private:
         pose2_ = *msg;
         pose2_received_ = true;
         check_metrics();
+    }
+    void obstacle_callback(const std_msgs::msg::Float64MultiArray::SharedPtr msg)
+    {
+        bool danger = false;
+        
+        for (double distance : msg->data)
+        {
+            if (distance < OBSTACLE_SAFETY_DIST)
+            {
+                danger = true;
+                break; 
+            }
+        }
+
+        if (danger)
+        {
+            RCLCPP_WARN(this->get_logger(), "SENSOR ALERT: Obstacle too close! Emergency Stop.");
+            stop_turtles();
+        }
     }
     void check_metrics()
     {
