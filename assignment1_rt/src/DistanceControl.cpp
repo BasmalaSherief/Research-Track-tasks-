@@ -2,9 +2,9 @@
 #include "turtlesim/msg/pose.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "std_msgs/msg/float32.hpp"
+#include "assignment1_rt/srv/change_threshold.hpp"
 #include <cmath>
 
-#define THRESHOLD 1.5
 
 using namespace std::placeholders;
 
@@ -23,12 +23,18 @@ public:
         sub_pose_t2_ = this->create_subscription<turtlesim::msg::Pose>(
             "/turtle2/pose", 10, std::bind(&DistanceMonitor::callback_turtle2, this, _1));
 
+        change_threshold_service_ = this->create_service<assignment1_rt::srv::ChangeThreshold>(
+            "change_threshold",
+            std::bind(&DistanceMonitor::callback_change_threshold, this, std::placeholders::_1, std::placeholders::_2));
+ 
+
         pose1_received_ = false;
         pose2_received_ = false;
         // Initialize previous values to track movement direction
         prev_distance_ = 0.0;
         prev_x1_ = 5.5; 
         prev_y1_ = 5.5;
+        threshold_ = 1.5;
 
         RCLCPP_INFO(this->get_logger(), "Distance Monitor Node Started.");
     }
@@ -39,6 +45,7 @@ private:
     bool pose2_received_;
     float prev_distance_;
     float prev_x1_, prev_y1_;
+    float threshold_ ;
 
     rclcpp::Publisher<std_msgs::msg::Float32>::SharedPtr pub_distance_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr pub_cmd_turtle1_;
@@ -46,6 +53,8 @@ private:
     
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t1_;
     rclcpp::Subscription<turtlesim::msg::Pose>::SharedPtr sub_pose_t2_;
+
+    rclcpp::Service<assignment1_rt::srv::ChangeThreshold>::SharedPtr change_threshold_service_;    
 
     void callback_turtle1(const turtlesim::msg::Pose::SharedPtr msg)
     {
@@ -61,6 +70,25 @@ private:
         pose2_received_ = true;
         check_metrics();
     }
+
+    void callback_change_threshold(
+        const std::shared_ptr<assignment1_rt::srv::ChangeThreshold::Request> request,
+        std::shared_ptr<assignment1_rt::srv::ChangeThreshold::Response> response)
+    {
+        if(request->increaseORdecrease == 'increase')
+        {
+            threshold_ += request->value;
+
+        }
+        else if(request->increaseORdecrease == 'decrease')
+        {
+            threshold_ -= request->value;
+        }
+        
+        RCLCPP_INFO(this->get_logger(), "Service called: Threshold updated to %.2f", threshold_);
+        response->success = true;
+    }
+
     void check_metrics()
     {
         if (!pose1_received_ || !pose2_received_) return;
@@ -72,7 +100,7 @@ private:
         dist_msg.data = current_distance;
         pub_distance_->publish(dist_msg);
 
-        if (current_distance < THRESHOLD && current_distance < prev_distance_) 
+        if (current_distance < threshold_ && current_distance < prev_distance_) 
         {
             RCLCPP_WARN(this->get_logger(), "Too Close! (Dist: %.2f) Stopping...", current_distance);
             stop_turtles();

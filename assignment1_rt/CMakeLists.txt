@@ -11,9 +11,14 @@ find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(turtlesim REQUIRED)
+find_package(rosidl_default_generators REQUIRED)
 
 add_executable(UI src/UI.cpp)
 add_executable(DistanceControl src/DistanceControl.cpp)
+
+rosidl_generate_interfaces(${PROJECT_NAME}
+"srv/ChangeThreshold.srv"
+)
 
 install(PROGRAMS
   src/turtle_spawn.py
