@@ -1,0 +1,27 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/UI.dir/src/UI.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/DistanceControl.dir/src/DistanceControl.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable UI[0m
+[ 75%] Built target UI
+[100%] [32m[1mLinking CXX executable DistanceControl[0m
+[100%] Built target DistanceControl
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/lib/assignment1_rt/UI
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/lib/assignment1_rt/DistanceControl
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/launch/all.launch.py
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/launch/assignment1.launch.py
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/ament_index/resource_index/package_run_dependencies/assignment1_rt
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/ament_index/resource_index/parent_prefix_path/assignment1_rt
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.sh
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/environment/ament_prefix_path.dsv
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/environment/path.sh
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/environment/path.dsv
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/local_setup.bash
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/local_setup.sh
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/local_setup.zsh
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/local_setup.dsv
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/package.dsv
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/ament_index/resource_index/packages/assignment1_rt
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig.cmake
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/cmake/assignment1_rtConfig-version.cmake
+-- Symlinking: /home/basmala/ros2_ws/install/assignment1_rt/share/assignment1_rt/package.xml

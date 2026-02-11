@@ -55,6 +55,11 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
         # remove trailing slash
         string(SUBSTRING "${dir}" 0 ${offset} dir)
       endif()
+      
+      # Create destination directory.
+      # This does *not* solve the problem of empty directories WITHIN the install tree,
+      # but does make sure that the top-level directory specified by the caller gets created.
+      file(MAKE_DIRECTORY "${destination}")
 
       # glob recursive files
       set(relative_files "")
@@ -309,9 +314,6 @@ endfunction()
 message(STATUS "Execute custom install script")
 
 # begin of custom install code
-
-# install(PROGRAMS "src/turtle_spawn.py" "DESTINATION" "lib/assignment1_rt")
-ament_cmake_symlink_install_programs("/home/basmala/ros2_ws/assignment1_rt" PROGRAMS "src/turtle_spawn.py" "DESTINATION" "lib/assignment1_rt")
 
 # install("TARGETS" "UI" "DistanceControl" "DESTINATION" "lib/assignment1_rt")
 include("/home/basmala/ros2_ws/build/assignment1_rt/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")

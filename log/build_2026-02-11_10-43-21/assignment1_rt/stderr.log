@@ -1,0 +1,67 @@
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/UI.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/UI.cpp:59:29:[m[K [01;31m[Kerror: [m[K‘[01m[KTurtle_Controller[m[K’ was not declared in this scope
+   59 |     auto node = make_shared<[01;31m[KTurtle_Controller[m[K>();
+      |                             [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/UI.cpp:59:47:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+   59 |     auto node = [01;31m[Kmake_shared<Turtle_Controller>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/c++/13/memory:80[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+                 from [01m[K/home/basmala/ros2_ws/assignment1_rt/src/UI.cpp:1[m[K:
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+ 1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/UI.cpp:59:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   59 |     auto node = [01;31m[Kmake_shared<Turtle_Controller>()[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:[m[K In member function ‘[01m[Kvoid DistanceMonitor::[01;32m[Kcallback_robot1[m[K(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:56:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+   56 |         prev_x1_ = pose1_.[01;31m[Kx[m[K;
+      |                           [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:57:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+   57 |         prev_y1_ = pose1_.[01;31m[Ky[m[K;
+      |                           [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:[m[K In member function ‘[01m[Kvoid DistanceMonitor::[01;32m[Kcheck_metrics[m[K()[m[K’:
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:69:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+   69 |         float current_distance = std::sqrt(std::pow(pose1_.[01;31m[Kx[m[K - pose2_.x, 2) +
+      |                                                            [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:69:71:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+   69 |         float current_distance = std::sqrt(std::pow(pose1_.x - pose2_.[01;31m[Kx[m[K, 2) +
+      |                                                                       [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:70:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+   70 |                                    std::pow(pose1_.[01;31m[Ky[m[K - pose2_.y, 2));
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:70:63:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+   70 |                                    std::pow(pose1_.y - pose2_.[01;31m[Ky[m[K, 2));
+      |                                                               [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:83:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+   83 |         if (pose1_.[01;31m[Kx[m[K > 10.0 && pose1_.x > prev_x1_)
+      |                    [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:83:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+   83 |         if (pose1_.x > 10.0 && pose1_.[01;31m[Kx[m[K > prev_x1_)
+      |                                       [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:88:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+   88 |         else if (pose1_.[01;31m[Kx[m[K < 1.0 && pose1_.x < prev_x1_)
+      |                         [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:88:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kx[m[K’
+   88 |         else if (pose1_.x < 1.0 && pose1_.[01;31m[Kx[m[K < prev_x1_)
+      |                                           [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:93:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+   93 |         else if (pose1_.[01;31m[Ky[m[K > 10.0 && pose1_.y > prev_y1_)
+      |                         [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:93:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+   93 |         else if (pose1_.y > 10.0 && pose1_.[01;31m[Ky[m[K > prev_y1_)
+      |                                            [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:98:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+   98 |         else if (pose1_.[01;31m[Ky[m[K < 1.0 && pose1_.y < prev_y1_)
+      |                         [01;31m[K^[m[K
+[01m[K/home/basmala/ros2_ws/assignment1_rt/src/DistanceControl.cpp:98:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing nav_msgs::msg::Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Ky[m[K’
+   98 |         else if (pose1_.y < 1.0 && pose1_.[01;31m[Ky[m[K < prev_y1_)
+      |                                           [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/UI.dir/build.make:76: CMakeFiles/UI.dir/src/UI.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/UI.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/DistanceControl.dir/build.make:76: CMakeFiles/DistanceControl.dir/src/DistanceControl.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/DistanceControl.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
