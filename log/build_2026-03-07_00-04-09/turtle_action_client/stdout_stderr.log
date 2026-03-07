@@ -1,0 +1,23 @@
+running egg_info
+writing ../build/turtle_action_client/turtle_action_client.egg-info/PKG-INFO
+writing dependency_links to ../build/turtle_action_client/turtle_action_client.egg-info/dependency_links.txt
+writing entry points to ../build/turtle_action_client/turtle_action_client.egg-info/entry_points.txt
+writing requirements to ../build/turtle_action_client/turtle_action_client.egg-info/requires.txt
+writing top-level names to ../build/turtle_action_client/turtle_action_client.egg-info/top_level.txt
+reading manifest file '../build/turtle_action_client/turtle_action_client.egg-info/SOURCES.txt'
+writing manifest file '../build/turtle_action_client/turtle_action_client.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_action_client/complete_min_act_client.py -> /home/basmala/ros2_ws/build/turtle_action_client/build/lib/turtle_action_client
+running install
+running install_lib
+copying /home/basmala/ros2_ws/build/turtle_action_client/build/lib/turtle_action_client/complete_min_act_client.py -> /home/basmala/ros2_ws/install/turtle_action_client/lib/python3.12/site-packages/turtle_action_client
+byte-compiling /home/basmala/ros2_ws/install/turtle_action_client/lib/python3.12/site-packages/turtle_action_client/complete_min_act_client.py to complete_min_act_client.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/basmala/ros2_ws/install/turtle_action_client/lib/python3.12/site-packages/turtle_action_client-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/turtle_action_client/turtle_action_client.egg-info to /home/basmala/ros2_ws/install/turtle_action_client/lib/python3.12/site-packages/turtle_action_client-0.0.0-py3.12.egg-info
+running install_scripts
+Installing complete_min_act_client script to /home/basmala/ros2_ws/install/turtle_action_client/lib/turtle_action_client
+Installing minimal_action_client script to /home/basmala/ros2_ws/install/turtle_action_client/lib/turtle_action_client
+writing list of installed files to '/home/basmala/ros2_ws/build/turtle_action_client/install.log'
