@@ -1,0 +1,24 @@
+[0.012s] Invoking command in '/home/basmala/ros2_ws/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20
+[0.107s] [  8%] [32mBuilding CXX object CMakeFiles/sub_exe.dir/src/sub_component.cpp.o[0m
+[0.107s] [ 16%] [32mBuilding CXX object CMakeFiles/pub_exe.dir/src/pub_component.cpp.o[0m
+[0.116s] [ 33%] Built target sub
+[0.117s] [ 50%] Built target pub
+[0.117s] [ 66%] Built target pub_component
+[0.122s] [01m[K/home/basmala/ros2_ws/first_package_cpp/src/sub_component.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.122s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[0.123s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.123s] compilation terminated.
+[0.123s] [ 75%] [32mBuilding CXX object CMakeFiles/sub_component.dir/src/sub_component.cpp.o[0m
+[0.124s] [01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[0.124s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.124s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.124s] compilation terminated.
+[0.125s] gmake[2]: *** [CMakeFiles/sub_exe.dir/build.make:76: CMakeFiles/sub_exe.dir/src/sub_component.cpp.o] Error 1
+[0.126s] gmake[2]: *** [CMakeFiles/pub_exe.dir/build.make:76: CMakeFiles/pub_exe.dir/src/pub_component.cpp.o] Error 1
+[0.126s] gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/sub_exe.dir/all] Error 2
+[0.126s] gmake[1]: *** Waiting for unfinished jobs....
+[0.126s] gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/pub_exe.dir/all] Error 2
+[6.794s] [ 83%] [32m[1mLinking CXX shared library libsub_component.so[0m
+[7.156s] [ 83%] Built target sub_component
+[7.158s] gmake: *** [Makefile:146: all] Error 2
+[7.162s] Invoked command in '/home/basmala/ros2_ws/build/first_package_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20

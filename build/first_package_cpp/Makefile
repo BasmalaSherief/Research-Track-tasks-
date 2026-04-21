@@ -223,6 +223,143 @@ sub/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub.dir/build.make CMakeFiles/sub.dir/build
 .PHONY : sub/fast
 
+#=============================================================================
+# Target rules for targets named manual_composition
+
+# Build rule for target.
+manual_composition: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 manual_composition
+.PHONY : manual_composition
+
+# fast build rule for target.
+manual_composition/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manual_composition.dir/build.make CMakeFiles/manual_composition.dir/build
+.PHONY : manual_composition/fast
+
+#=============================================================================
+# Target rules for targets named pub_component
+
+# Build rule for target.
+pub_component: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pub_component
+.PHONY : pub_component
+
+# fast build rule for target.
+pub_component/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pub_component.dir/build.make CMakeFiles/pub_component.dir/build
+.PHONY : pub_component/fast
+
+#=============================================================================
+# Target rules for targets named sub_component
+
+# Build rule for target.
+sub_component: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sub_component
+.PHONY : sub_component
+
+# fast build rule for target.
+sub_component/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub_component.dir/build.make CMakeFiles/sub_component.dir/build
+.PHONY : sub_component/fast
+
+#=============================================================================
+# Target rules for targets named pub_exe
+
+# Build rule for target.
+pub_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pub_exe
+.PHONY : pub_exe
+
+# fast build rule for target.
+pub_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pub_exe.dir/build.make CMakeFiles/pub_exe.dir/build
+.PHONY : pub_exe/fast
+
+#=============================================================================
+# Target rules for targets named sub_exe
+
+# Build rule for target.
+sub_exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sub_exe
+.PHONY : sub_exe
+
+# fast build rule for target.
+sub_exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub_exe.dir/build.make CMakeFiles/sub_exe.dir/build
+.PHONY : sub_exe/fast
+
+rclcpp_components/node_main_pub_exe.o: rclcpp_components/node_main_pub_exe.cpp.o
+.PHONY : rclcpp_components/node_main_pub_exe.o
+
+# target to build an object file
+rclcpp_components/node_main_pub_exe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pub_exe.dir/build.make CMakeFiles/pub_exe.dir/rclcpp_components/node_main_pub_exe.cpp.o
+.PHONY : rclcpp_components/node_main_pub_exe.cpp.o
+
+rclcpp_components/node_main_pub_exe.i: rclcpp_components/node_main_pub_exe.cpp.i
+.PHONY : rclcpp_components/node_main_pub_exe.i
+
+# target to preprocess a source file
+rclcpp_components/node_main_pub_exe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pub_exe.dir/build.make CMakeFiles/pub_exe.dir/rclcpp_components/node_main_pub_exe.cpp.i
+.PHONY : rclcpp_components/node_main_pub_exe.cpp.i
+
+rclcpp_components/node_main_pub_exe.s: rclcpp_components/node_main_pub_exe.cpp.s
+.PHONY : rclcpp_components/node_main_pub_exe.s
+
+# target to generate assembly for a file
+rclcpp_components/node_main_pub_exe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pub_exe.dir/build.make CMakeFiles/pub_exe.dir/rclcpp_components/node_main_pub_exe.cpp.s
+.PHONY : rclcpp_components/node_main_pub_exe.cpp.s
+
+rclcpp_components/node_main_sub_exe.o: rclcpp_components/node_main_sub_exe.cpp.o
+.PHONY : rclcpp_components/node_main_sub_exe.o
+
+# target to build an object file
+rclcpp_components/node_main_sub_exe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub_exe.dir/build.make CMakeFiles/sub_exe.dir/rclcpp_components/node_main_sub_exe.cpp.o
+.PHONY : rclcpp_components/node_main_sub_exe.cpp.o
+
+rclcpp_components/node_main_sub_exe.i: rclcpp_components/node_main_sub_exe.cpp.i
+.PHONY : rclcpp_components/node_main_sub_exe.i
+
+# target to preprocess a source file
+rclcpp_components/node_main_sub_exe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub_exe.dir/build.make CMakeFiles/sub_exe.dir/rclcpp_components/node_main_sub_exe.cpp.i
+.PHONY : rclcpp_components/node_main_sub_exe.cpp.i
+
+rclcpp_components/node_main_sub_exe.s: rclcpp_components/node_main_sub_exe.cpp.s
+.PHONY : rclcpp_components/node_main_sub_exe.s
+
+# target to generate assembly for a file
+rclcpp_components/node_main_sub_exe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub_exe.dir/build.make CMakeFiles/sub_exe.dir/rclcpp_components/node_main_sub_exe.cpp.s
+.PHONY : rclcpp_components/node_main_sub_exe.cpp.s
+
+src/manual_composition.o: src/manual_composition.cpp.o
+.PHONY : src/manual_composition.o
+
+# target to build an object file
+src/manual_composition.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manual_composition.dir/build.make CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o
+.PHONY : src/manual_composition.cpp.o
+
+src/manual_composition.i: src/manual_composition.cpp.i
+.PHONY : src/manual_composition.i
+
+# target to preprocess a source file
+src/manual_composition.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manual_composition.dir/build.make CMakeFiles/manual_composition.dir/src/manual_composition.cpp.i
+.PHONY : src/manual_composition.cpp.i
+
+src/manual_composition.s: src/manual_composition.cpp.s
+.PHONY : src/manual_composition.s
+
+# target to generate assembly for a file
+src/manual_composition.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/manual_composition.dir/build.make CMakeFiles/manual_composition.dir/src/manual_composition.cpp.s
+.PHONY : src/manual_composition.cpp.s
+
 src/pub.o: src/pub.cpp.o
 .PHONY : src/pub.o
 
@@ -246,6 +383,30 @@ src/pub.s: src/pub.cpp.s
 src/pub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pub.dir/build.make CMakeFiles/pub.dir/src/pub.cpp.s
 .PHONY : src/pub.cpp.s
+
+src/pub_component.o: src/pub_component.cpp.o
+.PHONY : src/pub_component.o
+
+# target to build an object file
+src/pub_component.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pub_component.dir/build.make CMakeFiles/pub_component.dir/src/pub_component.cpp.o
+.PHONY : src/pub_component.cpp.o
+
+src/pub_component.i: src/pub_component.cpp.i
+.PHONY : src/pub_component.i
+
+# target to preprocess a source file
+src/pub_component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pub_component.dir/build.make CMakeFiles/pub_component.dir/src/pub_component.cpp.i
+.PHONY : src/pub_component.cpp.i
+
+src/pub_component.s: src/pub_component.cpp.s
+.PHONY : src/pub_component.s
+
+# target to generate assembly for a file
+src/pub_component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pub_component.dir/build.make CMakeFiles/pub_component.dir/src/pub_component.cpp.s
+.PHONY : src/pub_component.cpp.s
 
 src/sub.o: src/sub.cpp.o
 .PHONY : src/sub.o
@@ -271,6 +432,30 @@ src/sub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub.dir/build.make CMakeFiles/sub.dir/src/sub.cpp.s
 .PHONY : src/sub.cpp.s
 
+src/sub_component.o: src/sub_component.cpp.o
+.PHONY : src/sub_component.o
+
+# target to build an object file
+src/sub_component.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub_component.dir/build.make CMakeFiles/sub_component.dir/src/sub_component.cpp.o
+.PHONY : src/sub_component.cpp.o
+
+src/sub_component.i: src/sub_component.cpp.i
+.PHONY : src/sub_component.i
+
+# target to preprocess a source file
+src/sub_component.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub_component.dir/build.make CMakeFiles/sub_component.dir/src/sub_component.cpp.i
+.PHONY : src/sub_component.cpp.i
+
+src/sub_component.s: src/sub_component.cpp.s
+.PHONY : src/sub_component.s
+
+# target to generate assembly for a file
+src/sub_component.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sub_component.dir/build.make CMakeFiles/sub_component.dir/src/sub_component.cpp.s
+.PHONY : src/sub_component.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,14 +471,34 @@ help:
 	@echo "... test"
 	@echo "... first_package_cpp_uninstall"
 	@echo "... uninstall"
+	@echo "... manual_composition"
 	@echo "... pub"
+	@echo "... pub_component"
+	@echo "... pub_exe"
 	@echo "... sub"
+	@echo "... sub_component"
+	@echo "... sub_exe"
+	@echo "... rclcpp_components/node_main_pub_exe.o"
+	@echo "... rclcpp_components/node_main_pub_exe.i"
+	@echo "... rclcpp_components/node_main_pub_exe.s"
+	@echo "... rclcpp_components/node_main_sub_exe.o"
+	@echo "... rclcpp_components/node_main_sub_exe.i"
+	@echo "... rclcpp_components/node_main_sub_exe.s"
+	@echo "... src/manual_composition.o"
+	@echo "... src/manual_composition.i"
+	@echo "... src/manual_composition.s"
 	@echo "... src/pub.o"
 	@echo "... src/pub.i"
 	@echo "... src/pub.s"
+	@echo "... src/pub_component.o"
+	@echo "... src/pub_component.i"
+	@echo "... src/pub_component.s"
 	@echo "... src/sub.o"
 	@echo "... src/sub.i"
 	@echo "... src/sub.s"
+	@echo "... src/sub_component.o"
+	@echo "... src/sub_component.i"
+	@echo "... src/sub_component.s"
 .PHONY : help
 
 

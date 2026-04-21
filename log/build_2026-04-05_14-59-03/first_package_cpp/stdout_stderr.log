@@ -1,0 +1,13 @@
+[ 25%] Built target sub
+[ 37%] [32mBuilding CXX object CMakeFiles/sub_component.dir/src/sub_component.cpp.o[0m
+[ 62%] Built target pub
+[ 75%] [32mBuilding CXX object CMakeFiles/pub_component.dir/src/pub_component.cpp.o[0m
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:28:9:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   28 |         [01;31m[Kauto[m[K message = std::make_unique<std_msgs::msg::String>();
+      |         [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/pub_component.dir/build.make:76: CMakeFiles/pub_component.dir/src/pub_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/pub_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 87%] [32m[1mLinking CXX shared library libsub_component.so[0m
+[ 87%] Built target sub_component
+gmake: *** [Makefile:146: all] Error 2

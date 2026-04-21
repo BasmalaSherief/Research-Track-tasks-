@@ -1,0 +1,120 @@
+[0.000000] (-) TimerEvent: {}
+[0.000764] (-) JobUnselected: {'identifier': 'action_interfaces'}
+[0.000842] (-) JobUnselected: {'identifier': 'assignment1_rt'}
+[0.000929] (-) JobUnselected: {'identifier': 'assignment2_custom_msgs_srvs'}
+[0.000957] (-) JobUnselected: {'identifier': 'assignment2_rt'}
+[0.001317] (-) JobUnselected: {'identifier': 'bme_gazebo_sensors'}
+[0.001489] (-) JobUnselected: {'identifier': 'fibonacci'}
+[0.001514] (-) JobUnselected: {'identifier': 'first_package_python'}
+[0.001535] (-) JobUnselected: {'identifier': 'gazebo_differential_drive_robot'}
+[0.001566] (-) JobUnselected: {'identifier': 'mecanum_drive_controller'}
+[0.001830] (-) JobUnselected: {'identifier': 'turtle_action_client'}
+[0.001872] (-) JobUnselected: {'identifier': 'turtle_action_cpp'}
+[0.001934] (-) JobUnselected: {'identifier': 'turtlesim_controller'}
+[0.001963] (-) JobUnselected: {'identifier': 'turtlesim_custom_msgs'}
+[0.001987] (-) JobUnselected: {'identifier': 'yahboom_rosmaster'}
+[0.002064] (-) JobUnselected: {'identifier': 'yahboom_rosmaster_bringup'}
+[0.002086] (-) JobUnselected: {'identifier': 'yahboom_rosmaster_description'}
+[0.002107] (-) JobUnselected: {'identifier': 'yahboom_rosmaster_gazebo'}
+[0.002127] (-) JobUnselected: {'identifier': 'yahboom_rosmaster_system_tests'}
+[0.002155] (first_package_cpp) JobQueued: {'identifier': 'first_package_cpp', 'dependencies': OrderedDict()}
+[0.002194] (first_package_cpp) JobStarted: {'identifier': 'first_package_cpp'}
+[0.010653] (first_package_cpp) JobProgress: {'identifier': 'first_package_cpp', 'progress': 'cmake'}
+[0.011667] (first_package_cpp) JobProgress: {'identifier': 'first_package_cpp', 'progress': 'build'}
+[0.011755] (first_package_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/basmala/ros2_ws/build/first_package_cpp', '--', '-j20', '-l20'], 'cwd': '/home/basmala/ros2_ws/build/first_package_cpp', 'env': OrderedDict({'PYTHON_BASIC_REPL': '1', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'basmala', 'LC_TIME': 'ar_EG.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/basmala/ros2_ws/install/first_package_cpp/lib:/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib:/home/basmala/ros2_ws/install/mecanum_drive_controller/lib:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib:/home/basmala/ros2_ws/install/action_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/basmala', 'CHROME_DESKTOP': 'code.desktop', 'TERM_PROGRAM_VERSION': '1.108.2', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'LC_MONETARY': 'ar_EG.UTF-8', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '3352', 'BUNDLED_DEBUGPY_PATH': '/home/basmala/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/basmala/ros2_ws/install:/home/basmala/ros2_ws/src/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'basmala', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'basmala', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'FC_FONTATIONS': '1', 'PATH': '/home/basmala/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/basmala/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/basmala/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/basmala/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/scripts/noConfigScripts', 'SESSION_MANAGER': 'local/basmala-Victus-by-HP-Laptop-16-d1xxx:@/tmp/.ICE-unix/3296,unix/basmala-Victus-by-HP-Laptop-16-d1xxx:/tmp/.ICE-unix/3296', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'ar_EG.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/84087206_8675_40c0_8c24_922f8ef4cda9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'wayland', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/basmala/.vscode/extensions/ms-python.debugpy-2025.18.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-af7fd2ea1280fc9a.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'PYTHONSTARTUP': '/home/basmala/.config/Code/User/workspaceStorage/252af9e7590a177e2820818b062d5291/ms-python.python/pythonrc.py', 'LC_TELEPHONE': 'ar_EG.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.I9JFN3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2798b36409.sock', 'GNOME_TERMINAL_SERVICE': ':1.113', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/basmala/ros2_ws/install/yahboom_rosmaster:/home/basmala/ros2_ws/install/yahboom_rosmaster_system_tests:/home/basmala/ros2_ws/install/yahboom_rosmaster_gazebo:/home/basmala/ros2_ws/install/yahboom_rosmaster_description:/home/basmala/ros2_ws/install/yahboom_rosmaster_bringup:/home/basmala/ros2_ws/install/turtlesim_controller:/home/basmala/ros2_ws/install/turtlesim_custom_msgs:/home/basmala/ros2_ws/install/turtle_action_cpp:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/mecanum_drive_controller:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/first_package_cpp:/home/basmala/ros2_ws/install/fibonacci:/home/basmala/ros2_ws/install/bme_gazebo_sensors:/home/basmala/ros2_ws/install/assignment2_rt:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:/home/basmala/ros2_ws/install/assignment1_rt:/home/basmala/ros2_ws/install/action_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'ar_EG.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'ar_EG.UTF-8', 'LC_IDENTIFICATION': 'ar_EG.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/basmala/ros2_ws/build/first_package_cpp', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/turtle_action_client/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/first_package_python/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/fibonacci/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/action_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'ar_EG.UTF-8', 'LC_PAPER': 'ar_EG.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/basmala/ros2_ws/install/yahboom_rosmaster:/home/basmala/ros2_ws/install/yahboom_rosmaster_system_tests:/home/basmala/ros2_ws/install/yahboom_rosmaster_gazebo:/home/basmala/ros2_ws/install/yahboom_rosmaster_description:/home/basmala/ros2_ws/install/yahboom_rosmaster_bringup:/home/basmala/ros2_ws/install/turtlesim_controller:/home/basmala/ros2_ws/install/turtlesim_custom_msgs:/home/basmala/ros2_ws/install/turtle_action_cpp:/home/basmala/ros2_ws/install/mecanum_drive_controller:/home/basmala/ros2_ws/install/first_package_cpp:/home/basmala/ros2_ws/install/bme_gazebo_sensors:/home/basmala/ros2_ws/install/assignment2_rt:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:/home/basmala/ros2_ws/install/assignment1_rt:/home/basmala/ros2_ws/install/action_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy'}), 'shell': False}
+[0.099947] (-) TimerEvent: {}
+[0.108766] (first_package_cpp) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/sub_exe.dir/src/sub_component.cpp.o\x1b[0m\n'}
+[0.109587] (first_package_cpp) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/pub_exe.dir/src/pub_component.cpp.o\x1b[0m\n'}
+[0.118053] (first_package_cpp) StdoutLine: {'line': b'[ 33%] Built target sub\n'}
+[0.118600] (first_package_cpp) StdoutLine: {'line': b'[ 50%] Built target pub\n'}
+[0.118906] (first_package_cpp) StdoutLine: {'line': b'[ 66%] Built target pub_component\n'}
+[0.123786] (first_package_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basmala/ros2_ws/first_package_cpp/src/sub_component.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[0.124294] (first_package_cpp) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K<rclcpp/rclcpp.hpp>\x1b[m\x1b[K\n'}
+[0.124553] (first_package_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.124792] (first_package_cpp) StderrLine: {'line': b'compilation terminated.\n'}
+[0.125314] (first_package_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/sub_component.dir/src/sub_component.cpp.o\x1b[0m\n'}
+[0.125591] (first_package_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:1:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Krclcpp/rclcpp.hpp: No such file or directory\n'}
+[0.125829] (first_package_cpp) StderrLine: {'line': b'    1 | #include \x1b[01;31m\x1b[K"rclcpp/rclcpp.hpp"\x1b[m\x1b[K\n'}
+[0.126034] (first_package_cpp) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[0.126243] (first_package_cpp) StderrLine: {'line': b'compilation terminated.\n'}
+[0.127366] (first_package_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sub_exe.dir/build.make:76: CMakeFiles/sub_exe.dir/src/sub_component.cpp.o] Error 1\n'}
+[0.127682] (first_package_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/pub_exe.dir/build.make:76: CMakeFiles/pub_exe.dir/src/pub_component.cpp.o] Error 1\n'}
+[0.128008] (first_package_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/sub_exe.dir/all] Error 2\n'}
+[0.128208] (first_package_cpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.128386] (first_package_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/pub_exe.dir/all] Error 2\n'}
+[0.200096] (-) TimerEvent: {}
+[0.300762] (-) TimerEvent: {}
+[0.401122] (-) TimerEvent: {}
+[0.501576] (-) TimerEvent: {}
+[0.602126] (-) TimerEvent: {}
+[0.702647] (-) TimerEvent: {}
+[0.803210] (-) TimerEvent: {}
+[0.903800] (-) TimerEvent: {}
+[1.004153] (-) TimerEvent: {}
+[1.104647] (-) TimerEvent: {}
+[1.205100] (-) TimerEvent: {}
+[1.305494] (-) TimerEvent: {}
+[1.405918] (-) TimerEvent: {}
+[1.506334] (-) TimerEvent: {}
+[1.606930] (-) TimerEvent: {}
+[1.707456] (-) TimerEvent: {}
+[1.808199] (-) TimerEvent: {}
+[1.908573] (-) TimerEvent: {}
+[2.009093] (-) TimerEvent: {}
+[2.109504] (-) TimerEvent: {}
+[2.210180] (-) TimerEvent: {}
+[2.310487] (-) TimerEvent: {}
+[2.410974] (-) TimerEvent: {}
+[2.511265] (-) TimerEvent: {}
+[2.611806] (-) TimerEvent: {}
+[2.712365] (-) TimerEvent: {}
+[2.813100] (-) TimerEvent: {}
+[2.913453] (-) TimerEvent: {}
+[3.013818] (-) TimerEvent: {}
+[3.114206] (-) TimerEvent: {}
+[3.214582] (-) TimerEvent: {}
+[3.315036] (-) TimerEvent: {}
+[3.415535] (-) TimerEvent: {}
+[3.516028] (-) TimerEvent: {}
+[3.616541] (-) TimerEvent: {}
+[3.717138] (-) TimerEvent: {}
+[3.817547] (-) TimerEvent: {}
+[3.918127] (-) TimerEvent: {}
+[4.018629] (-) TimerEvent: {}
+[4.119320] (-) TimerEvent: {}
+[4.219645] (-) TimerEvent: {}
+[4.320040] (-) TimerEvent: {}
+[4.420406] (-) TimerEvent: {}
+[4.520798] (-) TimerEvent: {}
+[4.621247] (-) TimerEvent: {}
+[4.721554] (-) TimerEvent: {}
+[4.821894] (-) TimerEvent: {}
+[4.922348] (-) TimerEvent: {}
+[5.022808] (-) TimerEvent: {}
+[5.123206] (-) TimerEvent: {}
+[5.223612] (-) TimerEvent: {}
+[5.323980] (-) TimerEvent: {}
+[5.424440] (-) TimerEvent: {}
+[5.524877] (-) TimerEvent: {}
+[5.625229] (-) TimerEvent: {}
+[5.725613] (-) TimerEvent: {}
+[5.826041] (-) TimerEvent: {}
+[5.926356] (-) TimerEvent: {}
+[6.026735] (-) TimerEvent: {}
+[6.127095] (-) TimerEvent: {}
+[6.227442] (-) TimerEvent: {}
+[6.327825] (-) TimerEvent: {}
+[6.428372] (-) TimerEvent: {}
+[6.528801] (-) TimerEvent: {}
+[6.629195] (-) TimerEvent: {}
+[6.729661] (-) TimerEvent: {}
+[6.795933] (first_package_cpp) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX shared library libsub_component.so\x1b[0m\n'}
+[6.829871] (-) TimerEvent: {}
+[6.930280] (-) TimerEvent: {}
+[7.030675] (-) TimerEvent: {}
+[7.131012] (-) TimerEvent: {}
+[7.158206] (first_package_cpp) StdoutLine: {'line': b'[ 83%] Built target sub_component\n'}
+[7.160180] (first_package_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.163416] (first_package_cpp) CommandEnded: {'returncode': 2}
+[7.182340] (first_package_cpp) JobEnded: {'identifier': 'first_package_cpp', 'rc': 2}
+[7.193186] (-) EventReactorShutdown: {}

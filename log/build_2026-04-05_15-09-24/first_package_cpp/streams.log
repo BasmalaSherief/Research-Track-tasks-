@@ -1,0 +1,50 @@
+[0.011s] Invoking command in '/home/basmala/ros2_ws/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20
+[0.062s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.431s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.438s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.461s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.467s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.476s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.485s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.535s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.601s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.679s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.689s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.715s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.860s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.861s] -- Configured cppcheck include dirs: 
+[0.861s] -- Configured cppcheck exclude dirs and/or files: 
+[0.861s] -- Added test 'lint_cmake' to check CMake code style
+[0.862s] -- Added test 'uncrustify' to check C / C++ code style
+[0.862s] -- Configured uncrustify additional arguments: 
+[0.863s] -- Added test 'xmllint' to check XML markup files
+[0.865s] -- Configuring done (0.8s)
+[0.895s] -- Generating done (0.0s)
+[0.907s] -- Build files have been written to: /home/basmala/ros2_ws/build/first_package_cpp
+[0.993s] [ 12%] [32mBuilding CXX object CMakeFiles/sub.dir/src/sub.cpp.o[0m
+[0.993s] [ 25%] [32mBuilding CXX object CMakeFiles/pub.dir/src/pub.cpp.o[0m
+[0.995s] [ 50%] [32mBuilding CXX object CMakeFiles/pub_component.dir/src/pub_component.cpp.o[0m
+[0.995s] [ 50%] [32mBuilding CXX object CMakeFiles/sub_component.dir/src/sub_component.cpp.o[0m
+[3.326s] [01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:29:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::make_unique[m[K’ in namespace ‘[01m[Kstd[m[K’ does not name a template type
+[3.326s]    29 |         std::[01;31m[Kmake_unique<std_msgs::msg::String>[m[K message;
+[3.326s]       |              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.341s] [01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:[m[K In constructor ‘[01m[Kfirst_package_cpp::MinimalPublisher::[01;32m[KMinimalPublisher[m[K(const rclcpp::NodeOptions&)[m[K’:
+[3.341s] [01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:15:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[3.341s]    15 |             [01;31m[Kmessage[m[K = std::make_unique<std_msgs::msg::String>();
+[3.342s]       |             [01;31m[K^~~~~~~[m[K
+[3.361s] [01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:[m[K In member function ‘[01m[Kvoid first_package_cpp::MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[3.361s] [01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:22:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope
+[3.362s]    22 |             [01;31m[Kmessage[m[K.data = "Hello, world! " + std::to_string(count_++);
+[3.362s]       |             [01;31m[K^~~~~~~[m[K
+[4.416s] gmake[2]: *** [CMakeFiles/pub_component.dir/build.make:76: CMakeFiles/pub_component.dir/src/pub_component.cpp.o] Error 1
+[4.417s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/pub_component.dir/all] Error 2
+[4.417s] gmake[1]: *** Waiting for unfinished jobs....
+[5.426s] [ 62%] [32m[1mLinking CXX executable pub[0m
+[5.600s] [ 62%] Built target pub
+[8.117s] [ 75%] [32m[1mLinking CXX executable sub[0m
+[8.248s] [ 87%] [32m[1mLinking CXX shared library libsub_component.so[0m
+[8.339s] [ 87%] Built target sub
+[8.495s] [ 87%] Built target sub_component
+[8.497s] gmake: *** [Makefile:146: all] Error 2
+[8.499s] Invoked command in '/home/basmala/ros2_ws/build/first_package_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20

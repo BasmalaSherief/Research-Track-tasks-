@@ -55,6 +55,11 @@ function(ament_cmake_symlink_install_directory cmake_current_source_dir)
         # remove trailing slash
         string(SUBSTRING "${dir}" 0 ${offset} dir)
       endif()
+      
+      # Create destination directory.
+      # This does *not* solve the problem of empty directories WITHIN the install tree,
+      # but does make sure that the top-level directory specified by the caller gets created.
+      file(MAKE_DIRECTORY "${destination}")
 
       # glob recursive files
       set(relative_files "")
@@ -310,8 +315,20 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "pub" "DESTINATION" "lib/first_package_cpp")
+# install("TARGETS" "pub_exe" "DESTINATION" "lib/first_package_cpp")
 include("/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "sub_exe" "DESTINATION" "lib/first_package_cpp")
+include("/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "pub" "sub" "pub_exe" "sub_exe" "manual_composition" "DESTINATION" "lib/first_package_cpp")
+include("/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install("TARGETS" "manual_composition" "DESTINATION" "lib/first_package_cpp")
+include("/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_symlink_install_targets_3_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
+# install(DIRECTORY "launch" "DESTINATION" "share/first_package_cpp")
+ament_cmake_symlink_install_directory("/home/basmala/ros2_ws/first_package_cpp" DIRECTORY "launch" "DESTINATION" "share/first_package_cpp")
 
 # install(FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/first_package_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/basmala/ros2_ws/first_package_cpp" FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/first_package_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -348,6 +365,12 @@ ament_cmake_symlink_install_files("/home/basmala/ros2_ws/first_package_cpp" FILE
 
 # install(FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_index/share/ament_index/resource_index/packages/first_package_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
 ament_cmake_symlink_install_files("/home/basmala/ros2_ws/first_package_cpp" FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_index/share/ament_index/resource_index/packages/first_package_cpp" "DESTINATION" "share/ament_index/resource_index/packages")
+
+# install(FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/first_package_cpp" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
+ament_cmake_symlink_install_files("/home/basmala/ros2_ws/first_package_cpp" FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_index/share/ament_index/resource_index/rclcpp_components/first_package_cpp" "DESTINATION" "share/ament_index/resource_index/rclcpp_components")
+
+# install(FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/first_package_cpp/cmake")
+ament_cmake_symlink_install_files("/home/basmala/ros2_ws/first_package_cpp" FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_export_targets/ament_cmake_export_targets-extras.cmake" "DESTINATION" "share/first_package_cpp/cmake")
 
 # install(FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_core/first_package_cppConfig.cmake" "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_core/first_package_cppConfig-version.cmake" "DESTINATION" "share/first_package_cpp/cmake")
 ament_cmake_symlink_install_files("/home/basmala/ros2_ws/first_package_cpp" FILES "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_core/first_package_cppConfig.cmake" "/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_core/first_package_cppConfig-version.cmake" "DESTINATION" "share/first_package_cpp/cmake")

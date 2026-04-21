@@ -1,0 +1,28 @@
+[0.859s] Invoking command in '/home/basmala/ros2_ws/fibonacci': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/basmala/ros2_ws/build/fibonacci/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basmala/ros2_ws/install/fibonacci/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fibonacci build --build-base /home/basmala/ros2_ws/build/fibonacci/build install --record /home/basmala/ros2_ws/build/fibonacci/install.log --single-version-externally-managed install_data
+[1.117s] running egg_info
+[1.135s] writing ../build/fibonacci/fibonacci.egg-info/PKG-INFO
+[1.136s] writing dependency_links to ../build/fibonacci/fibonacci.egg-info/dependency_links.txt
+[1.136s] writing entry points to ../build/fibonacci/fibonacci.egg-info/entry_points.txt
+[1.136s] writing requirements to ../build/fibonacci/fibonacci.egg-info/requires.txt
+[1.136s] writing top-level names to ../build/fibonacci/fibonacci.egg-info/top_level.txt
+[1.169s] reading manifest file '../build/fibonacci/fibonacci.egg-info/SOURCES.txt'
+[1.170s] writing manifest file '../build/fibonacci/fibonacci.egg-info/SOURCES.txt'
+[1.170s] running build
+[1.170s] running build_py
+[1.170s] copying fibonacci/action_server3.py -> /home/basmala/ros2_ws/build/fibonacci/build/lib/fibonacci
+[1.171s] running install
+[1.177s] running install_lib
+[1.192s] copying /home/basmala/ros2_ws/build/fibonacci/build/lib/fibonacci/action_server3.py -> /home/basmala/ros2_ws/install/fibonacci/lib/python3.12/site-packages/fibonacci
+[1.193s] byte-compiling /home/basmala/ros2_ws/install/fibonacci/lib/python3.12/site-packages/fibonacci/action_server3.py to action_server3.cpython-312.pyc
+[1.195s] running install_data
+[1.195s] running install_egg_info
+[1.213s] removing '/home/basmala/ros2_ws/install/fibonacci/lib/python3.12/site-packages/fibonacci-0.0.0-py3.12.egg-info' (and everything under it)
+[1.213s] Copying ../build/fibonacci/fibonacci.egg-info to /home/basmala/ros2_ws/install/fibonacci/lib/python3.12/site-packages/fibonacci-0.0.0-py3.12.egg-info
+[1.214s] running install_scripts
+[1.340s] Installing action_client script to /home/basmala/ros2_ws/install/fibonacci/lib/fibonacci
+[1.340s] Installing action_client2 script to /home/basmala/ros2_ws/install/fibonacci/lib/fibonacci
+[1.341s] Installing action_server script to /home/basmala/ros2_ws/install/fibonacci/lib/fibonacci
+[1.341s] Installing action_server2 script to /home/basmala/ros2_ws/install/fibonacci/lib/fibonacci
+[1.341s] Installing action_server3 script to /home/basmala/ros2_ws/install/fibonacci/lib/fibonacci
+[1.341s] writing list of installed files to '/home/basmala/ros2_ws/build/fibonacci/install.log'
+[1.383s] Invoked command in '/home/basmala/ros2_ws/fibonacci' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/basmala/ros2_ws/build/fibonacci/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basmala/ros2_ws/install/fibonacci/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/fibonacci build --build-base /home/basmala/ros2_ws/build/fibonacci/build install --record /home/basmala/ros2_ws/build/fibonacci/install.log --single-version-externally-managed install_data

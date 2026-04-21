@@ -1,0 +1,28 @@
+[ 25%] Built target pub
+[ 37%] [32mBuilding CXX object CMakeFiles/sub_component.dir/src/sub_component.cpp.o[0m
+[ 62%] Built target sub
+[ 75%] [32mBuilding CXX object CMakeFiles/pub_component.dir/src/pub_component.cpp.o[0m
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/sub_component.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kcinttype: No such file or directory
+    4 | #include [01;31m[K<cinttype>[m[K
+      |          [01;31m[K^~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sub_component.dir/build.make:76: CMakeFiles/sub_component.dir/src/sub_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/sub_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:1[m[K:
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:[m[K In member function ‘[01m[Kvoid first_package_cpp::MinimalPublisher::[01;32m[Ktimer_callback[m[K()[m[K’:
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:23:97:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[KPRIXPTR[m[K’
+   23 |             RCLCPP_INFO(this->get_logger(),"Published message with value: %s, and address: 0x%" [01;31m[KPRIXPTR[m[K "\n", message->data.c_str(), reinterpret_cast<std::uintptr_t>(message.get()));
+      |                                                                                                 [01;31m[K^~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:23:13:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   23 |             [01;36m[KRCLCPP_INFO[m[K(this->get_logger(),"Published message with value: %s, and address: 0x%" PRIXPTR "\n", message->data.c_str(), reinterpret_cast<std::uintptr_t>(message.get()));
+      |             [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:23:111:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage[m[K’ was not declared in this scope; did you mean ‘[01m[Kmessage_[m[K’?
+   23 |             RCLCPP_INFO(this->get_logger(),"Published message with value: %s, and address: 0x%" PRIXPTR "\n", [01;31m[Kmessage[m[K->data.c_str(), reinterpret_cast<std::uintptr_t>(message.get()));
+      |                                                                                                               [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pub_component.dir/build.make:76: CMakeFiles/pub_component.dir/src/pub_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/pub_component.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

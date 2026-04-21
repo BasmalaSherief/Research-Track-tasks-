@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/basmala/ros2_ws/build/turtle_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/turtle_action_cpp -- -j20 -l20
+[0.090s] [ 50%] Building CXX object CMakeFiles/rotate_absolute_client.dir/src/rotate_absolute_client.cpp.o
+[2.432s] In file included from /opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24,
+[2.433s]                  from /opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27,
+[2.433s]                  from /opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171,
+[2.433s]                  from /home/basmala/ros2_ws/turtle_action_cpp/src/rotate_absolute_client.cpp:4:
+[2.433s] /home/basmala/ros2_ws/turtle_action_cpp/src/rotate_absolute_client.cpp: In member function ‘void RotateAbsoluteClient::result_callback(const rclcpp_action::ClientGoalHandle<turtlesim::action::RotateAbsolute>::WrappedResult&)’:
+[2.433s] /home/basmala/ros2_ws/turtle_action_cpp/src/rotate_absolute_client.cpp:91:17: warning: format ‘%d’ expects argument of type ‘int’, but argument 5 has type ‘const rclcpp_action::ResultCode’ [-Wformat=]
+[2.433s]    91 |                 "Result status=%d, delta=%f",
+[2.433s]       |                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.433s]    92 |                 result.code,
+[2.433s]       |                 ~~~~~~~~~~~
+[2.434s]       |                        |
+[2.434s]       |                        const rclcpp_action::ResultCode
+[2.434s] /home/basmala/ros2_ws/turtle_action_cpp/src/rotate_absolute_client.cpp:91:33: note: format string is defined here
+[2.434s]    91 |                 "Result status=%d, delta=%f",
+[2.434s]       |                                ~^
+[2.434s]       |                                 |
+[2.434s]       |                                 int
+[3.836s] [100%] Linking CXX executable rotate_absolute_client
+[4.067s] [100%] Built target rotate_absolute_client
+[4.083s] Invoked command in '/home/basmala/ros2_ws/build/turtle_action_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/turtle_action_cpp -- -j20 -l20
+[4.100s] Invoking command in '/home/basmala/ros2_ws/build/turtle_action_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/turtle_action_cpp
+[4.112s] -- Install configuration: ""
+[4.112s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/lib/turtle_action_cpp/rotate_absolute_client
+[4.114s] -- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/turtle_action_cpp/lib/turtle_action_cpp/rotate_absolute_client" to ""
+[4.114s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_action_cpp
+[4.115s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_action_cpp
+[4.115s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/environment/ament_prefix_path.sh
+[4.115s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/environment/ament_prefix_path.dsv
+[4.115s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/environment/path.sh
+[4.116s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/environment/path.dsv
+[4.116s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/local_setup.bash
+[4.116s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/local_setup.sh
+[4.116s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/local_setup.zsh
+[4.116s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/local_setup.dsv
+[4.116s] -- Up-to-date: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/package.dsv
+[4.116s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/ament_index/resource_index/packages/turtle_action_cpp
+[4.116s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/cmake/turtle_action_cppConfig.cmake
+[4.116s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/cmake/turtle_action_cppConfig-version.cmake
+[4.116s] -- Installing: /home/basmala/ros2_ws/install/turtle_action_cpp/share/turtle_action_cpp/package.xml
+[4.118s] Invoked command in '/home/basmala/ros2_ws/build/turtle_action_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/turtle_action_cpp

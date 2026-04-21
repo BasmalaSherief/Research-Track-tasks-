@@ -1,0 +1,15 @@
+[0.011s] Invoking command in '/home/basmala/ros2_ws/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20
+[0.118s] [ 25%] Built target sub
+[0.119s] [ 37%] [32mBuilding CXX object CMakeFiles/sub_component.dir/src/sub_component.cpp.o[0m
+[0.120s] [ 62%] Built target pub
+[0.134s] [ 75%] [32mBuilding CXX object CMakeFiles/pub_component.dir/src/pub_component.cpp.o[0m
+[2.311s] [01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:28:9:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+[2.312s]    28 |         [01;31m[Kauto[m[K message = std::make_unique<std_msgs::msg::String>();
+[2.312s]       |         [01;31m[K^~~~[m[K
+[3.205s] gmake[2]: *** [CMakeFiles/pub_component.dir/build.make:76: CMakeFiles/pub_component.dir/src/pub_component.cpp.o] Error 1
+[3.205s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/pub_component.dir/all] Error 2
+[3.205s] gmake[1]: *** Waiting for unfinished jobs....
+[6.418s] [ 87%] [32m[1mLinking CXX shared library libsub_component.so[0m
+[6.678s] [ 87%] Built target sub_component
+[6.679s] gmake: *** [Makefile:146: all] Error 2
+[6.682s] Invoked command in '/home/basmala/ros2_ws/build/first_package_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20

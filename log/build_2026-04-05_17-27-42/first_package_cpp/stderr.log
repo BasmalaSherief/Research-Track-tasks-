@@ -1,0 +1,8 @@
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:[m[K In constructor ‘[01m[Kfirst_package_cpp::MinimalPublisher::[01;32m[KMinimalPublisher[m[K(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:16:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kmessage_[m[K’ was not declared in this scope
+   16 |             [01;31m[Kmessage_[m[K = std::make_unique<std_msgs::msg::String>();
+      |             [01;31m[K^~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/pub_component.dir/build.make:76: CMakeFiles/pub_component.dir/src/pub_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/pub_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

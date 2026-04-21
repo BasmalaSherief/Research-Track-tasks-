@@ -1,0 +1,6 @@
+[ 25%] Built target sub
+[ 37%] [32mBuilding CXX object CMakeFiles/sub_component.dir/src/sub_component.cpp.o[0m
+[ 62%] Built target pub
+[ 75%] [32mBuilding CXX object CMakeFiles/pub_component.dir/src/pub_component.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libsub_component.so[0m
+[ 87%] Built target sub_component

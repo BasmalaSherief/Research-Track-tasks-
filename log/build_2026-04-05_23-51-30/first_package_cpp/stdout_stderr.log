@@ -1,0 +1,40 @@
+[ 16%] Built target sub
+[ 50%] Built target pub_exe
+[ 50%] Built target sub_exe
+[ 66%] Built target pub
+[ 83%] Built target sub_component
+[ 91%] [32mBuilding CXX object CMakeFiles/pub_component.dir/src/pub_component.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libpub_component.so[0m
+[100%] Built target pub_component
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/pub_exe
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/sub_exe
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/pub
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/sub
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/pub_exe
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/sub_exe
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/package_run_dependencies/first_package_cpp
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/parent_prefix_path/first_package_cpp
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/path.sh
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/path.dsv
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.bash
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.sh
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.zsh
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.dsv
+-- Symlinking: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/package.dsv
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/packages/first_package_cpp
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/rclcpp_components/first_package_cpp
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/ament_cmake_export_targets-extras.cmake
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/first_package_cppConfig.cmake
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/first_package_cppConfig-version.cmake
+-- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/package.xml
+-- Installing: /home/basmala/ros2_ws/install/first_package_cpp/lib/libpub_component.so
+-- Set non-toolchain portion of runtime path of "/home/basmala/ros2_ws/install/first_package_cpp/lib/libpub_component.so" to ""
+-- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/lib/libsub_component.so
+-- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_pub_componentExport.cmake
+-- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_pub_componentExport-noconfig.cmake
+-- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_sub_componentExport.cmake
+-- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_sub_componentExport-noconfig.cmake

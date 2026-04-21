@@ -1,0 +1,32 @@
+[ 16%] Built target pub
+[ 41%] Built target sub
+[ 41%] [32mBuilding CXX object CMakeFiles/sub_component.dir/src/sub_component.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pub_component.dir/src/pub_component.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/sub_exe.dir/src/sub_component.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/pub_exe.dir/src/pub_component.cpp.o[0m
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/sub_component.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/sub_component.dir/build.make:76: CMakeFiles/sub_component.dir/src/sub_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/sub_component.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/basmala/ros2_ws/first_package_cpp/src/pub_component.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+    1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/pub_component.dir/build.make:76: CMakeFiles/pub_component.dir/src/pub_component.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:251: CMakeFiles/pub_component.dir/all] Error 2
+[ 75%] [32m[1mLinking CXX executable pub_exe[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/pub_exe.dir/build.make:182: pub_exe] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:199: CMakeFiles/pub_exe.dir/all] Error 2
+[ 83%] [32m[1mLinking CXX executable sub_exe[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/sub_exe.dir/build.make:182: sub_exe] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:225: CMakeFiles/sub_exe.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

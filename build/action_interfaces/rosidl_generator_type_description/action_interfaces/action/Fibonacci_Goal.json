@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "action_interfaces/action/Fibonacci_Goal",
+      "fields": [
+        {
+          "name": "order",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "action_interfaces/action/Fibonacci_Goal",
+      "hash_string": "RIHS01_60b86b15367ef110a5289d5c9b0c3f9179104a8e629a1bc2ec9292b89681217f"
+    }
+  ]
+}

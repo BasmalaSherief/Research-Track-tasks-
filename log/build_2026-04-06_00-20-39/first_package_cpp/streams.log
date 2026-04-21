@@ -1,0 +1,73 @@
+[0.008s] Invoking command in '/home/basmala/ros2_ws/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20
+[0.028s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.181s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.185s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.204s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.209s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.226s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.267s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.268s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.365s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.374s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.399s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.465s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.465s] -- Configured cppcheck include dirs: 
+[0.465s] -- Configured cppcheck exclude dirs and/or files: 
+[0.465s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.465s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.465s] -- Added test 'lint_cmake' to check CMake code style
+[0.465s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.466s] -- Added test 'uncrustify' to check C / C++ code style
+[0.466s] -- Configured uncrustify additional arguments: 
+[0.466s] -- Added test 'xmllint' to check XML markup files
+[0.467s] -- Configuring done (0.4s)
+[0.486s] -- Generating done (0.0s)
+[0.492s] -- Build files have been written to: /home/basmala/ros2_ws/build/first_package_cpp
+[0.524s] [  7%] [32mBuilding CXX object CMakeFiles/manual_composition.dir/src/manual_composition.cpp.o[0m
+[0.526s] [ 21%] Built target pub_component
+[0.526s] [ 35%] Built target sub
+[0.528s] [ 50%] Built target pub
+[0.528s] [ 64%] Built target pub_exe
+[0.528s] [ 78%] Built target sub_exe
+[0.532s] [ 92%] Built target sub_component
+[5.093s] [100%] [32m[1mLinking CXX executable manual_composition[0m
+[5.266s] [100%] Built target manual_composition
+[5.276s] Invoked command in '/home/basmala/ros2_ws/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/basmala/ros2_ws/build/first_package_cpp -- -j20 -l20
+[5.283s] Invoking command in '/home/basmala/ros2_ws/build/first_package_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/first_package_cpp
+[5.289s] -- Install configuration: ""
+[5.290s] -- Execute custom install script
+[5.290s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/pub_exe
+[5.290s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/sub_exe
+[5.290s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/pub
+[5.290s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/sub
+[5.290s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/pub_exe
+[5.290s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/sub_exe
+[5.291s] -- Symlinking: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/manual_composition
+[5.299s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/lib/first_package_cpp/manual_composition
+[5.299s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/launch/composition.launch.py
+[5.299s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/package_run_dependencies/first_package_cpp
+[5.300s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/parent_prefix_path/first_package_cpp
+[5.300s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/ament_prefix_path.sh
+[5.300s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/ament_prefix_path.dsv
+[5.300s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/path.sh
+[5.300s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/environment/path.dsv
+[5.300s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.bash
+[5.300s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.sh
+[5.300s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.zsh
+[5.300s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/local_setup.dsv
+[5.300s] -- Symlinking: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/package.dsv
+[5.307s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/packages/first_package_cpp
+[5.308s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/ament_index/resource_index/rclcpp_components/first_package_cpp
+[5.308s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/ament_cmake_export_targets-extras.cmake
+[5.308s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/first_package_cppConfig.cmake
+[5.308s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/first_package_cppConfig-version.cmake
+[5.308s] -- Up-to-date symlink: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/package.xml
+[5.308s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/lib/libpub_component.so
+[5.309s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/lib/libsub_component.so
+[5.309s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_pub_componentExport.cmake
+[5.309s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_pub_componentExport-noconfig.cmake
+[5.309s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_sub_componentExport.cmake
+[5.309s] -- Up-to-date: /home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_sub_componentExport-noconfig.cmake
+[5.311s] Invoked command in '/home/basmala/ros2_ws/build/first_package_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/basmala/ros2_ws/build/first_package_cpp
