@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "/home/basmala/ros2_ws/build/action_interfaces/rosidl_generator_py/action_interfaces/action/__init__.py"
   "/home/basmala/ros2_ws/build/action_interfaces/rosidl_generator_py/action_interfaces/action/_fibonacci.py"
   "/home/basmala/ros2_ws/build/action_interfaces/rosidl_generator_py/action_interfaces/action/_fibonacci_s.c"
+  "/home/basmala/ros2_ws/build/action_interfaces/rosidl_generator_py/action_interfaces/action/_movetogoal.py"
+  "/home/basmala/ros2_ws/build/action_interfaces/rosidl_generator_py/action_interfaces/action/_movetogoal_s.c"
   "CMakeFiles/action_interfaces__py"
 )
 

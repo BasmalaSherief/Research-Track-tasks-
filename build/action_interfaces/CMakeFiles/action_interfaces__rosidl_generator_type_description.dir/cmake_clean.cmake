@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/action_interfaces__rosidl_generator_type_description"
   "rosidl_generator_type_description/action_interfaces/action/Fibonacci.json"
+  "rosidl_generator_type_description/action_interfaces/action/Movetogoal.json"
 )
 
 # Per-language clean rules from dependency scanning.

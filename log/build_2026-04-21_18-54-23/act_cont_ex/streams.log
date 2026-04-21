@@ -1,0 +1,383 @@
+[0.020s] Invoking command in '/home/basmala/ros2_ws/build/act_cont_ex': CMAKE_PREFIX_PATH=/home/basmala/ros2_ws/install/action_interfaces:/home/basmala/ros2_ws/install/yahboom_rosmaster:/home/basmala/ros2_ws/install/yahboom_rosmaster_system_tests:/home/basmala/ros2_ws/install/yahboom_rosmaster_gazebo:/home/basmala/ros2_ws/install/yahboom_rosmaster_description:/home/basmala/ros2_ws/install/yahboom_rosmaster_bringup:/home/basmala/ros2_ws/install/turtlesim_controller:/home/basmala/ros2_ws/install/turtlesim_custom_msgs:/home/basmala/ros2_ws/install/turtle_action_cpp:/home/basmala/ros2_ws/install/mecanum_drive_controller:/home/basmala/ros2_ws/install/first_package_cpp:/home/basmala/ros2_ws/install/bme_gazebo_sensors:/home/basmala/ros2_ws/install/assignment2_rt:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:/home/basmala/ros2_ws/install/assignment1_rt:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basmala/ros2_ws/install/action_interfaces/lib:/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib:/home/basmala/ros2_ws/install/mecanum_drive_controller/lib:/home/basmala/ros2_ws/install/first_package_cpp/lib:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/basmala/ros2_ws/install/action_interfaces/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/turtle_action_client/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/first_package_python/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/fibonacci/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/basmala/ros2_ws/build/act_cont_ex -- -j20 -l20
+[0.063s] -- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.436s] -- Found rclcpp: 28.1.16 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.480s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.492s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.505s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.518s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.565s] -- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.567s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.648s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.721s] -- Found rclcpp_components: 28.1.16 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[0.746s] -- Found rclcpp_action: 28.1.16 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[0.782s] -- Found action_interfaces: 0.0.0 (/home/basmala/ros2_ws/install/action_interfaces/share/action_interfaces/cmake)
+[0.800s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.833s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.860s] -- Found ament_lint_auto: 0.17.4 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.947s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.947s] -- Configured cppcheck include dirs: 
+[0.947s] -- Configured cppcheck exclude dirs and/or files: 
+[0.948s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.948s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.948s] -- Added test 'lint_cmake' to check CMake code style
+[0.948s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.949s] -- Added test 'uncrustify' to check C / C++ code style
+[0.949s] -- Configured uncrustify additional arguments: 
+[0.949s] -- Added test 'xmllint' to check XML markup files
+[0.950s] -- Configuring done (0.9s)
+[0.974s] -- Generating done (0.0s)
+[0.982s] -- Build files have been written to: /home/basmala/ros2_ws/build/act_cont_ex
+[1.044s] [ 25%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[1.044s] [ 25%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[1.055s] [ 50%] Built target action_server_exe
+[1.058s] [ 75%] Built target action_client_exe
+[3.692s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:25:62:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.692s]    25 |             rclcpp_action::Client<action_interfaces::action::[01;31m[KMoveToGoal[m[K>::SharedPtr action_client_;
+[3.692s]       |                                                              [01;31m[K^~~~~~~~~~[m[K
+[3.692s]       |                                                              [32m[KMovetogoal[m[K
+[3.692s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:25:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.692s]    25 |             rclcpp_action::Client<action_interfaces::action::MoveToGoal[01;31m[K>[m[K::SharedPtr action_client_;
+[3.692s]       |                                                                        [01;31m[K^[m[K
+[3.697s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:25:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.697s]    25 |             rclcpp_action::Client<action_interfaces::action::MoveToGoal>::[01;31m[KSharedPtr[m[K action_client_;
+[3.697s]       |                                                                           [01;31m[K^~~~~~~~~[m[K
+[3.697s]       |                                                                                    [32m[K;[m[K
+[3.700s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:25:85:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_client_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_client_t[m[K’?
+[3.700s]    25 |             rclcpp_action::Client<action_interfaces::action::MoveToGoal>::SharedPtr [01;31m[Kaction_client_[m[K;
+[3.700s]       |                                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.700s]       |                                                                                     [32m[Krcl_action_client_t[m[K
+[3.700s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:49:95:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.701s]    49 |             void feedback_callback(rclcpp_action::ClientGoalHandle<action_interfaces::action::[01;31m[KMoveToGoal[m[K>::SharedPtr,
+[3.701s]       |                                                                                               [01;31m[K^~~~~~~~~~[m[K
+[3.701s]       |                                                                                               [32m[KMovetogoal[m[K
+[3.701s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:49:105:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.701s]    49 |             void feedback_callback(rclcpp_action::ClientGoalHandle<action_interfaces::action::MoveToGoal[01;31m[K>[m[K::SharedPtr,
+[3.701s]       |                                                                                                         [01;31m[K^[m[K
+[3.701s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:101:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.701s]    50 |                                    const std::shared_ptr<const action_interfaces::action::MoveToGoal[01;31m[K::[m[KFeedback> feedback)
+[3.701s]       |                                                                                                     [01;31m[K^~[m[K
+[3.701s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:111:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.701s]    50 |                                    const std::shared_ptr<const action_interfaces::action::MoveToGoal::Feedback[01;31m[K>[m[K feedback)
+[3.701s]       |                                                                                                               [01;31m[K^[m[K
+[3.701s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:101:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.701s]    50 |                                    const std::shared_ptr<const action_interfaces::action::MoveToGoal[01;31m[K::[m[KFeedback> feedback)
+[3.702s]       |                                                                                                     [01;31m[K^~[m[K
+[3.702s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:111:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.702s]    50 |                                    const std::shared_ptr<const action_interfaces::action::MoveToGoal::Feedback[01;31m[K>[m[K feedback)
+[3.702s]       |                                                                                                               [01;31m[K^[m[K
+[3.702s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:101:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.702s]    50 |                                    const std::shared_ptr<const action_interfaces::action::MoveToGoal[01;31m[K::[m[KFeedback> feedback)
+[3.702s]       |                                                                                                     [01;31m[K^~[m[K
+[3.702s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:111:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.702s]    50 |                                    const std::shared_ptr<const action_interfaces::action::MoveToGoal::Feedback[01;31m[K>[m[K feedback)
+[3.702s]       |                                                                                                               [01;31m[K^[m[K
+[3.702s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:42:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[3.702s]    50 |                                    const [01;31m[Kstd[m[K::shared_ptr<const action_interfaces::action::MoveToGoal::Feedback> feedback)
+[3.702s]       |                                          [01;31m[K^~~[m[K
+[3.702s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:101:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.702s]    50 |                                    const std::shared_ptr<const action_interfaces::action::MoveToGoal[01;31m[K::[m[KFeedback> feedback)
+[3.702s]       |                                                                                                     [01;31m[K^~[m[K
+[3.702s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:58:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[3.702s]    50 |                                    const std::shared_ptr<[01;31m[Kconst[m[K action_interfaces::action::MoveToGoal::Feedback> feedback)
+[3.702s]       |                                                          [01;31m[K^~~~~[m[K
+[3.703s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:58:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[3.703s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:50:36:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+[3.703s]    50 |                                    [01;31m[Kconst[m[K std::shared_ptr<const action_interfaces::action::MoveToGoal::Feedback> feedback)
+[3.703s]       |                                    [01;31m[K^~~~~[m[K
+[3.703s]       |                                         [32m[K<>[m[K
+[3.703s] In file included from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K,
+[3.703s]                  from [01m[K/usr/include/c++/13/memory:80[m[K,
+[3.703s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[3.703s]                  from [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:1[m[K:
+[3.703s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+[3.703s]   395 |     class [01;36m[Kshared_ptr[m[K;
+[3.703s]       |           [01;36m[K^~~~~~~~~~[m[K
+[3.703s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:55:101:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.703s]    55 |             void result_callback(const rclcpp_action::ClientGoalHandle  <action_interfaces::action::[01;31m[KMoveToGoal[m[K>::WrappedResult & result)
+[3.703s]       |                                                                                                     [01;31m[K^~~~~~~~~~[m[K
+[3.703s]       |                                                                                                     [32m[KMovetogoal[m[K
+[3.703s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:55:111:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.703s]    55 |             void result_callback(const rclcpp_action::ClientGoalHandle  <action_interfaces::action::MoveToGoal[01;31m[K>[m[K::WrappedResult & result)
+[3.703s]       |                                                                                                               [01;31m[K^[m[K
+[3.703s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:55:128:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[K&[m[K’ token
+[3.704s]    55 |             void result_callback(const rclcpp_action::ClientGoalHandle  <action_interfaces::action::MoveToGoal>::WrappedResult [01;31m[K&[m[K result)
+[3.704s]       |                                                                                                                                [01;31m[K^[m[K
+[3.710s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:[m[K In constructor ‘[01m[Kact_cont_ex::RobotControllerActionClient::[01;32m[KRobotControllerActionClient[m[K(const rclcpp::NodeOptions&)[m[K’:
+[3.710s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:18:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_client_t[m[K’?
+[3.710s]    18 |                 [01;31m[Kaction_client_[m[K = rclcpp_action::create_client<action_interfaces::action::MoveToGoal>(this, "move_to_goal");
+[3.710s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.710s]       |                 [32m[Krcl_action_client_t[m[K
+[3.710s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:18:90:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.710s]    18 |                 action_client_ = rclcpp_action::create_client<action_interfaces::action::[01;31m[KMoveToGoal[m[K>(this, "move_to_goal");
+[3.710s]       |                                                                                          [01;31m[K^~~~~~~~~~[m[K
+[3.710s]       |                                                                                          [32m[KMovetogoal[m[K
+[3.711s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:18:101:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_client<<expression error> >(act_cont_ex::RobotControllerActionClient*, const char [13])[m[K’
+[3.711s]    18 |                 action_client_ = [01;31m[Krclcpp_action::create_client<action_interfaces::action::MoveToGoal>(this, "move_to_goal")[m[K;
+[3.711s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.711s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:38[m[K,
+[3.711s]                  from [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:6[m[K:
+[3.711s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_client[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeGraphInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const std::string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)[m[K’
+[3.711s]    44 | [01;36m[Kcreate_client[m[K(
+[3.711s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[3.711s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:44:1:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+[3.711s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Client<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_client[m[K(NodeT, const std::string&, rclcpp::CallbackGroup::SharedPtr, const rcl_action_client_options_t&)[m[K’
+[3.711s]   105 | [01;36m[Kcreate_client[m[K(
+[3.711s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[3.711s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_client.hpp:105:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.711s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:18:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.711s]    18 |                 action_client_ = [01;31m[Krclcpp_action::create_client<action_interfaces::action::MoveToGoal>(this, "move_to_goal")[m[K;
+[3.711s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.712s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:36:62:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.712s]    36 |             rclcpp_action::Server<action_interfaces::action::[01;31m[KMoveToGoal[m[K>::SharedPtr action_server_;
+[3.712s]       |                                                              [01;31m[K^~~~~~~~~~[m[K
+[3.712s]       |                                                              [32m[KMovetogoal[m[K
+[3.712s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:36:72:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.712s]    36 |             rclcpp_action::Server<action_interfaces::action::MoveToGoal[01;31m[K>[m[K::SharedPtr action_server_;
+[3.712s]       |                                                                        [01;31m[K^[m[K
+[3.712s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:36:75:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.712s]    36 |             rclcpp_action::Server<action_interfaces::action::MoveToGoal>::[01;31m[KSharedPtr[m[K action_server_;
+[3.713s]       |                                                                           [01;31m[K^~~~~~~~~[m[K
+[3.713s]       |                                                                                    [32m[K;[m[K
+[3.715s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:36:85:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ does not name a type; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[3.715s]    36 |             rclcpp_action::Server<action_interfaces::action::MoveToGoal>::SharedPtr [01;31m[Kaction_server_[m[K;
+[3.715s]       |                                                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.715s]       |                                                                                     [32m[Krcl_action_server_t[m[K
+[3.727s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid act_cont_ex::RobotControllerActionClient::[01;32m[Ksend_goal[m[K()[m[K’:
+[3.727s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:30:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_client_t[m[K’?
+[3.727s]    30 |                 if (![01;31m[Kaction_client_[m[K->wait_for_action_server(std::chrono::seconds(5)))
+[3.727s]       |                      [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.727s]       |                      [32m[Krcl_action_client_t[m[K
+[3.728s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:36:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_interfaces::action::MoveToGoal[m[K’ has not been declared
+[3.728s]    36 |                 auto goal_msg = action_interfaces::action::[01;31m[KMoveToGoal[m[K::Goal();
+[3.728s]       |                                                            [01;31m[K^~~~~~~~~~[m[K
+[3.728s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:42:91:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.728s]    42 |                 auto send_goal_options = rclcpp_action::Client<action_interfaces::action::[01;31m[KMoveToGoal[m[K>::SendGoalOptions();
+[3.728s]       |                                                                                           [01;31m[K^~~~~~~~~~[m[K
+[3.728s]       |                                                                                           [32m[KMovetogoal[m[K
+[3.729s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:42:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.729s]    42 |                 auto send_goal_options = rclcpp_action::Client<action_interfaces::action::MoveToGoal[01;31m[K>[m[K::SendGoalOptions();
+[3.729s]       |                                                                                                     [01;31m[K^[m[K
+[3.747s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:150:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.748s]    42 | t rclcpp_action::GoalUUID & uuid, std::shared_ptr<const action_interfaces::action::MoveToGoal[01;31m[K::[m[KGoal> goal)
+[3.748s]       |                                                                                              [01;31m[K^~[m[K
+[3.748s] 
+[3.748s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:156:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.748s]    42 | rclcpp_action::GoalUUID & uuid, std::shared_ptr<const action_interfaces::action::MoveToGoal::Goal[01;31m[K>[m[K goal)
+[3.748s]       |                                                                                                  [01;31m[K^[m[K
+[3.748s] 
+[3.748s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:150:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.748s]    42 | t rclcpp_action::GoalUUID & uuid, std::shared_ptr<const action_interfaces::action::MoveToGoal[01;31m[K::[m[KGoal> goal)
+[3.748s]       |                                                                                              [01;31m[K^~[m[K
+[3.748s] 
+[3.748s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:156:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.748s]    42 | rclcpp_action::GoalUUID & uuid, std::shared_ptr<const action_interfaces::action::MoveToGoal::Goal[01;31m[K>[m[K goal)
+[3.749s]       |                                                                                                  [01;31m[K^[m[K
+[3.749s] 
+[3.749s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:150:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.749s]    42 | t rclcpp_action::GoalUUID & uuid, std::shared_ptr<const action_interfaces::action::MoveToGoal[01;31m[K::[m[KGoal> goal)
+[3.749s]       |                                                                                              [01;31m[K^~[m[K
+[3.749s] 
+[3.749s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:156:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.749s]    42 | rclcpp_action::GoalUUID & uuid, std::shared_ptr<const action_interfaces::action::MoveToGoal::Goal[01;31m[K>[m[K goal)
+[3.749s]       |                                                                                                  [01;31m[K^[m[K
+[3.749s] 
+[3.749s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:91:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[3.749s]    42 |             rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid, [01;31m[Kstd[m[K::shared_ptr<const action_interfaces::action::MoveToGoal::Goal> goal)
+[3.749s]       |                                                                                           [01;31m[K^~~[m[K
+[3.749s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:150:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.749s]    42 | t rclcpp_action::GoalUUID & uuid, std::shared_ptr<const action_interfaces::action::MoveToGoal[01;31m[K::[m[KGoal> goal)
+[3.749s]       |                                                                                              [01;31m[K^~[m[K
+[3.749s] 
+[3.749s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:107:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[3.749s]    42 | clcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid, std::shared_ptr<[01;31m[Kconst[m[K action_interfaces::action::MoveToGoal::Goal> goal)
+[3.750s]       |                                                                                              [01;31m[K^~~~~[m[K
+[3.750s] 
+[3.750s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:107:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K>[m[K’ before ‘[01m[Kconst[m[K’
+[3.750s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:91:[m[K [01;31m[Kerror: [m[Kmissing template argument list after ‘[01m[Kstd::shared_ptr[m[K’; template placeholder not permitted in parameter
+[3.750s]    42 |             rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid, [01;31m[Kstd[m[K::shared_ptr<const action_interfaces::action::MoveToGoal::Goal> goal)
+[3.750s]       |                                                                                           [01;31m[K^~~[m[K
+[3.750s]       |                                                                                              [32m[K<>[m[K
+[3.750s] In file included from [01m[K/usr/include/c++/13/bits/shared_ptr.h:53[m[K,
+[3.750s]                  from [01m[K/usr/include/c++/13/memory:80[m[K,
+[3.750s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:169[m[K,
+[3.750s]                  from [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:1[m[K:
+[3.750s] [01m[K/usr/include/c++/13/bits/shared_ptr_base.h:395:11:[m[K [01;36m[Knote: [m[K‘[01m[Ktemplate<class _Tp> class std::shared_ptr[m[K’ declared here
+[3.750s]   395 |     class [01;36m[Kshared_ptr[m[K;
+[3.750s]       |           [01;36m[K^~~~~~~~~~[m[K
+[3.750s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:48:138:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.750s]    48 | ndle_cancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<action_interfaces::action::[01;31m[KMoveToGoal[m[K>> goal_handle)
+[3.750s]       |                                                                                              [01;31m[K^~~~~~~~~~[m[K
+[3.750s]       |                                                                                              [32m[KMovetogoal[m[K
+[3.750s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:48:138:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.750s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:48:148:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.750s]    48 | l(const std::shared_ptr<rclcpp_action::ServerGoalHandle<action_interfaces::action::MoveToGoal[01;31m[K>>[m[K goal_handle)
+[3.751s]       |                                                                                              [01;31m[K^~[m[K
+[3.751s] 
+[3.751s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:54:115:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.751s]    54 | le_accepted(const std::shared_ptr<rclcpp_action::ServerGoalHandle<action_interfaces::action::[01;31m[KMoveToGoal[m[K>> goal_handle)
+[3.751s]       |                                                                                              [01;31m[K^~~~~~~~~~[m[K
+[3.751s]       |                                                                                              [32m[KMovetogoal[m[K
+[3.751s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:54:115:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.751s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:54:125:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.751s]    54 | d(const std::shared_ptr<rclcpp_action::ServerGoalHandle<action_interfaces::action::MoveToGoal[01;31m[K>>[m[K goal_handle)
+[3.751s]       |                                                                                              [01;31m[K^~[m[K
+[3.751s] 
+[3.751s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:59:107:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.751s]    59 | oid execute(const std::shared_ptr<rclcpp_action::ServerGoalHandle<action_interfaces::action::[01;31m[KMoveToGoal[m[K>> goal_handle)
+[3.751s]       |                                                                                              [01;31m[K^~~~~~~~~~[m[K
+[3.751s]       |                                                                                              [32m[KMovetogoal[m[K
+[3.751s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:59:107:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.751s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:59:117:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.751s]    59 | e(const std::shared_ptr<rclcpp_action::ServerGoalHandle<action_interfaces::action::MoveToGoal[01;31m[K>>[m[K goal_handle)
+[3.752s]       |                                                                                              [01;31m[K^~[m[K
+[3.752s] 
+[3.752s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:46:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_client_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_client_t[m[K’?
+[3.752s]    46 |                 [01;31m[Kaction_client_[m[K->async_send_goal(goal_msg, send_goal_options);
+[3.752s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.752s]       |                 [32m[Krcl_action_client_t[m[K
+[3.758s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:[m[K In constructor ‘[01m[Kact_cont_ex::RobotControllerActionServer::[01;32m[KRobotControllerActionServer[m[K(const rclcpp::NodeOptions&)[m[K’:
+[3.758s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:17:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kaction_server_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_action_server_t[m[K’?
+[3.758s]    17 |                 [01;31m[Kaction_server_[m[K = rclcpp_action::create_server<action_interfaces::action::MoveToGoal>(
+[3.758s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.758s]       |                 [32m[Krcl_action_server_t[m[K
+[3.758s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:17:90:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.758s]    17 |                 action_server_ = rclcpp_action::create_server<action_interfaces::action::[01;31m[KMoveToGoal[m[K>(
+[3.758s]       |                                                                                          [01;31m[K^~~~~~~~~~[m[K
+[3.758s]       |                                                                                          [32m[KMovetogoal[m[K
+[3.759s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.759s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.759s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[3.759s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid act_cont_ex::RobotControllerActionClient::[01;32m[Kfeedback_callback[m[K(...)[m[K’:
+[3.759s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:52:103:[m[K [01;31m[Kerror: [m[K‘[01m[Kfeedback[m[K’ was not declared in this scope
+[3.759s]    52 |                 RCLCPP_INFO(this->get_logger(), "Received feedback: remaining distance (%.2f, %.2f)", [01;31m[Kfeedback[m[K->remaining_dist_x, feedback->remaining_dist_y);
+[3.760s]       |                                                                                                       [01;31m[K^~~~~~~~[m[K
+[3.760s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:49:108:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KSharedPtr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.760s]    49 |             void feedback_callback([01;35m[Krclcpp_action::ClientGoalHandle<action_interfaces::action::MoveToGoal>::SharedPtr[m[K,
+[3.760s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.765s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:[m[K In member function ‘[01m[Kvoid act_cont_ex::RobotControllerActionClient::[01;32m[Kresult_callback[m[K(int)[m[K’:
+[3.765s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:57:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kresult[m[K’ was not declared in this scope
+[3.765s]    57 |                 switch ([01;31m[Kresult[m[K.code)
+[3.765s]       |                         [01;31m[K^~~~~~[m[K
+[3.766s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_client.cpp:55:114:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KWrappedResult[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.766s]    55 |             void result_callback([01;35m[Kconst rclcpp_action::ClientGoalHandle  <action_interfaces::action::MoveToGoal>::WrappedResult[m[K & result)
+[3.766s]       |                                  [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[3.768s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:17:101:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kcreate_server<<expression error> >(act_cont_ex::RobotControllerActionServer*, const char [13], std::_Bind_helper<false, rclcpp_action::GoalResponse (act_cont_ex::RobotControllerActionServer::*)(...), act_cont_ex::RobotControllerActionServer*, const std::_Placeholder<1>&, const std::_Placeholder<2>&>::type, std::_Bind_helper<false, rclcpp_action::CancelResponse (act_cont_ex::RobotControllerActionServer::*)(int), act_cont_ex::RobotControllerActionServer*, const std::_Placeholder<1>&>::type, std::_Bind_helper<false, void (act_cont_ex::RobotControllerActionServer::*)(int), act_cont_ex::RobotControllerActionServer*, const std::_Placeholder<1>&>::type)[m[K’
+[3.768s]    17 |                 action_server_ = [01;31m[Krclcpp_action::create_server<action_interfaces::action::MoveToGoal>([m[K
+[3.768s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.768s]    18 | [01;31m[K                    this,[m[K
+[3.768s]       |                     [01;31m[K~~~~~[m[K                                                                            
+[3.768s]    19 | [01;31m[K                    "move_to_goal",[m[K
+[3.768s]       |                     [01;31m[K~~~~~~~~~~~~~~~[m[K                                                                  
+[3.768s]    20 | [01;31m[K                    std::bind(&RobotControllerActionServer::handle_goal, this, _1, _2),[m[K
+[3.768s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K              
+[3.768s]    21 | [01;31m[K                    std::bind(&RobotControllerActionServer::handle_cancel, this, _1),[m[K
+[3.768s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                
+[3.768s]    22 | [01;31m[K                    std::bind(&RobotControllerActionServer::handle_accepted, this, _1)[m[K
+[3.768s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K               
+[3.768s]    23 | [01;31m[K                )[m[K;
+[3.768s]       |                 [01;31m[K~[m[K                                                                                    
+[3.768s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:39[m[K,
+[3.768s]                  from [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:6[m[K:
+[3.768s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_server[m[K(rclcpp::node_interfaces::NodeBaseInterface::SharedPtr, rclcpp::node_interfaces::NodeClockInterface::SharedPtr, rclcpp::node_interfaces::NodeLoggingInterface::SharedPtr, rclcpp::node_interfaces::NodeWaitablesInterface::SharedPtr, const std::string&, typename Server<ActionT>::GoalCallback, typename Server<ActionT>::CancelCallback, typename Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.768s]    58 | [01;36m[Kcreate_server[m[K(
+[3.768s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[3.769s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:58:1:[m[K [01;36m[Knote: [m[K  candidate expects 8 arguments, 5 provided
+[3.769s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ActionT, class NodeT> typename rclcpp_action::Server<ActionT>::SharedPtr rclcpp_action::[01;32m[Kcreate_server[m[K(NodeT, const std::string&, typename Server<ActionT>::GoalCallback, typename Server<ActionT>::CancelCallback, typename Server<ActionT>::AcceptedCallback, const rcl_action_server_options_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.769s]   132 | [01;36m[Kcreate_server[m[K(
+[3.769s]       | [01;36m[K^~~~~~~~~~~~~[m[K
+[3.769s] [01m[K/opt/ros/jazzy/include/rclcpp_action/rclcpp_action/create_server.hpp:132:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.769s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:17:101:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.769s]    17 |                 action_server_ = [01;31m[Krclcpp_action::create_server<action_interfaces::action::MoveToGoal>([m[K
+[3.769s]       |                                  [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[3.769s]    18 | [01;31m[K                    this,[m[K
+[3.769s]       |                     [01;31m[K~~~~~[m[K                                                                            
+[3.769s]    19 | [01;31m[K                    "move_to_goal",[m[K
+[3.769s]       |                     [01;31m[K~~~~~~~~~~~~~~~[m[K                                                                  
+[3.769s]    20 | [01;31m[K                    std::bind(&RobotControllerActionServer::handle_goal, this, _1, _2),[m[K
+[3.769s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K              
+[3.769s]    21 | [01;31m[K                    std::bind(&RobotControllerActionServer::handle_cancel, this, _1),[m[K
+[3.769s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                
+[3.769s]    22 | [01;31m[K                    std::bind(&RobotControllerActionServer::handle_accepted, this, _1)[m[K
+[3.769s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K               
+[3.769s]    23 | [01;31m[K                )[m[K;
+[3.769s]       |                 [01;31m[K~[m[K                                                                                    
+[3.784s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.784s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.784s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[3.784s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse act_cont_ex::RobotControllerActionServer::[01;32m[Khandle_goal[m[K(...)[m[K’:
+[3.784s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:44:99:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal[m[K’ was not declared in this scope
+[3.784s]    44 |            RCLCPP_INFO(this->get_logger(), "Received goal request with target (%.2f, %.2f)", [01;31m[Kgoal[m[K->target_pose.pose.position.x, goal->target_pose.pose.position.y);
+[3.784s]       |                                                                                              [01;31m[K^~~~[m[K
+[3.784s] 
+[3.785s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:42:85:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kuuid[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.785s]    42 |             rclcpp_action::GoalResponse handle_goal([01;35m[Kconst rclcpp_action::GoalUUID & uuid[m[K, std::shared_ptr<const action_interfaces::action::MoveToGoal::Goal> goal)
+[3.785s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.785s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:[m[K In member function ‘[01m[Krclcpp_action::CancelResponse act_cont_ex::RobotControllerActionServer::[01;32m[Khandle_cancel[m[K(int)[m[K’:
+[3.785s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:48:151:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kgoal_handle[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.785s]    48 | [01;35m[Konst std::shared_ptr<rclcpp_action::ServerGoalHandle<action_interfaces::action::MoveToGoal>> goal_handle[m[K)
+[3.785s]       | [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[3.785s] 
+[3.785s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:[m[K In member function ‘[01m[Kvoid act_cont_ex::RobotControllerActionServer::[01;32m[Kexecute[m[K(int)[m[K’:
+[3.785s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:63:46:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.785s]    63 |                 const auto goal = goal_handle[01;31m[K->[m[Kget_goal();
+[3.785s]       |                                              [01;31m[K^~[m[K
+[3.786s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:64:77:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.786s]    64 |                 auto feedback = std::make_shared<action_interfaces::action::[01;31m[KMoveToGoal[m[K::Feedback>();
+[3.786s]       |                                                                             [01;31m[K^~~~~~~~~~[m[K
+[3.786s]       |                                                                             [32m[KMovetogoal[m[K
+[3.786s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:64:38:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.786s]    64 |                 auto feedback = std::[01;31m[Kmake_shared<action_interfaces::action::MoveToGoal::Feedback>[m[K();
+[3.786s]       |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.786s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:64:98:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.786s]    64 |                 auto feedback = [01;31m[Kstd::make_shared<action_interfaces::action::MoveToGoal::Feedback>()[m[K;
+[3.786s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.786s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[3.786s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.786s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.786s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.786s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:64:98:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.786s]    64 |                 auto feedback = [01;31m[Kstd::make_shared<action_interfaces::action::MoveToGoal::Feedback>()[m[K;
+[3.786s]       |                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.786s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:65:75:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveToGoal[m[K’ is not a member of ‘[01m[Kaction_interfaces::action[m[K’; did you mean ‘[01m[KMovetogoal[m[K’?
+[3.787s]    65 |                 auto result = std::make_shared<action_interfaces::action::[01;31m[KMoveToGoal[m[K::Result>();
+[3.787s]       |                                                                           [01;31m[K^~~~~~~~~~[m[K
+[3.787s]       |                                                                           [32m[KMovetogoal[m[K
+[3.787s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:65:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[3.787s]    65 |                 auto result = std::[01;31m[Kmake_shared<action_interfaces::action::MoveToGoal::Result>[m[K();
+[3.787s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.787s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:65:94:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_shared<<expression error> >()[m[K’
+[3.787s]    65 |                 auto result = [01;31m[Kstd::make_shared<action_interfaces::action::MoveToGoal::Result>()[m[K;
+[3.787s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.787s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> std::shared_ptr<typename std::enable_if<(! std::is_array< <template-parameter-1-1> >::value), _Tp>::type> std::[01;32m[Kmake_shared[m[K(_Args&& ...)[m[K’
+[3.787s]  1005 |     [01;36m[Kmake_shared[m[K(_Args&&... __args)
+[3.787s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[3.787s] [01m[K/usr/include/c++/13/bits/shared_ptr.h:1005:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[3.787s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:65:94:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.787s]    65 |                 auto result = [01;31m[Kstd::make_shared<action_interfaces::action::MoveToGoal::Result>()[m[K;
+[3.787s]       |                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[3.787s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:68:36:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.787s]    68 |                     if (goal_handle[01;31m[K->[m[Kis_canceling()) {
+[3.787s]       |                                    [01;31m[K^~[m[K
+[3.787s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:70:36:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.788s]    70 |                         goal_handle[01;31m[K->[m[Kcanceled(result);
+[3.788s]       |                                    [01;31m[K^~[m[K
+[3.788s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:76:32:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.788s]    76 |                     goal_handle[01;31m[K->[m[Kpublish_feedback(feedback);
+[3.788s]       |                                [01;31m[K^~[m[K
+[3.788s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:81:28:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ is not a pointer
+[3.788s]    81 |                 goal_handle[01;31m[K->[m[Ksucceed(result);
+[3.788s]       |                            [01;31m[K^~[m[K
+[3.788s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:[m[K In member function ‘[01m[Kvoid act_cont_ex::RobotControllerActionServer::[01;32m[Ktimer_callback[m[K()[m[K’:
+[3.788s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:93:36:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[3.788s]    93 |                 if(handle_accepted([01;31m[Kconst[m[K int))
+[3.788s]       |                                    [01;31m[K^~~~~[m[K
+[3.795s] [01m[K/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:96:56:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_handle[m[K’ was not declared in this scope
+[3.795s]    96 |                         if(current_pose_.position.x >= [01;31m[Kgoal_handle[m[K->get_goal()->goal_coord_x && current_pose_.position.y >= goal_handle->get_goal()->goal_coord_y)
+[3.796s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[4.445s] gmake[2]: *** [CMakeFiles/action_client.dir/build.make:76: CMakeFiles/action_client.dir/src/action_client.cpp.o] Error 1
+[4.445s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/action_client.dir/all] Error 2
+[4.445s] gmake[1]: *** Waiting for unfinished jobs....
+[5.616s] gmake[2]: *** [CMakeFiles/action_server.dir/build.make:76: CMakeFiles/action_server.dir/src/action_server.cpp.o] Error 1
+[5.616s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/action_server.dir/all] Error 2
+[5.616s] gmake: *** [Makefile:146: all] Error 2
+[5.619s] Invoked command in '/home/basmala/ros2_ws/build/act_cont_ex' returned '2': CMAKE_PREFIX_PATH=/home/basmala/ros2_ws/install/action_interfaces:/home/basmala/ros2_ws/install/yahboom_rosmaster:/home/basmala/ros2_ws/install/yahboom_rosmaster_system_tests:/home/basmala/ros2_ws/install/yahboom_rosmaster_gazebo:/home/basmala/ros2_ws/install/yahboom_rosmaster_description:/home/basmala/ros2_ws/install/yahboom_rosmaster_bringup:/home/basmala/ros2_ws/install/turtlesim_controller:/home/basmala/ros2_ws/install/turtlesim_custom_msgs:/home/basmala/ros2_ws/install/turtle_action_cpp:/home/basmala/ros2_ws/install/mecanum_drive_controller:/home/basmala/ros2_ws/install/first_package_cpp:/home/basmala/ros2_ws/install/bme_gazebo_sensors:/home/basmala/ros2_ws/install/assignment2_rt:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs:/home/basmala/ros2_ws/install/assignment1_rt:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/basmala/ros2_ws/install/turtle_action_client:/home/basmala/ros2_ws/install/first_package_python:/home/basmala/ros2_ws/install/fibonacci:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/basmala/ros2_ws/install/action_interfaces/lib:/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib:/home/basmala/ros2_ws/install/mecanum_drive_controller/lib:/home/basmala/ros2_ws/install/first_package_cpp/lib:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/basmala/ros2_ws/install/action_interfaces/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/turtlesim_custom_msgs/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/turtle_action_client/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/first_package_python/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/fibonacci/lib/python3.12/site-packages:/home/basmala/ros2_ws/install/assignment2_custom_msgs_srvs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/basmala/ros2_ws/build/act_cont_ex -- -j20 -l20

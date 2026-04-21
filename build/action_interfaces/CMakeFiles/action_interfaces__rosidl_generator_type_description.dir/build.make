@@ -67,15 +67,21 @@ include CMakeFiles/action_interfaces__rosidl_generator_type_description.dir/comp
 include CMakeFiles/action_interfaces__rosidl_generator_type_description.dir/progress.make
 
 CMakeFiles/action_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/action_interfaces/action/Fibonacci.json
+CMakeFiles/action_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/action_interfaces/action/Movetogoal.json
 
 rosidl_generator_type_description/action_interfaces/action/Fibonacci.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/action_interfaces/action/Fibonacci.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/action_interfaces/action/Fibonacci.json: rosidl_adapter/action_interfaces/action/Fibonacci.idl
+rosidl_generator_type_description/action_interfaces/action/Fibonacci.json: rosidl_adapter/action_interfaces/action/Movetogoal.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/basmala/ros2_ws/build/action_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/basmala/ros2_ws/build/action_interfaces/rosidl_generator_type_description__arguments.json
 
+rosidl_generator_type_description/action_interfaces/action/Movetogoal.json: rosidl_generator_type_description/action_interfaces/action/Fibonacci.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/action_interfaces/action/Movetogoal.json
+
 action_interfaces__rosidl_generator_type_description: CMakeFiles/action_interfaces__rosidl_generator_type_description
 action_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/action_interfaces/action/Fibonacci.json
+action_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/action_interfaces/action/Movetogoal.json
 action_interfaces__rosidl_generator_type_description: CMakeFiles/action_interfaces__rosidl_generator_type_description.dir/build.make
 .PHONY : action_interfaces__rosidl_generator_type_description
 

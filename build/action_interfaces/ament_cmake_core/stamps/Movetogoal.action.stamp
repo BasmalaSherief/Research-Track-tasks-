@@ -1,0 +1,7 @@
+float32 goal_coord_x
+float32 goal_coord_y
+---
+bool reached
+---
+float32 remaining_dist_x
+float32 remaining_dist_y 

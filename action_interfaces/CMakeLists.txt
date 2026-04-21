@@ -13,6 +13,7 @@ find_package(rosidl_default_generators REQUIRED)
 # find_package(<dependency> REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "action/Fibonacci.action"
+  "action/Movetogoal.action"
 )
 
 if(BUILD_TESTING)

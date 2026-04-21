@@ -1,0 +1,4 @@
+source;share/act_cont_ex/local_setup.bash
+source;share/act_cont_ex/local_setup.dsv
+source;share/act_cont_ex/local_setup.sh
+source;share/act_cont_ex/local_setup.zsh

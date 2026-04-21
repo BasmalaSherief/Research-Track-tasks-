@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from action_interfaces/action/Movetogoal.action
+// generated code does not contain a copyright notice
+
+
+module action_interfaces {
+  module action {
+    struct Movetogoal_Goal {
+      float goal_coord_x;
+
+      float goal_coord_y;
+    };
+    struct Movetogoal_Result {
+      boolean reached;
+    };
+    struct Movetogoal_Feedback {
+      float remaining_dist_x;
+
+      float remaining_dist_y;
+    };
+  };
+};

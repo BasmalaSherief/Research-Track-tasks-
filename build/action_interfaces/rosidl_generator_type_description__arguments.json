@@ -2,7 +2,8 @@
   "package_name": "action_interfaces",
   "output_dir": "/home/basmala/ros2_ws/build/action_interfaces/rosidl_generator_type_description/action_interfaces",
   "idl_tuples": [
-    "/home/basmala/ros2_ws/build/action_interfaces/rosidl_adapter/action_interfaces:action/Fibonacci.idl"
+    "/home/basmala/ros2_ws/build/action_interfaces/rosidl_adapter/action_interfaces:action/Fibonacci.idl",
+    "/home/basmala/ros2_ws/build/action_interfaces/rosidl_adapter/action_interfaces:action/Movetogoal.idl"
   ],
   "include_paths": [
     "service_msgs:/opt/ros/jazzy/share/service_msgs",

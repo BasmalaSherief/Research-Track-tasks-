@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-26318dcbf33315b2b31e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "act_cont_ex",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "act_cont_ex_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-act_cont_ex_uninstall-d7afc1323379942cb0b3.json",
+					"name" : "act_cont_ex_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_client-418c9f38f731a2bb05fd.json",
+					"name" : "action_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_client_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_client_exe-04f197c9cdce3ee6780d.json",
+					"name" : "action_client_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_server-7be71f4b81f3053408c4.json",
+					"name" : "action_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "action_server_exe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-action_server_exe-587347fb1ca83fded097.json",
+					"name" : "action_server_exe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5040e56dc85cb2314cb4.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/basmala/ros2_ws/build/act_cont_ex",
+		"source" : "/home/basmala/ros2_ws/act_cont_ex"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

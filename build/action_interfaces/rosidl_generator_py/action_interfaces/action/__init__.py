@@ -5,3 +5,10 @@ from action_interfaces.action._fibonacci import Fibonacci_GetResult_Response  # 
 from action_interfaces.action._fibonacci import Fibonacci_SendGoal_Event  # noqa: F401
 from action_interfaces.action._fibonacci import Fibonacci_SendGoal_Request  # noqa: F401
 from action_interfaces.action._fibonacci import Fibonacci_SendGoal_Response  # noqa: F401
+from action_interfaces.action._movetogoal import Movetogoal  # noqa: F401
+from action_interfaces.action._movetogoal import Movetogoal_GetResult_Event  # noqa: F401
+from action_interfaces.action._movetogoal import Movetogoal_GetResult_Request  # noqa: F401
+from action_interfaces.action._movetogoal import Movetogoal_GetResult_Response  # noqa: F401
+from action_interfaces.action._movetogoal import Movetogoal_SendGoal_Event  # noqa: F401
+from action_interfaces.action._movetogoal import Movetogoal_SendGoal_Request  # noqa: F401
+from action_interfaces.action._movetogoal import Movetogoal_SendGoal_Response  # noqa: F401

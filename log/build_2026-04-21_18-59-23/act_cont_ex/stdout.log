@@ -1,0 +1,6 @@
+[ 25%] Built target action_client_exe
+[ 50%] Built target action_server_exe
+[ 62%] [32mBuilding CXX object CMakeFiles/action_client.dir/src/action_client.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/action_server.dir/src/action_server.cpp.o[0m
+[ 87%] [32m[1mLinking CXX shared library libaction_client.so[0m
+[ 87%] Built target action_client

@@ -51,6 +51,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_interfaces/action" TYPE FILE FILES "/home/basmala/ros2_ws/build/action_interfaces/rosidl_generator_type_description/action_interfaces/action/Movetogoal.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/action_interfaces/action_interfaces" TYPE DIRECTORY FILES "/home/basmala/ros2_ws/build/action_interfaces/rosidl_generator_c/action_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -367,7 +371,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_interfaces/action" TYPE FILE FILES "/home/basmala/ros2_ws/build/action_interfaces/rosidl_adapter/action_interfaces/action/Movetogoal.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_interfaces/action" TYPE FILE FILES "/home/basmala/ros2_ws/action_interfaces/action/Fibonacci.action")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_interfaces/action" TYPE FILE FILES "/home/basmala/ros2_ws/action_interfaces/action/Movetogoal.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
