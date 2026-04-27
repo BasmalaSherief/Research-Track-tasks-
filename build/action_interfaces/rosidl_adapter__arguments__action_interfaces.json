@@ -1,7 +1,0 @@
-{
-  "package_name": "action_interfaces",
-  "non_idl_tuples": [
-    "/home/basmala/ros2_ws/action_interfaces:action/Fibonacci.action",
-    "/home/basmala/ros2_ws/action_interfaces:action/Movetogoal.action"
-  ]
-}

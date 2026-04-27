@@ -1,4 +1,0 @@
-[ 25%] [32mBuilding CXX object CMakeFiles/Robot_Control.dir/src/Robot_Control.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/UI.dir/src/UI.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable Robot_Control[0m
-[ 75%] Built target Robot_Control

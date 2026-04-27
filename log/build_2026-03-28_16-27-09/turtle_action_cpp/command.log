@@ -1,2 +1,0 @@
-Invoking command in '/home/basmala/ros2_ws/build/turtle_action_cpp': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/turtle_action_cpp -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/turtle_action_cpp
-Invoked command in '/home/basmala/ros2_ws/build/turtle_action_cpp' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/turtle_action_cpp -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/turtle_action_cpp

@@ -1,7 +1,0 @@
-[console_scripts]
-action_client = fibonacci.action_client:main
-action_client2 = fibonacci.action_client2:main
-action_server = fibonacci.action_server:main
-action_server2 = fibonacci.action_server2:main
-action_server3 = fibonacci.action_server3:main
-cancel_client = fibonacci.cancel_client:main

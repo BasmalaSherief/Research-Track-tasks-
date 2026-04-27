@@ -1,5 +1,0 @@
-[console_scripts]
-cancel_goal = turtle_action_client.cancel_goal:main
-complete_min_act_client = turtle_action_client.complete_min_act_client:main
-feedback_result = turtle_action_client.feedback_result:main
-minimal_action_client = turtle_action_client.minimal_action_client:main

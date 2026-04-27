@@ -1,8 +1,0 @@
-/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp: In member function ‘rclcpp_action::GoalResponse act_cont_ex::RobotControllerActionServer::handle_goal(const rclcpp_action::GoalUUID&, std::shared_ptr<const action_interfaces::action::Movetogoal_Goal_<std::allocator<void> > >)’:
-/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:50:85: warning: unused parameter ‘uuid’ [-Wunused-parameter]
-   50 |             rclcpp_action::GoalResponse handle_goal(const rclcpp_action::GoalUUID & uuid, std::shared_ptr<const action_interfaces::action::Movetogoal::Goal> goal)
-      |                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~
-/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp: In member function ‘rclcpp_action::CancelResponse act_cont_ex::RobotControllerActionServer::handle_cancel(std::shared_ptr<rclcpp_action::ServerGoalHandle<action_interfaces::action::Movetogoal> >)’:
-/home/basmala/ros2_ws/act_cont_ex/src/action_server.cpp:56:151: warning: unused parameter ‘goal_handle’ [-Wunused-parameter]
-   56 |             rclcpp_action::CancelResponse handle_cancel(const std::shared_ptr<rclcpp_action::ServerGoalHandle<action_interfaces::action::Movetogoal>> goal_handle)
-      |                                                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~

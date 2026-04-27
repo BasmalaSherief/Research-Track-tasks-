@@ -1,1 +1,0 @@
-/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_bringup/scripts/install/setup.ps1

@@ -1,1 +1,0 @@
-/home/basmala/ros2_ws/build/yahboom_rosmaster_description/ament_cmake_core/yahboom_rosmaster_descriptionConfig-version.cmake

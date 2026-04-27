@@ -1,7 +1,0 @@
-{
-  "package_name": "turtlesim_custom_msgs",
-  "non_idl_tuples": [
-    "/home/basmala/ros2_ws/turtlesim_custom_msgs:msg/Vel.msg",
-    "/home/basmala/ros2_ws/turtlesim_custom_msgs:srv/Velocity.srv"
-  ]
-}

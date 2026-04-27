@@ -1,6 +1,0 @@
-[console_scripts]
-broadcaster = python_tf2_pkg.broadcaster:main
-carrot = python_tf2_pkg.carrot:main
-listener = python_tf2_pkg.listener:main
-simp_quat = python_tf2_pkg.simp_quat:main
-static_broad = python_tf2_pkg.static_broad:main

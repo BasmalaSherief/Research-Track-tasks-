@@ -1,1 +1,0 @@
-Invoking command in '/home/basmala/ros2_ws/build/bme_gazebo_sensors': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/basmala/ros2_ws/install/first_package_python:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/basmala/ros2_ws/src/bme_gazebo_sensors -DCMAKE_INSTALL_PREFIX=/home/basmala/ros2_ws/install/bme_gazebo_sensors

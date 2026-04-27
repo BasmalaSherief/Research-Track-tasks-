@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/basmala/ros2_ws/build/assignment1_rt/UI" "/home/basmala/ros2_ws/build/assignment1_rt/DistanceControl" "TARGETS" "UI" "DistanceControl" "DESTINATION" "lib/assignment1_rt")

@@ -1,6 +1,0 @@
-msg/Obstacle.idl
-msg/Obstacle.msg
-srv/AverageVelocities.idl
-srv/AverageVelocities.srv
-srv/ChangeThreshold.idl
-srv/ChangeThreshold.srv

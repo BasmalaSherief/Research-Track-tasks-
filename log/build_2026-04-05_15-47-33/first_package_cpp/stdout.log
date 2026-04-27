@@ -1,8 +1,0 @@
-[ 16%] Built target pub
-[ 41%] Built target sub
-[ 41%] [32mBuilding CXX object CMakeFiles/sub_component.dir/src/sub_component.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/pub_component.dir/src/pub_component.cpp.o[0m
-[ 58%] [32mBuilding CXX object CMakeFiles/sub_exe.dir/src/sub_component.cpp.o[0m
-[ 66%] [32mBuilding CXX object CMakeFiles/pub_exe.dir/src/pub_component.cpp.o[0m
-[ 75%] [32m[1mLinking CXX executable pub_exe[0m
-[ 83%] [32m[1mLinking CXX executable sub_exe[0m

@@ -1,1 +1,0 @@
-/home/basmala/ros2_ws/src/yahboom_rosmaster/yahboom_rosmaster_bringup/scripts/install/_local_setup_util_sh.py

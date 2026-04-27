@@ -1,6 +1,0 @@
-/home/basmala/ros2_ws/install/first_package_cpp/lib/libpub_component.so
-/home/basmala/ros2_ws/install/first_package_cpp/lib/libsub_component.so
-/home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_pub_componentExport.cmake
-/home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_pub_componentExport-noconfig.cmake
-/home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_sub_componentExport.cmake
-/home/basmala/ros2_ws/install/first_package_cpp/share/first_package_cpp/cmake/export_first_package_cpp_sub_componentExport-noconfig.cmake

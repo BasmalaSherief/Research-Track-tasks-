@@ -1,1 +1,0 @@
-/home/basmala/ros2_ws/build/first_package_cpp/ament_cmake_core/first_package_cppConfig.cmake

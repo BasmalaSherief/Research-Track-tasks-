@@ -1,8 +1,0 @@
-{
-  "package_name": "assignment2_custom_msgs_srvs",
-  "non_idl_tuples": [
-    "/home/basmala/ros2_ws/assignment2_custom_msgs_srvs:msg/Obstacle.msg",
-    "/home/basmala/ros2_ws/assignment2_custom_msgs_srvs:srv/AverageVelocities.srv",
-    "/home/basmala/ros2_ws/assignment2_custom_msgs_srvs:srv/ChangeThreshold.srv"
-  ]
-}

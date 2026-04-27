@@ -1,2 +1,0 @@
-act_cont_ex::RobotControllerActionServer;lib/libaction_server.so
-act_cont_ex::RobotControllerActionClient;lib/libaction_client.so
