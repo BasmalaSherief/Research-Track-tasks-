@@ -1,0 +1,47 @@
+[0.948s] Invoking command in '/home/basmala/ros2_ws/python_tf2_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/basmala/ros2_ws/build/python_tf2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/python_tf2_pkg build --build-base /home/basmala/ros2_ws/build/python_tf2_pkg/build install --record /home/basmala/ros2_ws/build/python_tf2_pkg/install.log --single-version-externally-managed install_data
+[1.202s] running egg_info
+[1.202s] creating ../build/python_tf2_pkg/python_tf2_pkg.egg-info
+[1.217s] writing ../build/python_tf2_pkg/python_tf2_pkg.egg-info/PKG-INFO
+[1.217s] writing dependency_links to ../build/python_tf2_pkg/python_tf2_pkg.egg-info/dependency_links.txt
+[1.217s] writing entry points to ../build/python_tf2_pkg/python_tf2_pkg.egg-info/entry_points.txt
+[1.218s] writing requirements to ../build/python_tf2_pkg/python_tf2_pkg.egg-info/requires.txt
+[1.218s] writing top-level names to ../build/python_tf2_pkg/python_tf2_pkg.egg-info/top_level.txt
+[1.218s] writing manifest file '../build/python_tf2_pkg/python_tf2_pkg.egg-info/SOURCES.txt'
+[1.252s] reading manifest file '../build/python_tf2_pkg/python_tf2_pkg.egg-info/SOURCES.txt'
+[1.252s] writing manifest file '../build/python_tf2_pkg/python_tf2_pkg.egg-info/SOURCES.txt'
+[1.252s] running build
+[1.252s] running build_py
+[1.252s] creating /home/basmala/ros2_ws/build/python_tf2_pkg/build
+[1.253s] creating /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib
+[1.253s] creating /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg
+[1.253s] copying python_tf2_pkg/simp_quat.py -> /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg
+[1.253s] copying python_tf2_pkg/static_broad.py -> /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg
+[1.253s] copying python_tf2_pkg/broadcaster.py -> /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg
+[1.253s] copying python_tf2_pkg/__init__.py -> /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg
+[1.253s] running install
+[1.259s] running install_lib
+[1.275s] creating /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg
+[1.276s] copying /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg/simp_quat.py -> /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg
+[1.276s] copying /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg/static_broad.py -> /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg
+[1.276s] copying /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg/broadcaster.py -> /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg
+[1.276s] copying /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg/__init__.py -> /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg
+[1.277s] byte-compiling /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg/simp_quat.py to simp_quat.cpython-312.pyc
+[1.278s] byte-compiling /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg/static_broad.py to static_broad.cpython-312.pyc
+[1.279s] byte-compiling /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg/broadcaster.py to broadcaster.cpython-312.pyc
+[1.279s] byte-compiling /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg/__init__.py to __init__.cpython-312.pyc
+[1.280s] running install_data
+[1.280s] creating /home/basmala/ros2_ws/install/python_tf2_pkg/share/ament_index
+[1.280s] creating /home/basmala/ros2_ws/install/python_tf2_pkg/share/ament_index/resource_index
+[1.280s] creating /home/basmala/ros2_ws/install/python_tf2_pkg/share/ament_index/resource_index/packages
+[1.280s] copying resource/python_tf2_pkg -> /home/basmala/ros2_ws/install/python_tf2_pkg/share/ament_index/resource_index/packages
+[1.280s] copying package.xml -> /home/basmala/ros2_ws/install/python_tf2_pkg/share/python_tf2_pkg
+[1.280s] creating /home/basmala/ros2_ws/install/python_tf2_pkg/share/python_tf2_pkg/launch
+[1.280s] copying launch/broadcaster.launch.py -> /home/basmala/ros2_ws/install/python_tf2_pkg/share/python_tf2_pkg/launch
+[1.281s] running install_egg_info
+[1.297s] Copying ../build/python_tf2_pkg/python_tf2_pkg.egg-info to /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg-0.0.0-py3.12.egg-info
+[1.297s] running install_scripts
+[1.412s] Installing broadcaster script to /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python_tf2_pkg
+[1.412s] Installing simp_quat script to /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python_tf2_pkg
+[1.412s] Installing static_broad script to /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python_tf2_pkg
+[1.412s] writing list of installed files to '/home/basmala/ros2_ws/build/python_tf2_pkg/install.log'
+[1.447s] Invoked command in '/home/basmala/ros2_ws/python_tf2_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/basmala/ros2_ws/build/python_tf2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/python_tf2_pkg build --build-base /home/basmala/ros2_ws/build/python_tf2_pkg/build install --record /home/basmala/ros2_ws/build/python_tf2_pkg/install.log --single-version-externally-managed install_data

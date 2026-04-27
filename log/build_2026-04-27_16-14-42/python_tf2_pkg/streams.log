@@ -1,0 +1,27 @@
+[1.126s] Invoking command in '/home/basmala/ros2_ws/python_tf2_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/basmala/ros2_ws/build/python_tf2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/python_tf2_pkg build --build-base /home/basmala/ros2_ws/build/python_tf2_pkg/build install --record /home/basmala/ros2_ws/build/python_tf2_pkg/install.log --single-version-externally-managed install_data
+[1.360s] running egg_info
+[1.372s] writing ../build/python_tf2_pkg/python_tf2_pkg.egg-info/PKG-INFO
+[1.372s] writing dependency_links to ../build/python_tf2_pkg/python_tf2_pkg.egg-info/dependency_links.txt
+[1.373s] writing entry points to ../build/python_tf2_pkg/python_tf2_pkg.egg-info/entry_points.txt
+[1.373s] writing requirements to ../build/python_tf2_pkg/python_tf2_pkg.egg-info/requires.txt
+[1.373s] writing top-level names to ../build/python_tf2_pkg/python_tf2_pkg.egg-info/top_level.txt
+[1.396s] reading manifest file '../build/python_tf2_pkg/python_tf2_pkg.egg-info/SOURCES.txt'
+[1.397s] writing manifest file '../build/python_tf2_pkg/python_tf2_pkg.egg-info/SOURCES.txt'
+[1.397s] running build
+[1.397s] running build_py
+[1.397s] copying python_tf2_pkg/listener.py -> /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg
+[1.397s] running install
+[1.402s] running install_lib
+[1.414s] copying /home/basmala/ros2_ws/build/python_tf2_pkg/build/lib/python_tf2_pkg/listener.py -> /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg
+[1.414s] byte-compiling /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg/listener.py to listener.cpython-312.pyc
+[1.416s] running install_data
+[1.416s] copying launch/demo.launch.py -> /home/basmala/ros2_ws/install/python_tf2_pkg/share/python_tf2_pkg/launch
+[1.416s] running install_egg_info
+[1.435s] removing '/home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[1.436s] Copying ../build/python_tf2_pkg/python_tf2_pkg.egg-info to /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages/python_tf2_pkg-0.0.0-py3.12.egg-info
+[1.437s] running install_scripts
+[1.524s] Installing broadcaster script to /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python_tf2_pkg
+[1.524s] Installing simp_quat script to /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python_tf2_pkg
+[1.524s] Installing static_broad script to /home/basmala/ros2_ws/install/python_tf2_pkg/lib/python_tf2_pkg
+[1.525s] writing list of installed files to '/home/basmala/ros2_ws/build/python_tf2_pkg/install.log'
+[1.549s] Invoked command in '/home/basmala/ros2_ws/python_tf2_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/basmala/ros2_ws/build/python_tf2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/basmala/ros2_ws/install/python_tf2_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/python_tf2_pkg build --build-base /home/basmala/ros2_ws/build/python_tf2_pkg/build install --record /home/basmala/ros2_ws/build/python_tf2_pkg/install.log --single-version-externally-managed install_data
